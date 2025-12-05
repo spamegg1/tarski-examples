@@ -1,3 +1,14 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val x = ???
+// Fix these!
+val sentences03 = Seq(
+  fof"Squ(a) ∧ Squ(b) ∨ Cir(b)",
+  fof"Tri(a) ∧ Small(a) → Above(a, b)",
+  fof"Squ(c) ∧ Small(c) ∧ Left(c, b)",
+  fof"Tri(a) → Small(a) ∨ Mid(a)",
+  fof"Tri(a) ↔ Squ(b) ↔ Cir(c)",
+  fof"Betw(cba"
+)
+
+@main
+def run03 = runWorld(WittgensteinWorld, sentences03)
