@@ -13,7 +13,10 @@ git clone https://github.com/spamegg1/tarski-examples
 then open the folder in your IDE (Visual Studio Code with Metals extension,
 or IntelliJ with Scala plugin).
 
-To interact, execute the `@main` methods with names like `run02A` etc.
+Each example has a README with instructions.
+In some examples, you might have to write some formulas first, before executing.
+
+To interact, execute the `@main` methods with names like `run02a` etc.
 
 ![runWorld](images/runWorld.png)
 
