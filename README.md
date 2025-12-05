@@ -13,6 +13,18 @@ git clone https://github.com/spamegg1/tarski-examples
 then open the folder in your IDE (Visual Studio Code with Metals extension,
 or IntelliJ with Scala plugin).
 
+To interact, execute the `@main` methods with names like `run02A` etc.
+
+![runWorld](images/runWorld.png)
+
+If the window is too small or too large, you can pass an optional parameter to resize it:
+
+```scala
+// Make the window smaller, shrink it to 80% size
+@main
+def run01a = runWorld(WittgensteinWorld, WittgenSteinSentencesA, 0.8)
+```
+
 ## Exercises
 
 There are 79 examples in total. The first 28 are for Propositional Logic and

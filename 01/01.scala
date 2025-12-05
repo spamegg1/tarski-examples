@@ -12,7 +12,7 @@ val WittgensteinWorld: Grid = Map(
   (6, 7) -> Block(Small, Cir, Blue)
 )
 
-val WittgenSteinSentences = Seq(
+val WittgenSteinSentencesA = Seq(
   fof"Large(d)",
   fof"Large(c)",
   fof"Large(f)",
@@ -23,47 +23,43 @@ val WittgenSteinSentences = Seq(
   fof"Larger(d, e)",
   fof"Larger(d, f)",
   fof"Larger(a, e)",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof"",
-  fof""
+  fof"Above(b, e)",
+  fof"Above(b, f)",
+  fof"Above(f, a)",
+  fof"Left(b, a)",
+  fof"Left(a, b)",
+  fof"Left(a, a)",
+  fof"Right(a, b)",
+  fof"Right(b, d)",
+  fof"Size(d, f)",
+  fof"Size(b, c)",
+  fof"Shape(b, c)",
+  fof"Shape(a, b)",
+  fof"Shape(d, d)"
+)
+
+val WittgenSteinSentencesB = Seq(
+  fof"Row(a, d)",
+  fof"Row(d, e)",
+  fof"Row(a, a)",
+  fof"Col(a, d)",
+  fof"Col(d, e)",
+  fof"Col(a, c)",
+  fof"Adj(a, b)",
+  fof"Adj(b, c)",
+  fof"Adj(d, e)",
+  fof"Adj(b, b)",
+  fof"Betw(d, e, f)",
+  fof"Betw(e, d, f)",
+  fof"Betw(c, a, f)",
+  fof"Betw(c, d, b)",
+  fof"Betw(c, b, e)",
+  fof"Betw(c, c, c)",
+  fof"Betw(c, a, e)"
 )
 
 @main
-def run01 = runWorld(WittgensteinWorld, WittgenSteinSentences)
+def run01a = runWorld(WittgensteinWorld, WittgenSteinSentencesA)
+
+@main
+def run01b = runWorld(WittgensteinWorld, WittgenSteinSentencesB)
