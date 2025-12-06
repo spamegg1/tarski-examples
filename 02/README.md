@@ -12,7 +12,7 @@
   - Use the interpolator `fof"..."`.
   - For the logical connectives, you can either:
     - copy the Unicode symbols `¬`, `∧`, `→`, or
-    - type the ASCII equivalents `-`, `&`, `->`.
+    - type the ASCII equivalents `~` (or `-`), `&`, `->`.
 - Check each after you write it to see that it is a sentence.
 - If you make a mistake, edit it before going on.
 - Save your changes to the file, and run.

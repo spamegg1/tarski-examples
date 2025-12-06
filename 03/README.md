@@ -1,24 +1,25 @@
-# 03 - Fixing a broken sentence, and playing with parentheses and precedence
+# 03 - Fixing broken sentences, playing with parentheses and precedence
 
-One of the following is not a well-formed sentence:
+Most of the following are not well-formed sentences:
 
-1. Squ(a) ∧ Squ(b) ∨ Cir(b)
-2. Tet(a) ∧ Small(a) → Above(a, b)
+1. Squ(a) ∧ Squ(b) ∨ Cir(e)
+2. Tri(b) ∧ Small(a) → Above(a, b)
 3. Squ(c) ∧ Small(c) ∧ Left(c, b)
-4. Tet(a) → Small(a) ∨ Mid(a)
-5. Tet(a) ↔ Squ(b) ↔ Cir(c)
+4. Tri(a) → Small(a) ∨ Mid(a)
+5. Tri(a) ↔ Squ(b) ↔ Cir(c)
 6. Betw(cba
 
 Run your world `run03` to see your program crash with a parse error.
 Add whatever punctuation (parentheses and commas) is necessary to fix the crash.
 Then make sure there isn't another crash when you "Eval".
 
-With the other sentences, there is more than one way to make them a sentence,
+With most of these sentences, there is more than one way to make them a sentence,
 depending on how you place the parentheses.
 
 Now, if you run them as-is, the parser will assume a precedence order
 between the logical connectives, and place some parentheses for you.
-For example, it will assume that `∧` takes priority over `→`, which is over `∨`.
+It will add parentheses to disambiguate the sentence with the double use of `↔`.
+Or, it will assume that `∧` takes priority over `→`, which is over `∨`.
 It will assume them to be well-formed, in *one way*.
 
 It will also drop "unnecessary" parentheses as much as possible.
@@ -29,4 +30,4 @@ Close the world and edit the sentences.
 Play around with different placement of parentheses.
 Make them different from what the parser automatically prefers.
 Run again to make sure your entries are well-formed sentences.
-See how placing the parentheses differenly can affect the truth values when you "Eval".
+See if placing the parentheses differenly affects the truth values when you "Eval".
