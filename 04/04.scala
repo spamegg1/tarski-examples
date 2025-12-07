@@ -1,4 +1,4 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
+import tarski.main.*
 
 val BooleSentences = Seq(
   fof"~Mid(c) & Smaller(c, a)",

@@ -1,4 +1,4 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
+import tarski.main.*
 
 // Fix these! Then play around with parentheses and re-run.
 val sentences03 = Seq(
