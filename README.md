@@ -47,9 +47,9 @@ Blocks have 3 attributes, each of which has 3 possible values:
 
 |Attribute|value1|value2|value3|
 |:-|:-|:-|:-|
-|Tone|Blue|Green|Coral|
-|Shape|Tri|Squ|Cir|
-|Sizes|Small|Mid|Large|
+|Tone|Blu|Lim|Red|
+|Shape|Tri|Sqr|Cir|
+|Sizes|Sml|Mid|Big|
 
 Blocks can also have an optional name, only one of: `a, b, c, d, e, f`.
 Other names are not allowed. Formulas can then refer to these names as constants.
@@ -61,10 +61,10 @@ It's an 8x8 standard chess board; coordinates are 0-indexed. For example:
 
 ```scala
 val grid: Grid = Map(
-  (1, 2) -> Block(Small, Tri, Green, "a"),
-  (4, 3) -> Block(Mid, Tri, Blue),
-  (5, 6) -> Block(Large, Cir, Coral, "d"),
-  (6, 3) -> Block(Small, Squ, Blue)
+  (1, 2) -> Block(Sml, Tri, Lim, "a"),
+  (4, 3) -> Block(Mid, Tri, Blu),
+  (5, 6) -> Block(Big, Cir, Red, "d"),
+  (6, 3) -> Block(Sml, Sqr, Blu)
 )
 ```
 
@@ -95,30 +95,30 @@ The following predicates are supported:
 |Syntax|Semantics|
 |:-|:-|
 |`Tri(x)`| "x is a triangle"|
-|`Squ(x)`| "x is a square"|
+|`Sqr(x)`| "x is a square"|
 |`Cir(x)`| "x is a circle"|
-|`Blue(x)`| "x has color blue"|
-|`Green(x)`| "x has color green"|
-|`Coral(x)`| "x has color coral"|
-|`Small(x)`| "x has size small"|
-|`Mid(x)`| "x has size mid"|
-|`Large(x)`| "x has size large"|
+|`Blu(x)`| "x has color blue"|
+|`Lim(x)`| "x has color lime"|
+|`Red(x)`| "x has color red"|
+|`Sml(x)`| "x has small size"|
+|`Mid(x)`| "x has medium size"|
+|`Big(x)`| "x has big size"|
 
 #### Binary
 
 |Syntax|Semantics|
 |:-|:-|
 |`Left(x, y)`|"x is to the left of y"|
-|`Right(x, y)`|"x is to the right of y"|
-|`Below(x, y)`|"x is below y"|
-|`Above(x, y)`|"x is above y"|
+|`Rgt(x, y)`|"x is to the right of y"|
+|`Bel(x, y)`|"x is below y"|
+|`Abv(x, y)`|"x is above y"|
 |`Adj(x, y)`|"x is adjacent (but not diagonally) to y"|
 |`Less(x, y)`|"x is smaller in size than y"|
 |`More(x, y)`|"x is larger in size than y"|
 |`Row(x, y)`|"x is on the same row as y"|
 |`Col(x, y)`|"x is on the same column as y"|
 |`Size(x, y)`|"x has the same size as y"|
-|`Shape(x, y)`|"x has the same shape as y"|
+|`Shap(x, y)`|"x has the same shape as y"|
 |`Tone(x, y)`|"x has the same tone as y"|
 |`x = y`|"x is equal to y (in size, shape and tone)"|
 
@@ -126,7 +126,7 @@ The following predicates are supported:
 
 |Syntax|Semantics|
 |:-|:-|
-|`Betw(x, y, z)`|"x is between y and z (vertically, horizontally or diagonally)"|
+|`Btw(x, y, z)`|"x is between y and z (vertically, horizontally or diagonally)"|
 
 ## Work in progress
 

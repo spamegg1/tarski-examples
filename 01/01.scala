@@ -1,21 +1,21 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
 val WittgensteinWorld: Grid = Map(
-  (0, 1) -> Block(Large, Squ, Blue, "d"),
-  (0, 4) -> Block(Large, Cir, Green, "e"),
-  (0, 7) -> Block(Large, Tri, Coral, "f"),
-  (4, 0) -> Block(Mid, Tri, Blue),
-  (4, 3) -> Block(Mid, Squ, Green, "c"),
-  (4, 6) -> Block(Mid, Cir, Coral),
-  (6, 1) -> Block(Small, Tri, Green, "a"),
-  (6, 4) -> Block(Small, Squ, Coral, "b"),
-  (6, 7) -> Block(Small, Cir, Blue)
+  (0, 1) -> Block(Big, Sqr, Blu, "d"),
+  (0, 4) -> Block(Big, Cir, Lim, "e"),
+  (0, 7) -> Block(Big, Tri, Red, "f"),
+  (4, 0) -> Block(Mid, Tri, Blu),
+  (4, 3) -> Block(Mid, Sqr, Lim, "c"),
+  (4, 6) -> Block(Mid, Cir, Red),
+  (6, 1) -> Block(Sml, Tri, Lim, "a"),
+  (6, 4) -> Block(Sml, Sqr, Red, "b"),
+  (6, 7) -> Block(Sml, Cir, Blu)
 )
 
 val WittgenSteinSentencesA = Seq(
-  fof"Large(d)",
-  fof"Large(c)",
-  fof"Large(f)",
+  fof"Big(d)",
+  fof"Big(c)",
+  fof"Big(f)",
   fof"Mid(c)",
   fof"Mid(b)",
   fof"Mid(f)",

@@ -1,11 +1,7 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val grid08: Grid = Map(
-)
-
-val sentences08 = Seq(
-  // add your sentences here! ¬∨∧→↔∀∃
-)
+@main
+def run08a = runWorld(WittgensteinWorld, sentences07)
 
 @main
-def run08 = runWorld(WittgensteinWorld, sentences07)
+def run08b = runWorld(BooleWorld, sentences07)

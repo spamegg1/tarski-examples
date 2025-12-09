@@ -2,11 +2,11 @@
 
 Some of the following are not well-formed sentences:
 
-1. Squ(a) ∧ Squ(b) ∨ Cir(e)
-2. Tri(b) ∧ Small(a) → Above(a b)
-3. Squ(c  ∧ Small(c) ∧ Left(c, b)
-4. Tri(a) → Small(a) ∨ Mid(a)
-5. Tri(a) ↔ Squ(b) ↔ Cir(c)
+1. Sqr(a) ∧ Sqr(b) ∨ Cir(e)
+2. Tri(b) ∧ Sml(a) → Above(a b)
+3. Sqr(c  ∧ Sml(c) ∧ Left(c, b)
+4. Tri(a) → Sml(a) ∨ Mid(a)
+5. Tri(a) ↔ Sqr(b) ↔ Cir(c)
 6. Betw(cba
 
 Run your world `run03` to see your program crash with a parse error.
