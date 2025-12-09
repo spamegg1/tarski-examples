@@ -1,15 +1,15 @@
 # 04 - Solution
 
-1. `~Mid(c) & Smaller(c, a)` is `false`
-    - can be made `true` by adding parentheses: `~(Mid(c) & Smaller(c, a))`
+1. `~Mid(c) & Less(c, a)` is `false`
+    - can be made `true` by adding parentheses: `~(Mid(c) & Less(c, a))`
     - so it becomes the same as the next sentence.
-2. `~(Mid(c) & Smaller(c, a))` is `true`
+2. `~(Mid(c) & Less(c, a))` is `true`
 3. `~Squ(d) | Tri(f)` is `true`
 4. `~(Squ(d) | Tri(f))` is `false`:
     - can be made `true` by deleting parentheses: `~Squ(d) | Tri(f)`
     - so it becomes the same as the previous sentence.
-5. `~Large(c) & Larger(c, a)` is `true`
-6. `~(Large(c) & Larger(c, a))` is `true`
+5. `~Large(c) & More(c, a)` is `true`
+6. `~(Large(c) & More(c, a))` is `true`
 7. `~(Squ(d) & Squ(f))` is `true`
 8. `~Squ(d) & ~Squ(f)` is `false`:
     - cannot be made `true` with parentheses!
@@ -31,6 +31,6 @@
     - cannot be made `true` with parentheses!
     - It's a chain of conjunctions, so no matter how we place parentheses,
       they are logically equivalent.
-19. `Smaller(c, e) | ~(Squ(a) | Squ(d))` is `true`
+19. `Less(c, e) | ~(Squ(a) | Squ(d))` is `true`
 20. `~(~Cir(e) | ~ ~Tri(f))` is `false`
     - can be made true by removing parentheses: `~ ~Cir(e) | ~ ~Tri(f)`

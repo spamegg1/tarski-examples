@@ -1,5 +1,9 @@
 # 03 - Solution
 
+- `Tri(b) ∧ Small(a) → Above(a b)` is not well-formed.
+  - We can make it well-formed by adding a comma: `Above(a, b)`.
+- `Squ(c  ∧ Small(c) ∧ Left(c, b)` is not well-formed.
+  - We can make it well-formed by closing the parentheses: `Squ(c)`.
 - `Betw(cba` is not well-formed.
   - We can make it well-formed as: `Betw(c, b, a)`.
 - The first sentence can be parenthesized two ways:

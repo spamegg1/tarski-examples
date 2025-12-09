@@ -1,10 +1,10 @@
 # 03 - Fixing broken sentences, playing with parentheses and precedence
 
-Most of the following are not well-formed sentences:
+Some of the following are not well-formed sentences:
 
 1. Squ(a) ∧ Squ(b) ∨ Cir(e)
-2. Tri(b) ∧ Small(a) → Above(a, b)
-3. Squ(c) ∧ Small(c) ∧ Left(c, b)
+2. Tri(b) ∧ Small(a) → Above(a b)
+3. Squ(c  ∧ Small(c) ∧ Left(c, b)
 4. Tri(a) → Small(a) ∨ Mid(a)
 5. Tri(a) ↔ Squ(b) ↔ Cir(c)
 6. Betw(cba

@@ -1,12 +1,12 @@
 import tarski.main.*
 
 val BooleSentences = Seq(
-  fof"~Mid(c) & Smaller(c, a)",
-  fof"~(Mid(c) & Smaller(c, a))",
+  fof"~Mid(c) & Less(c, a)",
+  fof"~(Mid(c) & Less(c, a))",
   fof"~Squ(d) | Tri(f)",
   fof"~(Squ(d) | Tri(f))",
-  fof"~Large(c) & Larger(c, a)",
-  fof"~(Large(c) & Larger(c, a))",
+  fof"~Large(c) & More(c, a)",
+  fof"~(Large(c) & More(c, a))",
   fof"~(Squ(d) & Squ(f))",
   fof"~Squ(d) & ~Squ(f)",
   fof"~Squ(d) | ~Squ(f)",
@@ -19,7 +19,7 @@ val BooleSentences = Seq(
   fof"Left(a, c) & Left(c, b) & ~Betw(c, a, b)",
   fof"~ ~(Above(e, b) & ~Below(c, b))",
   fof"Above(d, a) & Left(d, e) & Below(b, e) & Betw(c, d, b)",
-  fof"Smaller(c, e) | ~(Squ(a) | Squ(d))",
+  fof"Less(c, e) | ~(Squ(a) | Squ(d))",
   fof"~(~Cir(e) | ~ ~Tri(f))"
 )
 
