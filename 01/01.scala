@@ -23,22 +23,22 @@ val WittgenSteinSentencesA = Seq(
   fof"More(d, e)",
   fof"More(d, f)",
   fof"More(a, e)",
-  fof"Above(b, e)",
-  fof"Above(b, f)",
-  fof"Above(f, a)",
+  fof"Abv(b, e)",
+  fof"Abv(b, f)",
+  fof"Abv(f, a)",
   fof"Left(b, a)",
   fof"Left(a, b)",
   fof"Left(a, a)",
-  fof"Right(a, b)",
-  fof"Right(b, d)",
+  fof"Rgt(a, b)",
+  fof"Rgt(b, d)",
   fof"Size(d, f)",
   fof"Size(b, c)"
 )
 
 val WittgenSteinSentencesB = Seq(
-  fof"Shape(b, c)",
-  fof"Shape(a, b)",
-  fof"Shape(d, d)",
+  fof"Shap(b, c)",
+  fof"Shap(a, b)",
+  fof"Shap(d, d)",
   fof"Row(a, d)",
   fof"Row(d, e)",
   fof"Row(a, a)",
@@ -49,13 +49,13 @@ val WittgenSteinSentencesB = Seq(
   fof"Adj(b, c)",
   fof"Adj(d, e)",
   fof"Adj(b, b)",
-  fof"Betw(d, e, f)",
-  fof"Betw(e, d, f)",
-  fof"Betw(c, a, f)",
-  fof"Betw(c, d, b)",
-  fof"Betw(c, b, e)",
-  fof"Betw(c, c, c)",
-  fof"Betw(c, a, e)"
+  fof"Btw(d, e, f)",
+  fof"Btw(e, d, f)",
+  fof"Btw(c, a, f)",
+  fof"Btw(c, d, b)",
+  fof"Btw(c, b, e)",
+  fof"Btw(c, c, c)",
+  fof"Btw(c, a, e)"
 )
 
 @main

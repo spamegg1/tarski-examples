@@ -2,11 +2,11 @@
 
 - The following are all well-formed sentences:
   1. Tri(a)
-  2. Below(a, b)
-  3. ¬Betw(a, b, c)
-  4. Betw(a, b, c) ∧ Betw(a, c, b)
-  5. Below(a, c) → Betw(d, e, c)
-  6. (Tri(a) ∧ Below(a, b)) → Betw(a, d, e)
+  2. Bel(a, b)
+  3. ¬Btw(a, b, c)
+  4. Btw(a, b, c) ∧ Btw(a, c, b)
+  5. Bel(a, c) → Btw(d, e, c)
+  6. (Tri(a) ∧ Bel(a, b)) → Btw(a, d, e)
 - They are a bit more complex than before: now they use logical connectives.
 - Type them into `sentences02` in `02.scala`.
   - Use the interpolator `fof"..."`.

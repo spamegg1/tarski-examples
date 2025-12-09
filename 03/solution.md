@@ -1,11 +1,11 @@
 # 03 - Solution
 
-- `Tri(b) ∧ Sml(a) → Above(a b)` is not well-formed.
-  - We can make it well-formed by adding a comma: `Above(a, b)`.
+- `Tri(b) ∧ Sml(a) → Abv(a b)` is not well-formed.
+  - We can make it well-formed by adding a comma: `Abv(a, b)`.
 - `Sqr(c  ∧ Sml(c) ∧ Left(c, b)` is not well-formed.
   - We can make it well-formed by closing the parentheses: `Sqr(c)`.
-- `Betw(cba` is not well-formed.
-  - We can make it well-formed as: `Betw(c, b, a)`.
+- `Btw(cba` is not well-formed.
+  - We can make it well-formed as: `Btw(c, b, a)`.
 - The first sentence can be parenthesized two ways:
   - `(Sqr(a) ∧ Sqr(b)) ∨ Cir(e)`
     - this is the same as what the parser gives you without the parentheses,
@@ -13,11 +13,11 @@
       It evaluates to `true`.
   - `Sqr(a) ∧ (Sqr(b) ∨ Cir(e))`, which evaluates to `false`!
 - The second sentence can be parenthesized in two ways:
-  - `(Tri(b) ∧ Sml(a)) → Above(a, b)`
+  - `(Tri(b) ∧ Sml(a)) → Abv(a, b)`
     - this is the same as what the parser gives you without the parentheses,
       because `∧` has priority over `→` according to the parser.
       It evaluates to `true`.
-  - `Tri(b) ∧ (Sml(a) → Above(a, b))`, which evaluates to `false`!
+  - `Tri(b) ∧ (Sml(a) → Abv(a, b))`, which evaluates to `false`!
 - The third can be parenthesized in two ways, but they are logically equivalent:
   - `Sqr(c) ∧ (Sml(c) ∧ Left(c, b))`
   - `(Sqr(c) ∧ Sml(c)) ∧ Left(c, b)`

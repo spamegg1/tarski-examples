@@ -39,7 +39,7 @@ Some info from [Tarski](https://github.com/spamegg1/tarski) is repeated here:
 
 All you need is to `import tarski.main.*`.
 Optionally you can also `import Shape.*, Sizes.*, Tone.*`
-to avoid repeatedly writing `Shape.`, `Sizes.` or `Tone.`.
+to avoid repeatedly writing `Shap.`, `Sizes.` or `Tone.`.
 
 ### Blocks
 
@@ -48,7 +48,7 @@ Blocks have 3 attributes, each of which has 3 possible values:
 |Attribute|value1|value2|value3|
 |:-|:-|:-|:-|
 |Tone|Blu|Lim|Red|
-|Shape|Tri|Sqr|Cir|
+|Shap|Tri|Sqr|Cir|
 |Sizes|Sml|Mid|Big|
 
 Blocks can also have an optional name, only one of: `a, b, c, d, e, f`.

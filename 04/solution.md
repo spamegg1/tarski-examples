@@ -16,18 +16,18 @@
 9. `~Sqr(d) | ~Sqr(f)` is `true`
 10. `~(Sqr(d) | Sqr(f))` is `false`:
     - same as 8, cannot be made `true`.
-11. `~(Left(c, f) | Right(c, f))` is `false`
+11. `~(Left(c, f) | Rgt(c, f))` is `false`
     - cannot be made `true` with parentheses!
-12. `~(Left(a, d) | Right(a, d))` is `true`
+12. `~(Left(a, d) | Rgt(a, d))` is `true`
 13. `Tri(a) | (Tri(f) & Tri(c))` is `true`
 14. `(Tri(a) | Tri(f)) & Tri(c)` is `false`:
     - can be made `true` by moving parentheses: `Tri(a) | (Tri(f) & Tri(c))`
     - so it becomes the same as the previous sentence.
 15. `Cir(a) | Cir(b) | Cir(c)` is `false`
     - cannot be made `true` with parentheses!
-16. `Left(a, c) & Left(c, b) & ~Betw(c, a, b)` is `true`
-17. `~ ~(Above(e, b) & ~Below(c, b))` is `true`
-18. `Above(d, a) & Left(d, e) & Below(b, e) & Betw(c, d, b)` is `false`
+16. `Left(a, c) & Left(c, b) & ~Btw(c, a, b)` is `true`
+17. `~ ~(Abv(e, b) & ~Bel(c, b))` is `true`
+18. `Abv(d, a) & Left(d, e) & Bel(b, e) & Btw(c, d, b)` is `false`
     - cannot be made `true` with parentheses!
     - It's a chain of conjunctions, so no matter how we place parentheses,
       they are logically equivalent.

@@ -10,7 +10,7 @@
 7. Play around as much as you want to understand the meanings of atomic sentences.
 8. Repeat the same for `run01b`.
 9. For example, what does `Adj` mean? In the original world it always comes out false.
-10. Pay attention to the `Betw` predicate.
-  It looks like `Betw(c, d, b)` should be true.
+10. Pay attention to the `Btw` predicate.
+  It looks like `Btw(c, d, b)` should be true.
   But we require them to be on a precise (45 degrees) diagonal, for it to be true.
 11. When you are finished, close the window and terminate the program.
