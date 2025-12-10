@@ -1,4 +1,4 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
+import tarski.main.*
 
 @main
 def run08a = runWorld(WittgensteinWorld, sentences07)

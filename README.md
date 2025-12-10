@@ -20,7 +20,7 @@ To interact, execute the `@main` methods with names like `run02a` etc.
 
 ![runWorld](images/runWorld.png)
 
-If the window is too small or too large, you can pass an optional parameter to resize it:
+If the window is too small or too big, you can pass an optional parameter to resize it:
 
 ```scala
 // Make the window smaller, shrink it to 80% size

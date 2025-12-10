@@ -7,7 +7,7 @@
 2. You will describe some features of this world in `sentences06`.
 3. Then you will check each of your sentences to see that it
    is indeed a sentence and that it is true in this world.
-4. Notice that f (the large circle at the top) is
+4. Notice that f (the big circle at the top) is
    not below a. Use your first sentence to say this.
 5. Notice that f is to the right of a and to the left of b.
    Use your second sentence to say this.
@@ -29,7 +29,7 @@
 17. Now let’s change the world so that none of the above mentioned facts hold.
     We can do this as follows.
 18. First move f to the bottom right corner of the grid.
-19. Then move e to the top left corner of the grid and make it large.
+19. Then move e to the top left corner of the grid and make it big.
 20. Change either the tone or the shape of a to something else.
 21. Change at least one of d, e, or f to a shape that is not a circle.
 22. Now none of the facts hold;
