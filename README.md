@@ -39,7 +39,7 @@ Some info from [Tarski](https://github.com/spamegg1/tarski) is repeated here:
 
 All you need is to `import tarski.main.*`.
 Optionally you can also `import Shape.*, Sizes.*, Tone.*`
-to avoid repeatedly writing `Shap.`, `Sizes.` or `Tone.`.
+to avoid repeatedly writing `Shape.`, `Sizes.` or `Tone.`.
 
 ### Blocks
 
@@ -48,7 +48,7 @@ Blocks have 3 attributes, each of which has 3 possible values:
 |Attribute|value1|value2|value3|
 |:-|:-|:-|:-|
 |Tone|Blu|Lim|Red|
-|Shap|Tri|Sqr|Cir|
+|Shape|Tri|Sqr|Cir|
 |Sizes|Sml|Mid|Big|
 
 Blocks can also have an optional name, only one of: `a, b, c, d, e, f`.
@@ -94,15 +94,15 @@ The following predicates are supported:
 
 |Syntax|Semantics|
 |:-|:-|
-|`Tri(x)`| "x is a triangle"|
-|`Sqr(x)`| "x is a square"|
-|`Cir(x)`| "x is a circle"|
-|`Blu(x)`| "x has color blue"|
-|`Lim(x)`| "x has color lime"|
-|`Red(x)`| "x has color red"|
-|`Sml(x)`| "x has small size"|
-|`Mid(x)`| "x has medium size"|
-|`Big(x)`| "x has big size"|
+|`Tri(x)`|"x is a triangle"|
+|`Sqr(x)`|"x is a square"|
+|`Cir(x)`|"x is a circle"|
+|`Blu(x)`|"x has color blue"|
+|`Lim(x)`|"x has color lime"|
+|`Red(x)`|"x has color red"|
+|`Sml(x)`|"x has small size"|
+|`Mid(x)`|"x has medium size"|
+|`Big(x)`|"x has big size"|
 
 #### Binary
 
