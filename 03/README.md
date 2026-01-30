@@ -19,8 +19,15 @@ depending on how you place the parentheses.
 Now, if you run them as-is, the parser will assume a precedence order
 between the logical connectives, and place some parentheses for you.
 It will add parentheses to disambiguate the sentence with the double use of `↔`.
-Or, it will assume that `∧` takes priority over `→`, which is over `∨`.
+Or, it will assume that `∧` takes priority over `∨`, which is over `→`.
 It will assume them to be well-formed, in *one way*.
+The standard precedence is:
+
+1. negation
+2. conjunction
+3. disjunction
+4. conditional
+5. biconditional
 
 It will also drop "unnecessary" parentheses as much as possible.
 For example, it knows `A ∧ (B ∧ C)` is the same as `(A ∧ B) ∧ C`,
