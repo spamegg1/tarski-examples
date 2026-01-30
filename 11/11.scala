@@ -8,7 +8,7 @@ val MontagueWorld: Grid = Map(
 )
 
 val sentences11 = Seq(
-  // add your sentences here! ¬∨∧→↔∀∃
+  // add your sentences here! ¬∨∧→↔
 )
 
 @main

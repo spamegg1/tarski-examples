@@ -39,5 +39,5 @@ truth values of the various constituents.
 Notice that sometimes the conditional has a false antecedent
 and sometimes a true consequent.
 What it never has is a true antecedent and a false consequent.
-In each of these three cases, play the game committed to true.
+In each of these three cases, play the game `play11` committed to true.
 Make sure you understand why the game proceeds as it does.

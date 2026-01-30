@@ -1,0 +1,29 @@
+# 12 - Translation
+
+Translate the following English sentences into fol.
+Your translations will use all of the propositional connectives.
+
+1. If a is a triangle then it is in front of d.
+2. a is to the left of or right of d only if it's a square.
+3. c is between either a and e or a and d.
+4. c is to the right of a, provided it (i.e., c) is small.
+5. c is to the right of d only if b is to the right of c and left of e.
+6. If e is a triangle, then it's to the right of b
+  if and only if it is also in front of b.
+7. If b is a circle, then if it isn't in front of d
+  then it isn't in back of d either.
+8. c is in back of a but in front of e.
+9. e is in front of d unless it (i.e., e) is a large triangle.
+10. At least one of a, c, and e is a square.
+11. a is a triangle only if it is in front of b.
+12. b is larger than both a and e.
+13. a and e are both larger than c, but neither is large.
+14. d is the same shape as b only if they are the same size.
+15. a is large if and only if it's a square.
+16. b is a square unless c is a triangle.
+17. If e isn't a square, either b or d is large.
+18. b or d is a square if either a or c is a triangle.
+19. a is large just in case d is small.
+20. a is large just in case e is.
+
+Save your list of sentences as `sentences12`.
