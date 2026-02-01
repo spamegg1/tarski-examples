@@ -3,7 +3,7 @@ import tarski.main.*, Sizes.*, Shape.*, Tone.*
 val BolzanoWorld: Grid = Map(
   (0, 0) -> Block(Big, Cir, Blu, "d"),
   (0, 3) -> Block(Big, Sqr, Blu, "b"),
-  (0, 7) -> Block(Sml, Cir, Red),
+  (0, 7) -> Block(Sml, Cir, Red, "f"),
   (3, 0) -> Block(Mid, Tri, Red),
   (3, 4) -> Block(Mid, Tri, Lim, "e"),
   (5, 2) -> Block(Sml, Sqr, Blu, "c"),
