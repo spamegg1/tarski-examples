@@ -32,3 +32,5 @@ val grid15: Grid = Map(
   (6, 5) -> Block(Sml, Cir, Red, "e")
 )
 ```
+
+![15](15.png)
