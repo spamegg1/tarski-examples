@@ -18,7 +18,7 @@ In some examples, you might have to write some formulas first, before executing.
 
 To interact, execute the `@main` methods with names like `run02a` etc.
 
-![runWorld](images/runWorld.png)
+![runWorld](runWorld.png)
 
 If the window is too small or too big, you can pass an optional parameter to resize it:
 
