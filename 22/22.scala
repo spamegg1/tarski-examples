@@ -1,4 +1,4 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
+import tarski.main.*
 
 val CNFSentences = Seq(
   fof"(Left(a, b) ∨ Abv(a, b)) ∧ Sqr(a)",
@@ -11,7 +11,7 @@ val CNFSentences = Seq(
   // add disjunctive normal form here!
 )
 
-// Here are a few worlds to test your DNF sentences""
+// Here are a few worlds to test your DNF sentences
 @main
 def run22a = runWorld(WittgensteinWorld, CNFSentences)
 

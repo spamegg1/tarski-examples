@@ -2,7 +2,6 @@ import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
 val grid13: Grid = Map(
   // add your world here!
-  // (x, y) -> Block(size, shape, tone, label)
 )
 
 @main
