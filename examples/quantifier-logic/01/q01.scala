@@ -62,11 +62,11 @@ val PeirceSentences2 = Seq(
 )
 
 @main
-def runq01a = runWorld(PeirceWorld, PeirceSentences1)
+def runQ01a = runWorld(PeirceWorld, PeirceSentences1)
 
 @main
-def runq01b = runWorld(PeirceWorld, PeirceSentences2)
+def runQ01b = runWorld(PeirceWorld, PeirceSentences2)
 
 // Play the game if you are confused about any formula:
 @main
-def playq01 = playGame(PeirceWorld, ???) // add formula
+def playQ01 = playGame(PeirceWorld, ???) // add formula
