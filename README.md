@@ -31,7 +31,7 @@ def run01a = runWorld(WittgensteinWorld, WittgenSteinSentencesA, 0.8)
 ## Exercises
 
 There are 79 examples in total. The first 28 are for Propositional Logic and
-the last 51 are for First-Order Logic, getting more difficult as you progress.
+the last 51 are for Quantifier Logic, getting more difficult as you progress.
 
 ## Work in progress
 
