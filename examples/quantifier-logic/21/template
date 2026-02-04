@@ -1,0 +1,11 @@
+import tarski.main.*, Sizes.*, Shape.*, Tone.*
+
+val world: Grid = Map(
+)
+
+val sentences = Seq(
+  fof"" // ¬∧∨→↔∀∃
+)
+
+@main
+def run = runWorld(world, sentences)
