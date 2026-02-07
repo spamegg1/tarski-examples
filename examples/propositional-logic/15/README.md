@@ -4,7 +4,7 @@ Start a new sentence file and use it to translate the following English sentence
 
 1. If a is a triangle, then b is also a triangle.
 2. c is a triangle if b is.
-3. a and c are both tetrahedra only if at least one of them is large.
+3. a and c are both triangles only if at least one of them is large.
 4. a is a triangle but c isn’t large.
 5. If c is small and d is a circle, then d is neither large nor small.
 6. c is medium only if none of d, e, and f are squares.

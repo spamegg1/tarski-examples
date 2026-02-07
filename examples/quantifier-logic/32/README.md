@@ -13,7 +13,7 @@ Translate the following sentences by first giving a suitable English paraphrase.
 
 1. Only large objects have nothing in front of them.
 2. If a cube has something in front of it, then it’s small.
-3. Every cube in back of a dodecahedron is also smaller than it.
+3. Every cube in back of a circle is also smaller than it.
     [Warning: This is an example of what is known as a “donkey”
     sentence, following a notorious example Every farmer who owns
     a donkey beats it. What makes such a sentence a bit tricky is the
@@ -24,9 +24,9 @@ Translate the following sentences by first giving a suitable English paraphrase.
     paraphrased as For every farmer and every donkey, if the farmer
     owns the donkey, then he beats it. This sentence clearly needs two
     universal quantifiers in its translation. Several of the sentences
-    that follow in this and the next exercise are donkey sentences.]
+    that follow in this and the next example are donkey sentences.]
 4. If e is between two objects, then they are both small.
-5. If a tetrahedron is between two objects, then they are both small.
+5. If a triangle is between two objects, then they are both small.
 
 - Save your list of sentences as Sentences 3.32.
 - Open Ron’s World.

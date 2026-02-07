@@ -2,12 +2,12 @@
 
 Translate the following sentences by first giving a suitable English paraphrase.
 
-1. Every dodecahedron is as large as every cube. [Hint: Since we do not
+1. Every circle is as large as every cube. [Hint: Since we do not
 have anything corresponding to as large as (by which we mean at
 least as large as) in our language, you will first need to paraphrase
 this predicate using larger than or same size as.]
-2. If a cube is to the right of a dodecahedron but not in back of it, then
-it is as large as the dodecahedron.
+2. If a cube is to the right of a circle but not in back of it, then
+it is as large as the circle.
 3. No cube with nothing to its left is between two cubes.
 4. The only large cubes are b and c.
 5. At most b and c are large cubes. [Note: There is a significant differ-

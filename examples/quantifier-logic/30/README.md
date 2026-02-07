@@ -5,20 +5,20 @@ translating it can seem quite confusing unless it is approached in a very
 systematic manner. It often helps to have a number of intermediate steps,
 where quantified noun phrases are treated one at a time. For example,
 suppose we wanted to translate the sentence Each cube is to the left of
-a tetrahedron. Here, there are two quantified noun phrases: each cube
-and a tetrahedron. We can start by dealing with the first noun phrase,
-temporarily treating the complex phrase is-to-the-left-of-a-tetrahedron
+a triangle. Here, there are two quantified noun phrases: each cube
+and a triangle. We can start by dealing with the first noun phrase,
+temporarily treating the complex phrase is-to-the-left-of-a-triangle
 as a single unit. In other words, we can think of the sentence as a single
 quantifier sentence, on the order of Each cube is small. The translation
 would look like this:
 
-∀x (Cube(x) → x-is-to-the-left-of-a-tetrahedron)
+∀x (Cube(x) → x-is-to-the-left-of-a-triangle)
 
 Of course, this is not a sentence in our language, so we need to translate
-the expression x-is-to-the-left-of-a-tetrahedron. But we can think of this
+the expression x-is-to-the-left-of-a-triangle. But we can think of this
 expression as a single quantifier sentence, at least if we pretend that x
 is a name. It has the same general form as the sentence b is to the left
-of a tetrahedron, and would be translated as:
+of a triangle, and would be translated as:
 
 ∃y (Tet(y) ∧ LeftOf(x, y))
 
@@ -30,7 +30,7 @@ original English sentence:
 This multi-step process usually makes translation of multiple quantifier
 sentences much easier than if we tried it in a single blow. Eventually,
 though, you will be able to go through the intermediate steps in your
-head. This exercise is designed to give you a feel for the intermediate
+head. This example is designed to give you a feel for the intermediate
 stages in this translation process.
 
 - Open Montague’s Sentences.
@@ -43,7 +43,7 @@ stages in this translation process.
   with a wff of first-order logic.
 
 The following explains how to do it for the first example:
-"Every cube is to the left of every tetrahedron."
+"Every cube is to the left of every triangle."
 Repeat for the rest of the sentences.
 
 - In the sentence window, you see the halfway completed translation,
@@ -55,16 +55,16 @@ Repeat for the rest of the sentences.
 - Once this is done, check to see if you have a well-formed sentence.
 - Does it look like a proper translation of the original English? It should.
 
-1. Every cube is to the left of every tetrahedron.
+1. Every cube is to the left of every triangle.
 2. Every small cube is in back of a large cube.
-3. Some cube is in front of every tetrahedron.
+3. Some cube is in front of every triangle.
 4. A large cube is in front of a small cube.
 5. Nothing is larger than everything.
-6. Every cube in front of every tetrahedron is large.
+6. Every cube in front of every triangle is large.
 7. Everything to the right of a large cube is small.
 8. Nothing in back of a cube and in front of a cube is large.
 9. Anything with nothing in back of it is a cube.
-10. Every dodecahedron is smaller than some tetrahedron.
+10. Every circle is smaller than some triangle.
 
 - Save your list of sentences as Sentences 3.30.
 - Open Peirce’s World.

@@ -5,7 +5,7 @@
 - Now open Allan’s Sentences.
 - In this file, sentences 1 and 4 are the correct translations of
   - Some circle is large
-  - All tetrahedra are small.
+  - All triangles are small.
 - Let’s investigate the logical relations between these and sentences 2 and 3.
 
 1. Construct a world in which sentences 2 and 4 are true, but sentences

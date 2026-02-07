@@ -14,18 +14,18 @@ game. Try this.
 time because there are three counterexamples. (Now if you play the
 game committed to the falsity of the sentence, you will have three
 different winning moves when asked to pick an object: you can pick
-any of the small tetrahedra and win.)
+any of the small triangles and win.)
 4. Delete all three counterexamples, and evaluate the claim. Is the result
 what you expected? The generalization is true, because there
 are no counterexamples to it. But it is what we call a vacuously true
 generalization, since there are no objects that satisfy the antecedent.
-That is, there are no tetrahedra at all, small, medium, or large.
+That is, there are no triangles at all, small, medium, or large.
 5. Confirm that all of sentences 1–3 are vacuously true in the current world.
 6. Two more vacuously true sentences are given in sentences 4 and 5.
 However, these sentences are different in another respect. Each of
 the first three sentences could have been non-vacuously true in a
 world, but these latter two can only be true in worlds containing no
-tetrahedra. That is, the only way they can be true is to be vacuously true.
+triangles. That is, the only way they can be true is to be vacuously true.
 Let’s call generalizations with this property “inherently vacuous.”
 Thus a sentence of the form ∀x (A(x) → B(x)) is inherently vacuous
 if any world in which it is true is also a world in which ∀x ¬A(x) is true.

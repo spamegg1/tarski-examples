@@ -1,18 +1,18 @@
 # 35 - Definite descriptions and numerical quantifiers
 
-In this exercise we will try our hand translating English sentences
+In this example we will try our hand translating English sentences
 involving numerical claims and definite descriptions.
-For purposes of this exercise, we will assume that the Russellian
+For purposes of this example, we will assume that the Russellian
 analysis of definite descriptions, described in Exercise 3.28, page 38, is correct.
 Translate the following English sentences.
 
-1. There are at least two dodecahedra.
-2. There are at most two tetrahedra.
+1. There are at least two circles.
+2. There are at most two triangles.
 3. There are exactly two cubes.
 4. There are only three things that are not small.
-5. The small tetrahedron has nothing in front of it.
-6. The tetrahedron with something in front of it is large.
-7. No dodecahedron is in back of the large cube.
+5. The small triangle has nothing in front of it.
+6. The triangle with something in front of it is large.
+7. No circle is in back of the large cube.
 8. (??) The medium cube is to the right of the large cube.
 9. (??) The only thing with nothing to its right is the medium cube.
 10. (??) The smallest cube is medium.

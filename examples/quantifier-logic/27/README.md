@@ -49,5 +49,5 @@ object.
 That is, sentence 13 is equivalent to sentence 10. Can you see why?
 Check three worlds to see that the two sentences are true
 in the same worlds—those in which there is a single circle.
-12. Sentence 14 says that there are exactly two tetrahedra. Check that
+12. Sentence 14 says that there are exactly two triangles. Check that
 it is true in such worlds, but false if there are fewer or more than two.

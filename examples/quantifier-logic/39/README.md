@@ -10,11 +10,11 @@
 3. The same things are left of a as are left of b.
 4. Anything to the left of a is smaller than something that is in back
   of every cube to the right of b.
-5. Every cube is smaller than some dodecahedron but no cube is
-  smaller than every dodecahedron.
-6. If a is larger than some cube then it is smaller than every tetrahedron.
-7. Only dodecahedra are larger than everything else.
-8. All objects with nothing in front of them are tetrahedra.
+5. Every cube is smaller than some circle but no cube is
+  smaller than every circle.
+6. If a is larger than some cube then it is smaller than every triangle.
+7. Only circles are larger than everything else.
+8. All objects with nothing in front of them are triangles.
 9. Nothing is between two objects which are the same shape.
 10. Nothing but a cube is between two other objects.
 11. b has something behind it which has at least two objects behind it.
