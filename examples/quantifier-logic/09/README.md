@@ -8,7 +8,7 @@
 
 1. Use your first sentence to describe the size of all the triangles.
 2. Use your second sentence to describe the size of all the squares.
-3. Express the fact that no cube is large.
+3. Express the fact that no square is large.
 4. Notice that some circle is large. Express this fact.
 5. Notice that some circle is neither large nor small. Express this.
 6. Observe that some circle is not small. Express this.

@@ -46,13 +46,13 @@ Typically, these will be noun phrases starting with one of the determiners
 - Check that all your translations are also true.
 - If not, you have made a mistake.
 - Can you figure out what is wrong with your translation?
-- Move the large cube to the back right corner of the grid.
+- Move the large square to the back right corner of the grid.
 - Observe that English sentences 5, 6, 7, 8, 10, 11 and 15 are now false,
 - while the rest are still true.
 - Check that the same holds of your translations.
 - If not, you have made a mistake.
 - Can you figure out what is wrong with your translation?
-- Now make the large cube small.
+- Now make the large square small.
 - The English sentences 1, 3, 4, 5, 6, 7, 8, 10, 11, 15 are false in the modified world,
 - the rest are true.
 - Again, check that your translations have the same truth values.

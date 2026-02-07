@@ -2,17 +2,17 @@
 
 Start a new sentence file and use it to translate the following English sentences.
 
-1. If a is a tetrahedron, then b is also a tetrahedron.
-2. c is a tetrahedron if b is.
+1. If a is a triangle, then b is also a triangle.
+2. c is a triangle if b is.
 3. a and c are both tetrahedra only if at least one of them is large.
-4. a is a tetrahedron but c isn’t large.
-5. If c is small and d is a dodecahedron, then d is neither large nor small.
-6. c is medium only if none of d, e, and f are cubes.
-7. d is a small dodecahedron unless a is small.
+4. a is a triangle but c isn’t large.
+5. If c is small and d is a circle, then d is neither large nor small.
+6. c is medium only if none of d, e, and f are squares.
+7. d is a small circle unless a is small.
 8. e is large just in case it is a fact that d is large if and only if f is.
 9. d and e are the same size.
 10. d and e are the same shape.
-11. f is either a cube or a dodecahedron, if it is large.
+11. f is either a square or a circle, if it is large.
 12. c is larger than e only if b is larger than c.
 13. c and f have the same tone and a has a different tone than b.
 14. If d has tone lime, then e has tone red.

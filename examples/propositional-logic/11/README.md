@@ -12,21 +12,21 @@ You will describe some features of this world in `sentences11`.
 2. However, note that the same is true of b and d. That is, if b is a
   triangle, then d isn't. Use your second sentence to express this.
 3. Observe that if b is a triangle, then c isn't. Express this.
-4. Notice that if a is a cube and b is a dodecahedron, then a is to the
+4. Notice that if a is a square and b is a circle, then a is to the
   left of b. Use your next sentence to express this fact.
 5. Use your next sentence to express the fact that if b and c are both
-  cubes, then they are in the same row but not in the same column.
+  squares, then they are in the same row but not in the same column.
 6. Use your next sentence to express the fact that b is a triangle
   only if it is small. [Check this sentence carefully. If your sentence
   evaluates as false, then you've got the arrow pointing in the wrong direction.]
-7. Next, express the fact that if a and d are both cubes, then one is
+7. Next, express the fact that if a and d are both squares, then one is
   to the left of the other. [Note: You will need to use a disjunction
   to express the fact that one is to the left of the other.]
-8. Notice that d is a cube if and only if it is either medium or large. Express this.
+8. Notice that d is a square if and only if it is either medium or large. Express this.
 9. Observe that if b is neither to the right nor left of d, then one of
   them is a triangle. Express this observation.
 10. Express the fact that b and c are the same size if and only
-  if one is a triangle and the other is a dodecahedron.
+  if one is a triangle and the other is a circle.
 11. Express that c and d have the same tone if a and b have different tones.
 12. Say that a has color red if and only if b and c both have color blue.
 
