@@ -20,7 +20,7 @@ Beginning students are often tempted to translate the latter more like the forme
 
 This is in fact an extremely unnatural sentence of first-order logic.
 It is meaningful, but it doesn't mean what you might think.
-This exercise is designed to show you exactly what a sentence of this form means.
+This example is designed to show you exactly what a sentence of this form means.
 
 - Open `EdgarSentences` and evaluate them in `EdgarWorld`.
 - Make sure you understand why each of them has the truth value it does.

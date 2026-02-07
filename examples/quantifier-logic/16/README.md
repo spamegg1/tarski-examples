@@ -6,7 +6,7 @@
 - (that is, they contain no quantifiers)
 - or “existential” claims (that is, they assert that things of a certain sort exist).
 - Consequently, you could make them true by successively adding objects to the world.
-- But part of the exercise is to make them all true with as few objects as possible.
+- But part of the example is to make them all true with as few objects as possible.
 - You should be able to do it with six objects, total.
 - So rather than adding objects for each new sentence,
 - try adjusting the world, and only add new objects when necessary.

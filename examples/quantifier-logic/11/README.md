@@ -1,7 +1,7 @@
 # 11 - Common mistakes, part 2
 
-- In this exercise we return to the point made in example q06.
-- Glance back at that exercise to recall the basic point.
+- In this example we return to the point made in example q06.
+- Glance back at that example to recall the basic point.
 - Now open Allan’s Sentences.
 - In this file, sentences 1 and 4 are the correct translations of
   - Some circle is large

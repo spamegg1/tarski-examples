@@ -4,7 +4,7 @@ The first thing you have to learn in order to translate quantified expressions
 is how to treat complex noun phrases, expressions like
 “some boy living in Omaha” or “every girl living in Duluth.”
 
-In this exercise we will concentrate on the former sort of noun phrase,
+In this example we will concentrate on the former sort of noun phrase,
 those whose most natural translation involves an existential quantifier.
 Typically, these will be noun phrases starting with one of the determiners
 “some,” “a,” and “an,” including noun phrases like “something.”.

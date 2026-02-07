@@ -3,7 +3,7 @@
 - In the real world, things change in various ways.
 - They come, move around, and go.
 - And as things change, so do the truth values of sentences.
-- In this exercise, the goal is to change World 3.17 to make
+- In this example, the goal is to change World 3.17 to make
   as many of Ramsey’s sentences false as you can.
 - But here’s the catch: you can only add objects of various sizes and shapes;
 - don’t change the existing objects in any way.
