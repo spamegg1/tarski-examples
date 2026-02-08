@@ -25,3 +25,7 @@ val EdgarSentences = Seq(
 
 @main
 def runQ06 = runWorld(EdgarWorld, EdgarSentences)
+
+// Play the game if you are confused about any sentence.
+@main
+def playQ06 = playGame(EdgarWorld, ???) // add sentence here

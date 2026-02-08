@@ -15,7 +15,7 @@ This example is designed to show you exactly what a sentence of this form means.
 
 - Evaluate `EdgarSentences` in `EdgarWorld` by running `runQ06`.
 - Make sure you understand why each of them has the truth value it does.
-- Play the game if any of the evaluations surprise you.
+- Play the game `playQ06` if any of the evaluations surprise you.
 - Which of these sentences would be a good translation of:
   "There is a triangle that is big"?
   (Clearly this English sentence is false in `EdgarWorld`,
