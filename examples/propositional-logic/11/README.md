@@ -22,7 +22,7 @@ You will describe some features of this world in `sentences11`.
 7. Next, express the fact that if a and d are both squares, then one is
   to the left of the other. [Note: You will need to use a disjunction
   to express the fact that one is to the left of the other.]
-8. Notice that d is a square if and only if it is either medium or large. Express this.
+8. Notice that d is a square if and only if it is either medium or big. Express this.
 9. Observe that if b is neither to the right nor left of d, then one of
   them is a triangle. Express this observation.
 10. Express the fact that b and c are the same size if and only

@@ -1,7 +1,7 @@
 # 14 - Vacuously true generalizations
 
 - Open Dodgson’s Sentences.
-- Note that the first sentence says that every triangle is large.
+- Note that the first sentence says that every triangle is big.
 
 1. Open Peano’s World. Sentence 1 is clearly false in this world, since
 the small triangle is a “counterexample” to the universal claim.
@@ -19,7 +19,7 @@ any of the small triangles and win.)
 what you expected? The generalization is true, because there
 are no counterexamples to it. But it is what we call a vacuously true
 generalization, since there are no objects that satisfy the antecedent.
-That is, there are no triangles at all, small, medium, or large.
+That is, there are no triangles at all, small, medium, or big.
 5. Confirm that all of sentences 1–3 are vacuously true in the current world.
 6. Two more vacuously true sentences are given in sentences 4 and 5.
 However, these sentences are different in another respect. Each of

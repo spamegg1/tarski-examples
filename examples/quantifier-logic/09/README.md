@@ -8,19 +8,19 @@
 
 1. Use your first sentence to describe the size of all the triangles.
 2. Use your second sentence to describe the size of all the squares.
-3. Express the fact that no square is large.
-4. Notice that some circle is large. Express this fact.
-5. Notice that some circle is neither large nor small. Express this.
+3. Express the fact that no square is big.
+4. Notice that some circle is big. Express this fact.
+5. Notice that some circle is neither big nor small. Express this.
 6. Observe that some circle is not small. Express this.
 7. Notice that some circle is small. Express this fact.
-8. Observe that some circle is not large. Express this.
-9. Express the observation that no triangle is large.
+8. Observe that some circle is not big. Express this.
+9. Express the observation that no triangle is big.
 10. Use your last sentence to express the truism that
-  every circle is either small, medium, or large.
+  every circle is either small, medium, or big.
 
 - Save your list of sentences as `sentencesQ09`.
 - Now change the sizes of the objects in the following way:
-  - make one of the squares large,
+  - make one of the squares big,
   - one of the triangles medium, and
   - all the circles small.
 - With these changes, the following should come out false:

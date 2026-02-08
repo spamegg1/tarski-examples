@@ -9,7 +9,7 @@
 
 1. Every cube is between a pair of circles.
 2. Every cube to the right of a circle is smaller than it is.
-3. Cube a is not larger than every circle.
+3. Cube a is not bigger than every circle.
 4. No cube is to the left of some circle.
 5. (At least) two cubes are between (at least) two circles.
 

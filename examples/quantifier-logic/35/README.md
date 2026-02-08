@@ -11,9 +11,9 @@ Translate the following English sentences.
 3. There are exactly two cubes.
 4. There are only three things that are not small.
 5. The small triangle has nothing in front of it.
-6. The triangle with something in front of it is large.
-7. No circle is in back of the large cube.
-8. (??) The medium cube is to the right of the large cube.
+6. The triangle with something in front of it is big.
+7. No circle is in back of the big cube.
+8. (??) The medium cube is to the right of the big cube.
 9. (??) The only thing with nothing to its right is the medium cube.
 10. (??) The smallest cube is medium.
 

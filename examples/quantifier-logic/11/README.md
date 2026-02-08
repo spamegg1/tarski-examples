@@ -4,7 +4,7 @@
 - Glance back at that example to recall the basic point.
 - Now open Allan’s Sentences.
 - In this file, sentences 1 and 4 are the correct translations of
-  - Some circle is large
+  - Some circle is big
   - All triangles are small.
 - Let’s investigate the logical relations between these and sentences 2 and 3.
 

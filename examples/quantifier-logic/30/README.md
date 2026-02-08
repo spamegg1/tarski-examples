@@ -56,13 +56,13 @@ Repeat for the rest of the sentences.
 - Does it look like a proper translation of the original English? It should.
 
 1. Every cube is to the left of every triangle.
-2. Every small cube is in back of a large cube.
+2. Every small cube is in back of a big cube.
 3. Some cube is in front of every triangle.
-4. A large cube is in front of a small cube.
-5. Nothing is larger than everything.
-6. Every cube in front of every triangle is large.
-7. Everything to the right of a large cube is small.
-8. Nothing in back of a cube and in front of a cube is large.
+4. A big cube is in front of a small cube.
+5. Nothing is bigger than everything.
+6. Every cube in front of every triangle is big.
+7. Everything to the right of a big cube is small.
+8. Nothing in back of a cube and in front of a cube is big.
 9. Anything with nothing in back of it is a cube.
 10. Every circle is smaller than some triangle.
 

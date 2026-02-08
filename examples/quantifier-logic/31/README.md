@@ -15,7 +15,7 @@ Start a new sentence file and translate the following English sentences.
 7. Every cube with something in back of it is small.
 8. Every circle with nothing to its right is small.
 9. (?) Every circle with nothing to its right has something to its left.
-10. Any circle to the left of a cube is large.
+10. Any circle to the left of a cube is big.
 
 - Open Bolzano’s World.
 - All of the above English sentences are true in this world.

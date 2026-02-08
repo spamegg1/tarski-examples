@@ -13,17 +13,17 @@ Your translations will use all of the propositional connectives.
 7. If b is a circle, then if it isn't in front of d
   then it isn't in back of d either.
 8. c is in back of a but in front of e.
-9. e is in front of d unless it (i.e., e) is a large triangle.
+9. e is in front of d unless it (i.e., e) is a big triangle.
 10. At least one of a, c, and e is a square.
 11. a is a triangle only if it is in front of b.
-12. b is larger than both a and e.
-13. a and e are both larger than c, but neither is large.
+12. b is bigger than both a and e.
+13. a and e are both bigger than c, but neither is big.
 14. d is the same shape as b only if they are the same size.
-15. a is large if and only if it's a square.
+15. a is big if and only if it's a square.
 16. b is a square unless c is a triangle.
-17. If e isn't a square, either b or d is large.
+17. If e isn't a square, either b or d is big.
 18. b or d is a square if either a or c is a triangle.
-19. a is large just in case d is small.
-20. a is large just in case e is.
+19. a is big just in case d is small.
+20. a is big just in case e is.
 
 Save your list of sentences as `sentences12`.

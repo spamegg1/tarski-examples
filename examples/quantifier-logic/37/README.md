@@ -8,14 +8,14 @@
 1. Everything is either a cube or a triangle.
 2. Every cube is to the left of every triangle.
 3. There are at least three triangles.
-4. Every small cube is in back of a particular large cube.
+4. Every small cube is in back of a particular big cube.
 5. Every triangle is small.
 6. Every circle is smaller than some triangle. [Note: This is
   vacuously true in this world.]
 
 - Now let’s change the world so that none of the English sentences are true.
-- (We can do this by changing the large cube in front to a circle,
-- the large cube in back to a triangle,
+- (We can do this by changing the big cube in front to a circle,
+- the big cube in back to a triangle,
 - and deleting the two small triangles in the far right column.)
 - If your answers to 1–5 are correct,
 - all of your translations should be false as well.

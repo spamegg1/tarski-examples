@@ -20,7 +20,7 @@ sentences. This time each translation will contain exactly one ∀ and no ∃.
   [Note: Most people find this sentence ambiguous.
   Can you find both readings?
   One starts with ∀, the other with ¬.
-  Use the former, the one that means all the circles are either medium or large.]
+  Use the former, the one that means all the circles are either medium or big.]
 10. No circle is small.
 11. a does not adjoin everything.
   [Note: This sentence is ambiguous.

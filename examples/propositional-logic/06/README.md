@@ -13,10 +13,10 @@
    Use your second sentence to say this.
 6. Use your third sentence to say that f is either above or smaller than a.
 7. Express the fact that both e and d are between c and a.
-8. Note that neither e nor d is larger than c. Use your fifth sentence to say this.
-9. Notice that e is neither larger than nor smaller than d.
+8. Note that neither e nor d is bigger than c. Use your fifth sentence to say this.
+9. Notice that e is neither bigger than nor smaller than d.
     Use your sixth sentence to say this.
-10. Notice that c is smaller than a but larger than e. State this fact.
+10. Notice that c is smaller than a but bigger than e. State this fact.
 11. Note that c is below f; moreover, it is smaller than f.
     Use your eighth sentence to state these things.
 12. Notice that b is in the same row as a but is not in the same column as f.

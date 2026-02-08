@@ -30,18 +30,18 @@ but is true if you add another object to the world.
 6. The seventh sentence says that there are exactly three objects in the
 world. Check to see that it is true in the world with three objects,
 but false if you either delete an object or add another object.
-7. Sentence 8 asserts that a is a large object, and in fact the only large
+7. Sentence 8 asserts that a is a big object, and in fact the only big
 object. To see just how the sentence manages to say this, start with
 a world with three small objects and name one of them a. Play the
 game committed to true to see why the sentence is false. Now make
-object a large. Play the game committed to false to see why it is
-true. Finally, make one of the other objects large as well, and play
+object a big. Play the game committed to false to see why it is
+true. Finally, make one of the other objects big as well, and play
 the game committed to true to see why it is false.
-8. Sentence 8 asserted that a was the only large object. How might we
-say that there is exactly one large object, without using a name for
+8. Sentence 8 asserted that a was the only big object. How might we
+say that there is exactly one big object, without using a name for
 the object? Compare sentence 8 with sentence 9. The latter asserts
-that there is something which is the only large object. Check to
-see that it is true only in worlds in which there is exactly one large
+that there is something which is the only big object. Check to
+see that it is true only in worlds in which there is exactly one big
 object.
 9. Construct a world in which sentence 10 is true. Save your world as World 3.27.1.
 10. Make sentences 11 and 12 true in a single world. Save your world as World 3.27.2.

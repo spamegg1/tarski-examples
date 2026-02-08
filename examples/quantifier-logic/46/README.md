@@ -3,10 +3,10 @@
 - Let’s try our hand describing a world using multiple quantifiers.
 - Open Finsler’s World and start a new sentence file.
 
-1. Notice that all the small blocks are in front of all the large blocks.
+1. Notice that all the small blocks are in front of all the big blocks.
   Use your first sentence to say this.
 2. With your second sentence, point out that there’s a
-  cube that is larger than a triangle.
+  cube that is bigger than a triangle.
 3. Next, say that all the cubes are in the same column.
 4. Notice, however, that this is not true of the triangles. So write the
   same sentence about the triangles, but put a negation sign out front.

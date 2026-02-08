@@ -2,17 +2,17 @@
 
 Translate the following sentences by first giving a suitable English paraphrase.
 
-1. Every circle is as large as every cube. [Hint: Since we do not
-have anything corresponding to as large as (by which we mean at
-least as large as) in our language, you will first need to paraphrase
-this predicate using larger than or same size as.]
+1. Every circle is as big as every cube. [Hint: Since we do not
+have anything corresponding to as big as (by which we mean at
+least as big as) in our language, you will first need to paraphrase
+this predicate using bigger than or same size as.]
 2. If a cube is to the right of a circle but not in back of it, then
-it is as large as the circle.
+it is as big as the circle.
 3. No cube with nothing to its left is between two cubes.
-4. The only large cubes are b and c.
-5. At most b and c are large cubes. [Note: There is a significant differ-
+4. The only big cubes are b and c.
+5. At most b and c are big cubes. [Note: There is a significant differ-
 ence between this sentence and the previous one. This one does not
-imply that b and c are large cubes, while the previous sentence does.]
+imply that b and c are big cubes, while the previous sentence does.]
 
 - Open Ron’s World.
 - Each of the above English sentences is true in this world,

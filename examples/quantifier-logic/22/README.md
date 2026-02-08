@@ -3,7 +3,7 @@
 These two English sentences are consequences of the ten sentences in Buridan’s Sentences.
 
 1. There are no squares.
-2. There is exactly one large triangle.
+2. There is exactly one big triangle.
 
 Because of this, they must be true in any world in which Buridan’s
 Sentences are all true. So of course they must be true in World 3.21, no
@@ -19,7 +19,7 @@ matter how you built it.
   though different ones at different times.
 - Find a world in which only one of the original ten sentences is false
   and name it World 3.22.1.
-- Next, get rid of the square and add a second large triangle.
+- Next, get rid of the square and add a second big triangle.
 - Again, move it around and see what happens to the truth values of the sentences.
 - Find a world in which only one of the original ten sentences is false
 - and name it World 3.22.2.
