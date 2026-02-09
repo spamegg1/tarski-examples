@@ -9,18 +9,18 @@ val EdgarWorld: Grid = Map(
 )
 
 val EdgarSentences = Seq(
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof"", // ¬∧∨→↔∀∃
-  fof""  // ¬∧∨→↔∀∃
+  fof"∃x Tri(x)",
+  fof"∃x (Tri(x) ∧ Big(x))",
+  fof"∃x (Tri(x) ∨ Big(x))",
+  fof"∃x ((Tri(x) ∧ ¬Tri(x)) ∨ Big(x))",
+  fof"∃x (¬Tri(x) ∨ Big(x))",
+  fof"∃x (Tri(x) → Big(x))",
+  fof"∃x (¬Sqr(x) ∨ Btw(x,a,b))",
+  fof"∃x (Sqr(x) → Btw(x,a,b))",
+  fof"∃x (Sqr(x) ∧ Btw(x,a,b))",
+  fof"∃y (Big(y) ∧ Blu(y))",
+  fof"∃x Cir(x) ∧ ∃y Big(y)",
+  fof"∃x (Cir(x) ∧ Big(x))"
 )
 
 @main

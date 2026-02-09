@@ -20,8 +20,6 @@ This example is designed to show you exactly what a sentence of this form means.
   "There is a triangle that is big"?
   (Clearly this English sentence is false in `EdgarWorld`,
   since there are no triangles at all.)
-- Which sentence would be a good translation of:
-  "There is a square between a and b"?
-- Which would be a good translation of
-  "There is a big circle"?
-- Express in clear English the claim made by each sentence and save your answers.
+- Which sentence would be a good translation of: "There is a square between a and b"?
+- Which would be a good translation of "There is a big circle"?
+- Express in clear English the claim made by each sentence.
