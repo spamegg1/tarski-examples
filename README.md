@@ -28,10 +28,21 @@ If the window is too small or too big, you can pass an optional parameter to res
 def run01a = runWorld(WittgensteinWorld, WittgenSteinSentencesA, 0.8)
 ```
 
-## Exercises
+## Examples
 
 There are 79 examples in total. The first 28 are for Propositional Logic and
 the last 51 are for Quantifier Logic, getting more difficult as you progress.
+
+### Note on equality
+
+There are two kinds of equality used in the examples.
+
+Reference equality a.k.a "identity" (or "identical" when used as adjective) means that
+two names `a, b` are referring to the same block, and is implemented using `Loc(a, b)`.
+("Loc" means location, so `a` and `b` have the same location on the board.)
+
+Value equality a.k.a "equality" (or "equal" when used as adjective) means that
+two blocks `a, b` are equal in size, shape and tone, and is implemented using `a = b`.
 
 ## Work in progress
 

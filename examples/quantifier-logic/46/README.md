@@ -12,9 +12,9 @@
   same sentence about the triangles, but put a negation sign out front.
 5. Every cube is also in a different row from every other cube. Say this.
 6. Again, this isn’t true of the triangles, so say that it’s not.
-7. Notice there are different triangles that are the same size. Express
+7. Notice there are non-identical triangles that are the same size. Express
 this fact.
-8. But there aren’t different cubes of the same size, so say that, too.
+8. But there aren’t non-identical cubes of the same size, so say that, too.
 
 - Are all your translations true in Finsler’s World?
 - If not, try to figure out why.

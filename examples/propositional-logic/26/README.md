@@ -3,6 +3,12 @@
 In the blocks language used in Tarski's World there are a
 number of equivalent ways of expressing some of the predicates.
 
+(Recall that equality `=` means "value equality", a.k.a. equality:
+`a = b` if the blocks labeled `a` and `b` are equal in size, shape and tone.
+This is in contrast to "reference equality" `Loc`, a.k.a. identity:
+`Loc(x,y)` means that `x` and `y` have the same row and column on the board,
+in other words they refer to the same one block.)
+
 - Look at `BernaysSentences`.
 - You will find a list of atomic sentences,
   where every other sentence is left blank.

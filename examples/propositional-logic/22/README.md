@@ -28,6 +28,12 @@ equivalent to the sentence above it. Check your work by opening
 several worlds and checking to see that each of your sentences has the
 same truth value as the one above it.
 
+(Recall that equality `=` means "value equality", a.k.a. equality:
+`a = b` if the blocks labeled `a` and `b` are equal in size, shape and tone.
+This is in contrast to "reference equality" `Loc`, a.k.a. identity:
+`Loc(x,y)` means that `x` and `y` have the same row and column on the board,
+in other words they refer to one and the same block.)
+
 ## Longer example (optional)
 
 Consider this sentence in CNF:
