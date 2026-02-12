@@ -7,9 +7,9 @@ Translate the following sentences.
 1. Not every cube is smaller than every triangles.
 2. No cube is to the right of anything.
 3. There is a circle unless there are at least two big objects.
-4. No cube with nothing in back of it is smaller than another cube.
+4. No cube with nothing above it is smaller than another cube.
 5. If any circles are small, then they are between two cubes.
-6. If a cube is medium or is in back of something medium, then it
+6. If a cube is medium or is above something medium, then it
   has nothing to its right except for triangles.
 7. The further back a thing is, the bigger it is.
 8. Everything is the same size as something else.

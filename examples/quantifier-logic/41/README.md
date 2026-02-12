@@ -17,6 +17,6 @@
 - Which of your sentences are true in this world?
 - You should find that exactly one translation of each sentence is true.
 - If not, you should correct one or both of your translations.
-- Notice that if you had had the world in front of you when you did the translations,
+- Notice that if you had had the world below you when you did the translations,
   it would have been harder to see the ambiguity in the English sentences.
   The world would have provided a context that made one interpretation the natural one.

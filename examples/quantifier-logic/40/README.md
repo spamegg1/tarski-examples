@@ -8,7 +8,7 @@ This example will help you get a feeling for the difficulty.
 - Check to see that all of the following discourse is true in this world.
 
     > There are (at least) two cubes. There is something between them.
-    > It is a medium circle. It is in front of a big circle.
+    > It is a medium circle. It is below a big circle.
     > These two are left of a small circle. There are two triangles.
 
 - Translate this discourse into a single first-order sentence.
@@ -18,7 +18,7 @@ This example will help you get a feeling for the difficulty.
 - Check to see that all of the following discourse is true in this world.
 
     > There are two triangles. There is something between them.
-    > It is a medium circle. It is in front of a big circle.
+    > It is a medium circle. It is below a big circle.
     > There are two cubes. These two are left of a small circle.
 
 - Translate this into a single first-order sentence.

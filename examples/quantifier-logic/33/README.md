@@ -6,7 +6,7 @@ Translate the following sentences by first giving a suitable English paraphrase.
 have anything corresponding to as big as (by which we mean at
 least as big as) in our language, you will first need to paraphrase
 this predicate using bigger than or same size as.]
-2. If a cube is to the right of a circle but not in back of it, then
+2. If a cube is to the right of a circle but not above it, then
 it is as big as the circle.
 3. No cube with nothing to its left is between two cubes.
 4. The only big cubes are b and c.

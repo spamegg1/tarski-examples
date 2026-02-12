@@ -11,9 +11,9 @@ and this is easily treated by the procedure.
 
 Translate the following sentences by first giving a suitable English paraphrase.
 
-1. Only big objects have nothing in front of them.
-2. If a cube has something in front of it, then it’s small.
-3. Every cube in back of a circle is also smaller than it.
+1. Only big objects have nothing below them.
+2. If a cube has something below it, then it’s small.
+3. Every cube above a circle is also smaller than it.
     [Warning: This is an example of what is known as a “donkey”
     sentence, following a notorious example Every farmer who owns
     a donkey beats it. What makes such a sentence a bit tricky is the

@@ -14,7 +14,7 @@
   smaller than every circle.
 6. If a is bigger than some cube then it is smaller than every triangle.
 7. Only circles are bigger than everything else.
-8. All objects with nothing in front of them are triangles.
+8. All objects with nothing below them are triangles.
 9. Nothing is between two objects which are the same shape.
 10. Nothing but a cube is between two other objects.
 11. b has something behind it which has at least two objects behind it.

@@ -6,11 +6,11 @@
 1. Use your first sentence to say that there are only cubes and triangles.
 2. Next say that there are exactly three cubes.
 3. Express the fact that every cube has a triangle that is to its
-  right but is neither in front of or in back of it.
+  right but is neither below or above it.
 4. Express the fact that at least one of the triangles is between two other triangles.
 5. Notice that the further back something is, the bigger it is. Say this.
 6. Note that none of the cubes is to the right of any of the other cubes. Try to say this.
-7. Observe that the small triangle is in front of but to neither side
+7. Observe that the small triangle is below but to neither side
   of all the other triangles. State this.
 
 - Save your list of sentences as Sentences 3.36.

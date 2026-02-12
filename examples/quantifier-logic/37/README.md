@@ -8,7 +8,7 @@
 1. Everything is either a cube or a triangle.
 2. Every cube is to the left of every triangle.
 3. There are at least three triangles.
-4. Every small cube is in back of a particular big cube.
+4. Every small cube is above a particular big cube.
 5. Every triangle is small.
 6. Every circle is smaller than some triangle. [Note: This is
   vacuously true in this world.]

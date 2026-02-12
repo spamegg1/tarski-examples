@@ -9,7 +9,7 @@
 2. State the fact that there is a medium sized cube.
 3. Next, assert that there are at least two cubes.
 4. Express the fact that there is a triangle between two circles.
-5. Notice that it is not the case that every cube is in front of a circle. Say this.
+5. Notice that it is not the case that every cube is below a circle. Say this.
 
 - Save your list of sentences as Sentences 3.29.
 - Now let’s change the world so that none of the above facts hold.

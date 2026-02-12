@@ -3,7 +3,7 @@
 - Let’s try our hand describing a world using multiple quantifiers.
 - Open Finsler’s World and start a new sentence file.
 
-1. Notice that all the small blocks are in front of all the big blocks.
+1. Notice that all the small blocks are below all the big blocks.
   Use your first sentence to say this.
 2. With your second sentence, point out that there’s a
   cube that is bigger than a triangle.
