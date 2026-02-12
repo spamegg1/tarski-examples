@@ -1,11 +1,8 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
-
-val worldQ10: Grid = Map(
-)
+import tarski.main.*
 
 val sentencesQ10 = Seq(
-  fof"" // ¬∧∨→↔∀∃
+  // add your sentences here! ¬∧∨→↔∀∃
 )
 
 @main
-def runQ10 = runWorld(worldQ10, sentencesQ10)
+def runQ10 = runWorld(MontagueWorld, sentencesQ10)
