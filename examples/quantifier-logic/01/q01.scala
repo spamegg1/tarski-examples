@@ -9,8 +9,8 @@ val PeirceWorld: Grid = Map(
   (3, 6) -> Block(Sml, Tri, Lim),
   (4, 0) -> Block(Sml, Sqr, Blu),
   (5, 0) -> Block(Mid, Sqr, Red),
-  (5, 3) -> Block(Sml, Tri, Lim),
-  (5, 4) -> Block(Sml, Tri, Blu),
+  (5, 3) -> Block(Sml, Sqr, Lim),
+  (5, 4) -> Block(Sml, Sqr, Blu),
   (5, 7) -> Block(Sml, Tri, Red),
   (7, 4) -> Block(Big, Sqr, Lim)
 )

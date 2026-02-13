@@ -1,4 +1,4 @@
-# 1 - Evaluating sentences in a world
+# 01 - Evaluating sentences in a world
 
 - Open `PeirceWorld` and `PeirceSentences1` by running `runq01a`.
   There are 20 sentences.
