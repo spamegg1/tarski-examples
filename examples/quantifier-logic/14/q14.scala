@@ -19,8 +19,7 @@ val DodgsonSentences = Seq(
   fof"∀x(Tri(x) → Mid(x))",
   fof"∀x(Tri(x) → Sml(x))",
   fof"∀x(Tri(x) → (Sml(x) ∧ Big(x)))",
-  fof"∀x(Tri(x) → Sqr(x))",
-  fof"∀x(Cir(x) → Sml(x))"
+  fof"∀x(Tri(x) → Sqr(x))"
   // add a sixth sentence here!
 )
 
