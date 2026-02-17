@@ -9,7 +9,7 @@ val PeanoSentences1 = Seq(
   fof"∃x (Tri(x) ∧ ∃y (Sqr(y) ∧ More(x, y)))", // same as prev
   fof"∃x ∃y (Cir(x) ∧ Tri(y) ∧ More(x, y))",
   fof"∃x (Cir(x) ∧ ∃y (Tri(y) ∧ More(x, y)))", // same as prev
-  fof"∃x ∃y ∃z Btw(x,y,z)",
+  fof"∃x ∃y ∃z Btw(x, y, z)",
   fof"∃x (Sqr(x) ∧ ∃y ∃z Btw(x, y, z))",
   fof"∃x (Tri(x) ∧ ∃y ∃z Btw(x, y, z))",
   fof"∃x ∃y ∃z (Tri(x) ∧ Sqr(y) ∧ Btw(x, y, z))",
