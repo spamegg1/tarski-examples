@@ -1,7 +1,7 @@
 # 16 - Building a world
 
 - Open `RamseySentences1` in the empty `worldQ16` by running `runQ16`.
-- Build a world in which sentences 1–10 are all true at once.
+- Build a world in which the sentences are all true at once.
 - These sentences all make either
   - "particular" claims (that is, they contain no quantifiers), or
   - "existential" claims (that is, they assert that things of a certain sort exist).
