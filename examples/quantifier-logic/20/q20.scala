@@ -1,11 +1,51 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val worldQ20: Grid = Map(
-)
+val LeibnizSentences = Seq(
+  // This sentence tries to make a reasonable claim. Why is it false?
+  // Play the game and see. Then fix it so it says what was intended.
+  fof"∀x ∀y ((Sqr(x) ∧ Sqr(y)) → ∃z Btw(z, x, y))",
+  fof"∀x (Btw(x, d, c) → x = b)",
+  fof"∀x (∃y Btw(x, y, c) → x = b)",
+  fof"∀x (∃y Btw(x, y, c) → ¬Big(x))",
+  fof"∀x (∃y ∃z Btw(x, y, z) → ¬Big(x))",
+  fof"∀x (∃y ∃z Btw(x, y, z) → Tri(x))",
+  fof"∀x (¬ ∃y Left(y, x) → x = a)",
+  fof"∀x (¬ ∃y Left(y, x) ∧ ¬ ∃y Bel(y, x) → x = a)",
+  fof"∀x (∃y ∃z (Btw(x, y, z) ∧ Tri(y) ∧ Tri(z)) → x = e)",
+  fof"∀x (∃y ∃z (Btw(x, y, z) ∧ Sqr(y) ∧ Sqr(z)) → x = b)",
+  fof"∀x ∃y ∃z ((Btw(x, y, z) ∧ x = b) → (y = a ∨ y = c))",
+  fof"∀x ∀y ((Tri(x) ∧ Tri(y) ∧ Sml(x) ∧ Sml(y)) → x = y)", // Do you see what this says?
 
-val sentencesQ20 = Seq(
-  fof"" // ¬∧∨→↔∀∃
+  // If you understand the previous one, you see why this is true as well.
+  fof"∀x ∀y ((Cir(x) ∧ Cir(y) ∧ Sml(x) ∧ Sml(y)) → x = y)",
+
+  // This may look like a dumb thing to say, but make sure you understand it.
+  // Why is it true?
+  fof"∀x (Cir(x) → x = b)",
+
+  // And do you see why this is false? Under what circumstances would it be true?
+  fof"∀x (Cir(x) ↔ x = b)",
+
+  // This time, we got it right:
+  fof"∀x ((Tri(x) ∧ Sml(x)) ↔ x = b)",
+
+  // Compare this with the previous sentence. Do you understand what it says?
+  // Play the game a couple of times, committed to both true and false.
+  fof"∃y ∀x ((Tri(x) ∧ Sml(x)) ↔ x = y)",
+
+  // Play the game here too. Do you see why you can't win when committed to true?
+  fof"∃y ∀x ((Sqr(x) ∧ Sml(x)) ↔ Loc(x, y))"
+
+  // In this slot, write a sentence that says there is exactly one large tetrahedron.
+  // Pattern it on the previous sentence.
+  // fof"∃y ∀x ((Tri(x) ∧ Big(x)) ↔ Loc(x, y))"
 )
 
 @main
-def runQ20 = runWorld(worldQ20, sentencesQ20)
+def runQ20 = runWorld(LeibnizWorld, LeibnizSentences)
+
+// Play the game here with various sentences.
+val sentenceQ20: FOLFormula = ??? // add sentence here
+
+@main
+def playQ20 = playGame(LeibnizWorld, sentenceQ20)

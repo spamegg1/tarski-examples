@@ -1,6 +1,6 @@
 # 20 - Mixed quantifier sentences with identity
 
-- Open Leibniz’s World and use it to evaluate the sentences in Leibniz’s Sentences.
+- Open `LeibnizWorld` and use it to evaluate the sentences in `LeibnizSentences`.
 - Make sure you understand all the sentences and
-- follow any instructions in the file.
-- Submit your modified sentence list.
+  follow any instructions in the comments.
+- Save your modified sentences.
