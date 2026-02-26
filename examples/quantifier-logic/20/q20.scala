@@ -2,22 +2,38 @@ import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
 val LeibnizSentences = Seq(
   // This sentence tries to make a reasonable claim. Why is it false?
-  // Play the game and see. Then fix it so it says what was intended.
+  // Play the game committed to true and see. Then fix it so it says what was intended.
   fof"∀x ∀y ((Sqr(x) ∧ Sqr(y)) → ∃z Btw(z, x, y))",
-  fof"∀x (Btw(x, d, c) → x = b)",
+  fof"∀x (Btw(x, a, c) → x = b)",
+
+  // Why is this false, but the previous one is true? Play committed to true.
   fof"∀x (∃y Btw(x, y, c) → x = b)",
   fof"∀x (∃y Btw(x, y, c) → ¬Big(x))",
+
+  // Why is this false, but the previous one is true? Play committed to true.
   fof"∀x (∃y ∃z Btw(x, y, z) → ¬Big(x))",
   fof"∀x (∃y ∃z Btw(x, y, z) → Tri(x))",
   fof"∀x (¬ ∃y Left(y, x) → x = a)",
+
+  // Why is this true, but the previous one is false?
   fof"∀x (¬ ∃y Left(y, x) ∧ ¬ ∃y Bel(y, x) → x = a)",
-  fof"∀x (∃y ∃z (Btw(x, y, z) ∧ Tri(y) ∧ Tri(z)) → x = e)",
+  fof"∀x (Red(x) → ∃y ∃z (Btw(x, y, z) ∧ Blu(x) ∧ Blu(z)))",
+  fof"∀x (Red(x) → ∃y ∃z (Btw(x, y, z) ∧ Red(x) ∧ Red(z)))",
+
+  // Why is this false, but the previous two are true?
+  fof"∀x (Red(x) → ∃y ∃z (Btw(x, y, z) ∧ Red(x) ∧ Blu(z)))",
+
+  // Why is this true, but the previous is false?
+  fof"∀x (Blu(x) → ∃y ∃z (Btw(y, x, z) ∧ Red(y) ∧ Blu(z)))",
+  fof"∀x (∃y ∃z (Btw(x, y, z) ∧ Tri(y) ∧ Tri(z)) → Loc(x, e))",
   fof"∀x (∃y ∃z (Btw(x, y, z) ∧ Sqr(y) ∧ Sqr(z)) → x = b)",
   fof"∀x ∃y ∃z ((Btw(x, y, z) ∧ x = b) → (y = a ∨ y = c))",
-  fof"∀x ∀y ((Tri(x) ∧ Tri(y) ∧ Sml(x) ∧ Sml(y)) → x = y)", // Do you see what this says?
+
+  // Do you see what this says?
+  fof"∀x ∀y ((Tri(x) ∧ Tri(y) ∧ Sml(x) ∧ Sml(y)) → Loc(x, y))",
 
   // If you understand the previous one, you see why this is true as well.
-  fof"∀x ∀y ((Cir(x) ∧ Cir(y) ∧ Sml(x) ∧ Sml(y)) → x = y)",
+  fof"∀x ∀y ((Cir(x) ∧ Cir(y) ∧ Sml(x) ∧ Sml(y)) → Loc(x, y))",
 
   // This may look like a dumb thing to say, but make sure you understand it.
   // Why is it true?
@@ -36,16 +52,13 @@ val LeibnizSentences = Seq(
   // Play the game here too. Do you see why you can't win when committed to true?
   fof"∃y ∀x ((Sqr(x) ∧ Sml(x)) ↔ Loc(x, y))"
 
-  // In this slot, write a sentence that says there is exactly one large tetrahedron.
+  // In this slot, write a sentence that says there is exactly one large triangle.
   // Pattern it on the previous sentence.
-  // fof"∃y ∀x ((Tri(x) ∧ Big(x)) ↔ Loc(x, y))"
 )
 
 @main
 def runQ20 = runWorld(LeibnizWorld, LeibnizSentences)
 
 // Play the game here with various sentences.
-val sentenceQ20: FOLFormula = ??? // add sentence here
-
 @main
-def playQ20 = playGame(LeibnizWorld, sentenceQ20)
+def playQ20 = playGame(LeibnizWorld, ???) // add sentence here
