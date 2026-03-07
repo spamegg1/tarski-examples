@@ -1,5 +1,4 @@
-# 25 - It’s a small world after all
+# 25 - It's a small world after all
 
-- Create a world containing at most three objects
-  in which the nine sentences in Ockham’s Sentences are all true.
-- Save this world as World 3.25. We will be using it later.
+- Create a world of at most three objects in which `OckhamSentences` are all true.
+- Take a screenshot, and save this world as `worldQ25`. We will be using it later.
