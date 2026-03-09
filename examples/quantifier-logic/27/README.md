@@ -56,8 +56,8 @@ when you come across them in our first-order language.
 - Make sentences 10 and 11 true in a single world.
 - Sentence 12 is another way to assert that there is a unique circle.
   - That is, sentence 12 is equivalent to sentence 9. Can you see why?
-  - Check three worlds to see that the two sentences are true
-    in the same worlds: those in which there is a single circle.
+  - Check a world to see that the two sentences are true in the same world:
+    - a world in which there is a single circle.
 - Sentence 13 says that there are exactly two triangles.
   - Check that it is true in such worlds,
   - but false if there are fewer or more than two.
