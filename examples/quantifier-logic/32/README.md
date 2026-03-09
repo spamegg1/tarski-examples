@@ -14,11 +14,11 @@ Translate the following sentences by first giving a suitable English paraphrase.
 1. Only big objects have nothing below them.
 2. If a square has something below it, then it's small.
 3. Every square above a circle is also smaller than it.
-    [Warning: This is an example of what is known as a “donkey”
+    [Warning: This is an example of what is known as a "donkey"
     sentence, following a notorious example Every farmer who owns
     a donkey beats it. What makes such a sentence a bit tricky is the
     existential noun phrase in the relative clause which serves as the
-    antecedent of the pronoun “it” in the verb phrase. This combi-
+    antecedent of the pronoun "it" in the verb phrase. This combi-
     nation in effect forces us to translate the existential noun phrase
     with a universal quantifier. First, the donkey sentence would be
     paraphrased as For every farmer and every donkey, if the farmer

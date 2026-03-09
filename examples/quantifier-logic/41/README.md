@@ -9,7 +9,7 @@
 
 1. Every square is between a pair of circles.
 2. Every square to the right of a circle is smaller than it is.
-3. Cube a is not bigger than every circle.
+3. Sqr a is not bigger than every circle.
 4. No square is to the left of some circle.
 5. (At least) two squares are between (at least) two circles.
 

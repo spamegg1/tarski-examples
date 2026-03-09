@@ -17,7 +17,7 @@
 - If you have expressed yourself correctly,
 - there is very little you can do to Skolem's World
 - without making at least one of your sentences false.
-- Basically, all you can do is “stretch” things out, that is,
+- Basically, all you can do is "stretch" things out, that is,
 - move things apart while keeping them aligned.
 - To see this, try making the following changes.
 
