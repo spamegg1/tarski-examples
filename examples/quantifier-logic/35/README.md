@@ -8,14 +8,14 @@ Translate the following English sentences.
 
 1. There are at least two circles.
 2. There are at most two triangles.
-3. There are exactly two cubes.
+3. There are exactly two squares.
 4. There are only three things that are not small.
 5. The small triangle has nothing below it.
 6. The triangle with something below it is big.
-7. No circle is above the big cube.
-8. (??) The medium cube is to the right of the big cube.
-9. (??) The only thing with nothing to its right is the medium cube.
-10. (??) The smallest cube is medium.
+7. No circle is above the big square.
+8. (??) The medium square is to the right of the big square.
+9. (??) The only thing with nothing to its right is the medium square.
+10. (??) The smallest square is medium.
 
 - Save your list of sentences as Sentences 3.35.
 - Open Peano’s World.

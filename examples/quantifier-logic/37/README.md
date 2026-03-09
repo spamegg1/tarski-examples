@@ -5,17 +5,17 @@
 - Start a new sentence file where you will translate the following English sentences.
 - Again, be sure to check each to see that it is indeed a true sentence.
 
-1. Everything is either a cube or a triangle.
-2. Every cube is to the left of every triangle.
+1. Everything is either a square or a triangle.
+2. Every square is to the left of every triangle.
 3. There are at least three triangles.
-4. Every small cube is above a particular big cube.
+4. Every small square is above a particular big square.
 5. Every triangle is small.
 6. Every circle is smaller than some triangle. [Note: This is
   vacuously true in this world.]
 
 - Now let’s change the world so that none of the English sentences are true.
-- (We can do this by changing the big cube in front to a circle,
-- the big cube in back to a triangle,
+- (We can do this by changing the big square in front to a circle,
+- the big square in back to a triangle,
 - and deleting the two small triangles in the far right column.)
 - If your answers to 1–5 are correct,
 - all of your translations should be false as well.

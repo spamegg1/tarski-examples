@@ -4,12 +4,12 @@ When an English sentence contains more than one quantified noun phrase,
 translating it can seem quite confusing unless it is approached in a very
 systematic manner. It often helps to have a number of intermediate steps,
 where quantified noun phrases are treated one at a time. For example,
-suppose we wanted to translate the sentence Each cube is to the left of
-a triangle. Here, there are two quantified noun phrases: each cube
+suppose we wanted to translate the sentence Each square is to the left of
+a triangle. Here, there are two quantified noun phrases: each square
 and a triangle. We can start by dealing with the first noun phrase,
 temporarily treating the complex phrase is-to-the-left-of-a-triangle
 as a single unit. In other words, we can think of the sentence as a single
-quantifier sentence, on the order of Each cube is small. The translation
+quantifier sentence, on the order of Each square is small. The translation
 would look like this:
 
 ∀x (Cube(x) → x-is-to-the-left-of-a-triangle)
@@ -43,7 +43,7 @@ stages in this translation process.
   with a wff of first-order logic.
 
 The following explains how to do it for the first example:
-"Every cube is to the left of every triangle."
+"Every square is to the left of every triangle."
 Repeat for the rest of the sentences.
 
 - In the sentence window, you see the halfway completed translation,
@@ -55,15 +55,15 @@ Repeat for the rest of the sentences.
 - Once this is done, check to see if you have a well-formed sentence.
 - Does it look like a proper translation of the original English? It should.
 
-1. Every cube is to the left of every triangle.
-2. Every small cube is above a big cube.
-3. Some cube is below every triangle.
-4. A big cube is below a small cube.
+1. Every square is to the left of every triangle.
+2. Every small square is above a big square.
+3. Some square is below every triangle.
+4. A big square is below a small square.
 5. Nothing is bigger than everything.
-6. Every cube below every triangle is big.
-7. Everything to the right of a big cube is small.
-8. Nothing above a cube and below a cube is big.
-9. Anything with nothing above it is a cube.
+6. Every square below every triangle is big.
+7. Everything to the right of a big square is small.
+8. Nothing above a square and below a square is big.
+9. Anything with nothing above it is a square.
 10. Every circle is smaller than some triangle.
 
 - Save your list of sentences as Sentences 3.30.
