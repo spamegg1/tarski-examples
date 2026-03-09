@@ -18,15 +18,15 @@ Translate the following English sentences.
 10. (??) The smallest square is medium.
 
 - Save your list of sentences as Sentences 3.35.
-- Open Peano’s World.
+- Open Peano's World.
 - Note that all of the English sentences are true in this world.
 - Check to see that your translations are as well.
-- Open Bolzano’s World.
+- Open Bolzano's World.
 - Here sentences 1, 3, and 7 are the only true ones.
 - Verify that your translations have the right truth values in this world.
-- Open Skolem’s World.
+- Open Skolem's World.
 - Only sentences 5 and 7 are true in this world.
 - Check your translations.
-- Finally, open Montague’s World.
+- Finally, open Montague's World.
 - In this world, sentences 2, 3, 5, 7, and 10 are the only true ones.
 - Check your translations.

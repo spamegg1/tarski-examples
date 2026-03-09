@@ -12,7 +12,7 @@ and this is easily treated by the procedure.
 Translate the following sentences by first giving a suitable English paraphrase.
 
 1. Only big objects have nothing below them.
-2. If a square has something below it, then it’s small.
+2. If a square has something below it, then it's small.
 3. Every square above a circle is also smaller than it.
     [Warning: This is an example of what is known as a “donkey”
     sentence, following a notorious example Every farmer who owns
@@ -29,14 +29,14 @@ Translate the following sentences by first giving a suitable English paraphrase.
 5. If a triangle is between two objects, then they are both small.
 
 - Save your list of sentences as Sentences 3.32.
-- Open Ron’s World.
+- Open Ron's World.
 - Recall that there are lots of hidden things in this world.
 - Each of the above English sentences is true in this world,
 - so the same should hold of your translations.
 - Check to see that it does.
-- Now open Bolzano’s World.
+- Now open Bolzano's World.
 - In this world, only sentence 3 is true.
 - Check that the same holds of your translations.
-- Next open Wittgenstein’s World.
+- Next open Wittgenstein's World.
 - In this world, only the English sentence 5 is true.
 - Verify that your translations have the same truth values.

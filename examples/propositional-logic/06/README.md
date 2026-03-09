@@ -1,6 +1,6 @@
 # 06 - Describe a world
 
-1. Here is a picture of Boole’s World:
+1. Here is a picture of Boole's World:
 
    ![Boole](06.png)
 
@@ -26,12 +26,12 @@
 14. Notice a has the same tone as c and the same shape as b. State this fact.
 15. Notice d, e and f are all circles. State this as your 12th sentence.
 16. Run the world and evaluate the sentences, they have to be all true. Check this.
-17. Now let’s change the world so that none of the above mentioned facts hold.
+17. Now let's change the world so that none of the above mentioned facts hold.
     We can do this as follows.
 18. First move f to the bottom right corner of the grid.
 19. Then move e to the top left corner of the grid and make it big.
 20. Change either the tone or the shape of a to something else.
 21. Change at least one of d, e, or f to a shape that is not a circle.
 22. Now none of the facts hold;
-    if your answers to 4–15 are correct, all of the sentences should now be false.
+    if your answers to 4-15 are correct, all of the sentences should now be false.
 23. Verify that they are. If any are still true, can you figure out where you went wrong?

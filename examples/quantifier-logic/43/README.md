@@ -4,7 +4,7 @@ Translate the following into fol.
 Explain the meanings of the names, predicates, and function symbols
 you use, and comment on any shortcomings in your translations.
 
-1. There’s a sucker born every minute.
+1. There's a sucker born every minute.
 2. Whither thou goest, I will go.
 3. Soothsayers make a better living in the world than truthsayers.
 4. To whom nothing is given, nothing can be required.

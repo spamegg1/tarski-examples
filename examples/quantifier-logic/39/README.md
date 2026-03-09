@@ -1,6 +1,6 @@
 # 39 - More translations
 
-- The following English sentences are true in Gödel’s World.
+- The following English sentences are true in Gödel's World.
 - Translate them, and make sure your translations are also true.
 - Then modify the world in various ways,
 - and check that your translations track the truth value of the English sentence.

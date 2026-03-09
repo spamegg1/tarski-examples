@@ -1,7 +1,7 @@
 # 38 - More translations for practice
 
 This example is just to give you more practice translating sentences of various sorts.
-They are all true in Skolem’s World, in case you want to look while translating.
+They are all true in Skolem's World, in case you want to look while translating.
 Translate the following sentences.
 
 1. Not every square is smaller than every triangles.
@@ -17,10 +17,10 @@ Translate the following sentences.
 10. Nothing is the same size as two (or more) other things.
 11. Nothing is between objects of shapes other than its own.
 
-- Open Skolem’s World.
+- Open Skolem's World.
 - Notice that all of the above English sentences are true.
 - Verify that the same holds of your translations.
-- This time, rather than open other worlds, make changes to Skolem’s World
+- This time, rather than open other worlds, make changes to Skolem's World
 - and see that the truth value of your translations track that of the English sentence.
 - For example, consider sentence 5.
 - Add a small circle between the front two squares.

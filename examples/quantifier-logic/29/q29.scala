@@ -1,11 +1,8 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
-
-val worldQ29: Grid = Map(
-)
+import tarski.main.*
 
 val sentencesQ29 = Seq(
-  fof"" // ¬∧∨→↔∀∃
+  // add your sentences here! ¬∧∨→↔∀∃
 )
 
 @main
-def runQ29 = runWorld(worldQ29, sentencesQ29)
+def runQ29 = runWorld(PeanoWorld, sentencesQ29)

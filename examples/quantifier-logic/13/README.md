@@ -21,11 +21,11 @@
 5. Everything is in the same column as a, b, or c.
 6. There are no red squares or blue triangles.
 
-- Now let’s change the world so that none of the English sentences is true.
+- Now let's change the world so that none of the English sentences is true.
 - We can do this as follows. First change `b` into a medium square.
 - Next, delete `d` and move `b` to exactly the position just vacated by `d`.
 - Finally, add a small square (of any tone) to exactly where `b` used to sit.
-- If your answers to 1–6 are correct, all of the translations should now be false.
+- If your answers to 1-6 are correct, all of the translations should now be false.
 - Verify that they are.
 - Make various changes to the world, so that some of the
   English sentences come out true and some come out false.

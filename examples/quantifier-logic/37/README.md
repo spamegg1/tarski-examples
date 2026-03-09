@@ -1,6 +1,6 @@
 # 37 - Translation
 
-- Open Peirce’s World.
+- Open Peirce's World.
 - Look at it in 2-D to remind yourself of the hidden objects.
 - Start a new sentence file where you will translate the following English sentences.
 - Again, be sure to check each to see that it is indeed a true sentence.
@@ -13,11 +13,11 @@
 6. Every circle is smaller than some triangle. [Note: This is
   vacuously true in this world.]
 
-- Now let’s change the world so that none of the English sentences are true.
+- Now let's change the world so that none of the English sentences are true.
 - (We can do this by changing the big square in front to a circle,
 - the big square in back to a triangle,
 - and deleting the two small triangles in the far right column.)
-- If your answers to 1–5 are correct,
+- If your answers to 1-5 are correct,
 - all of your translations should be false as well.
 - If not, you have made a mistake in translation.
 - Make further changes, and check to see that the

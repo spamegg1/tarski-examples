@@ -20,7 +20,7 @@
 - But it is what we call a vacuously true generalization,
   since there are no objects that satisfy the antecedent.
   That is, there are no triangles at all, small, medium, or big.
-- Confirm that all of sentences 1–3 are vacuously true in the current world.
+- Confirm that all of sentences 1-3 are vacuously true in the current world.
 - Two more vacuously true sentences are given in sentences 4 and 5.
   However, these sentences are different in another respect.
 - Each of the first three sentences could have been non-vacuously true in a world,

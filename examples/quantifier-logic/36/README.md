@@ -1,7 +1,7 @@
 # 36 - Saying more complicated things
 
-- Open Skolem’s World.
-- Create a new sentence file and describe the following features of Skolem’s World.
+- Open Skolem's World.
+- Create a new sentence file and describe the following features of Skolem's World.
 
 1. Use your first sentence to say that there are only squares and triangles.
 2. Next say that there are exactly three squares.
@@ -15,7 +15,7 @@
 
 - Save your list of sentences as Sentences 3.36.
 - If you have expressed yourself correctly,
-- there is very little you can do to Skolem’s World
+- there is very little you can do to Skolem's World
 - without making at least one of your sentences false.
 - Basically, all you can do is “stretch” things out, that is,
 - move things apart while keeping them aligned.

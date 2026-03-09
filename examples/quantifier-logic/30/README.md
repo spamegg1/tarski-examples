@@ -33,7 +33,7 @@ though, you will be able to go through the intermediate steps in your
 head. This example is designed to give you a feel for the intermediate
 stages in this translation process.
 
-- Open Montague’s Sentences.
+- Open Montague's Sentences.
 - This file contains expressions that are halfway between English and first-order logic.
 - Our goal is to edit this file until it contains
   translations of the following English sentences.
@@ -67,16 +67,16 @@ Repeat for the rest of the sentences.
 10. Every circle is smaller than some triangle.
 
 - Save your list of sentences as Sentences 3.30.
-- Open Peirce’s World.
+- Open Peirce's World.
 - Notice that all the English sentences are true in this world.
 - Check to see that all of your translations are true as well.
 - If they are not, see if you can figure out where you went wrong.
-- Open Leibniz’s World.
+- Open Leibniz's World.
 - Note that the English sentences 5, 6, 8, and 10 are true in this world,
 - while the rest are false.
 - Verify that your translations have the same truth values.
 - If not, fix them.
-- Open Ron’s World.
+- Open Ron's World.
 - Here, the true sentences are 2, 3, 4, 5, and 8.
 - Check that your translations have the right values,
-- and correct them if they don’t.
+- and correct them if they don't.

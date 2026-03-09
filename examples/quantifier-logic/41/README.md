@@ -1,6 +1,6 @@
 # 41 - Ambiguity
 
-- Use Tarski’s World to create a new sentence file and
+- Use Tarski's World to create a new sentence file and
 - use it to translate the following sentences into fol.
 - Each of these sentences is ambiguous,
 - so you should have two different translations of each.
@@ -13,7 +13,7 @@
 4. No square is to the left of some circle.
 5. (At least) two squares are between (at least) two circles.
 
-- Now open Carroll’s World.
+- Now open Carroll's World.
 - Which of your sentences are true in this world?
 - You should find that exactly one translation of each sentence is true.
 - If not, you should correct one or both of your translations.

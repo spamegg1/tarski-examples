@@ -14,14 +14,14 @@ it is as big as the circle.
 ence between this sentence and the previous one. This one does not
 imply that b and c are big squares, while the previous sentence does.]
 
-- Open Ron’s World.
+- Open Ron's World.
 - Each of the above English sentences is true in this world,
 - so the same should hold of your translations.
 - Check to see that it does.
-- Now open Bolzano’s World.
+- Now open Bolzano's World.
 - In this world, only sentences 3 and 5 are true.
 - Check that the same holds of your translations.
-- Next open Wittgenstein’s World.
+- Next open Wittgenstein's World.
 - In this world, only the English sentences 2 and 3 are true.
 - Verify that your translations have the same truth values.
 - Submit your sentence file.

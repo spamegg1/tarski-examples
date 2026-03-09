@@ -40,14 +40,14 @@ This time each translation will contain exactly one ∀ and no ∃.
     using the English phrase "every square.")
 15. Something is a square if and only if it is not in the same column as either a or b.
 
-Now let’s check the translations in some worlds.
+Now let's check the translations in some worlds.
 
 - Open `ClaireWorld`.
 - Check to see that all the English sentences are true in this world,
 - then make sure the same holds of your translations.
 - If you have made any mistakes, fix them.
 - Adjust `ClaireWorld` by moving `a` directly below `c`.
-- Now, English sentences 2, 3, 6, and 12–15 are false, while the rest are true.
+- Now, English sentences 2, 3, 6, and 12-15 are false, while the rest are true.
 - Make sure that the same holds of your translations.
 - If not, try to figure out what is wrong and fix it.
 - Next, open `WittgensteinWorld`.
@@ -55,5 +55,5 @@ Now let’s check the translations in some worlds.
 - Check that the same holds for your translations.
 - If not, try to fix them.
 - Finally, open `VennWorld`.
-- English sentences 2, 4, 7, and 10–14 are true. What about your translations?
+- English sentences 2, 4, 7, and 10-14 are true. What about your translations?
 - When you are satisfied that your translations are correct, save your sentence file.
