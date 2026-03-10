@@ -9,7 +9,7 @@ val BuridanSentences = Seq(
   fof"More(a, b) ∧ ¬More(a, c)",
   fof"¬ ∃x Sml(x)",
   fof"∀x (¬Sml(x) → ¬Sqr(x))",
-  fof"Tri(a) ∧ Cir(b) ∧ Cir(c) ∧ Red(a) ∧ Tone(b, c)",
+  fof"Tri(a) ∧ Cir(b) ∧ Cir(c) ∧ Red(a) ∧ Ton(b, c)",
   fof"∃x (Cir(x) ∧ ∃y ∃z (Tri(y) ∧ Tri(z) ∧ Btw(x, y, z)))",
   fof"∀x (Mid(x) → ∃y Bel(x, y))",
   fof"∀x (∃y Bel(x, y) → Mid(x))",

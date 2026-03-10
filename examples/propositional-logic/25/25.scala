@@ -7,7 +7,7 @@ val GentzenSentences2 = Seq(
   // add here! ¬∧∨
   fof"(Tri(a) ∨ Sqr(b) ∨ Lim(c)) ∧ ¬(Blu(b) ∧ Big(f))",
   // add here! ¬∧∨
-  fof"¬(Bel(b,c) ∧ Row(b,c)) ∨ (Tone(b,c) ∧ Adj(b,c))",
+  fof"¬(Bel(b,c) ∧ Row(b,c)) ∨ (Ton(b,c) ∧ Adj(b,c))",
   // add here! ¬∧∨
   fof"(Cir(f) ∧ Red(d)) ∨ (Big(b) ∧ (Size(b,c) ∨ ¬Big(f)))"
   // add here! ¬∧∨

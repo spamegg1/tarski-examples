@@ -11,7 +11,7 @@ val BernaysSentences = Seq(
   // add sentence here! ¬∧∨→↔
   fof"Shp(a,b)",
   // add sentence here! ¬∧∨→↔
-  fof"Tone(a, b)",
+  fof"Ton(a, b)",
   // add sentence here! ¬∧∨→↔
   fof"Abv(c,b)",
   // add sentence here! ¬∧∨→↔

@@ -7,7 +7,7 @@ val RebusSentences = Seq(
   fof"Btw(a, b, c)",
   fof"¬Adj(e, f)",
   fof"Col(b,e) ∨ Col(c,e)",
-  fof"Btw(f,e,d) ∧ Tone(e,d)"
+  fof"Btw(f,e,d) ∧ Ton(e,d)"
 )
 
 val RebusWorld: Grid = Map(

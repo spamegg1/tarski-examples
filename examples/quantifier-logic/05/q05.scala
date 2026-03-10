@@ -18,7 +18,7 @@ val MaigretSentences = Seq(
   fof"∃x Left(x, d) ↔ Big(b)",
   fof"∃x ∃y (¬Tri(x) ∧ ¬Tri(y) ∧ Btw(b,x,y))",
   fof"Bel(d,b) ∧ Left(d,f)",
-  fof"Cir(e) ∧ Lim(f) ∧ Tone(b,a)",
+  fof"Cir(e) ∧ Lim(f) ∧ Ton(b,a)",
   fof"¬ ∃x Left(x,e) ∨ Big(e)"
 )
 

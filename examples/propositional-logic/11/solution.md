@@ -14,7 +14,7 @@ val sentences11 = Seq(
   fof"Sqr(d) ↔ (Mid(d) ∨ Big(d))",
   fof"(¬Rgt(b, d) ∧ ¬Left(b, d)) → (Tri(b) ∨ Tri(d))",
   fof"Size(b, c) ↔ ((Tri(b) ∧ Cir(c)) ∨ (Tri(c) ∧ Cir(b)))",
-  fof"¬Tone(a, b) → Tone(c, d)",
+  fof"¬Ton(a, b) → Ton(c, d)",
   fof"Red(a) ↔ (Blu(b) ∧ Blu(c))"
 )
 ```

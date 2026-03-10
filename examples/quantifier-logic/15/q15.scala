@@ -36,7 +36,7 @@ val PeanoSentences2 = Seq(
   fof"∀x ∀y ((Sqr(x) ∧ Sqr(y)) → ¬Row(x, y))", // you may want to play the game for this.
   fof"∀x ∀y ((Cir(x) ∧ Cir(y)) → Size(x, y))",
   fof"∀x ∀y ((Tri(x) ∧ Tri(y)) → ¬Size(x, y))",
-  fof"∀x ∀y ((Cir(x) ∧ Cir(y)) → Tone(x, y))",
+  fof"∀x ∀y ((Cir(x) ∧ Cir(y)) → Ton(x, y))",
   fof"∀x ∀y ((Blu(x) ∧ Red(y)) → ¬Bel(x, y))"
 )
 

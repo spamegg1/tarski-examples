@@ -14,7 +14,7 @@ val OckhamSentences = Seq(
   fof"∃x ∃y (Sqr(x) ∧ Tri(y) ∧ Left(x, y) ∧ Less(x, y))",
   fof"∃x ∃y (Sml(x) ∧ Big(y) ∧ ∀z (Btw(z, x, y) ↔ Sqr(z)))",
   fof"∀x (Sml(x) ↔ ∀y (y != x → Left(x, y)))",
-  fof"∃x ∃y ∃z (¬Tone(x, y) ∧ ¬Tone(y, z) ∧ ¬Tone(x, z))"
+  fof"∃x ∃y ∃z (¬Ton(x, y) ∧ ¬Ton(y, z) ∧ ¬Ton(x, z))"
 )
 
 @main

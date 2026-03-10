@@ -14,7 +14,7 @@ val SherlockSentences = Seq(
   fof"Cir(b) ↔ Cir(c)",
   fof"Sqr(b) ↔ Sqr(c)",
   fof"Tri(a) ∧ ¬Tri(b)",
-  fof"¬Tone(a, b) ∧ ¬Tone(c, b)",
+  fof"¬Ton(a, b) ∧ ¬Ton(c, b)",
   fof"Bel(a, b) → (Bel(b, c) ∨ Bel(c, b))",
   fof"Left(a, c) → ¬Left(a, b)",
   fof"Abv(b, a) ↔ Abv(c, b)",

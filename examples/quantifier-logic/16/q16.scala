@@ -8,7 +8,7 @@ val RamseySentences1 = Seq(
   fof"Sqr(c) ∧ Sqr(d) ∧ Bel(c, d)",
   fof"Sqr(c) → Tri(a)", // name one of your earlier blocks "a".
   fof"Sqr(d) ∧ Sqr(e) ∧ ¬More(d, e)",
-  fof"Red(e) ∧ Tone(d, b) ∧ ¬Tone(c, a)", // name one of your earlier blocks "b".
+  fof"Red(e) ∧ Ton(d, b) ∧ ¬Ton(c, a)", // name one of your earlier blocks "b".
   fof"∃x (Sqr(x) ∧ ¬Loc(x, d) ∧ ¬Loc(x, e))",
   // Re-position things to make this true without adding new blocks.
   fof"∃x (Tri(x) ∧ Btw(x, c, d))",

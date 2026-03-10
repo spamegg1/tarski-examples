@@ -15,9 +15,9 @@ fof"Tri(a) → Tri(b)",
   fof"Shp(d, e)",
   fof"Big(f) → (Sqr(f) ∨ Cir(f))",
   fof"More(c,e) → More(b,c)",
-  fof"Tone(c,f) ∧ ¬Tone(a,b)",
+  fof"Ton(c,f) ∧ ¬Ton(a,b)",
   fof"Lim(d) -> Red(e)",
-  fof"Tone(a,e) ↔ Tone(d,b)"
+  fof"Ton(a,e) ↔ Ton(d,b)"
 ```
 
 Here is a world where they are all true:

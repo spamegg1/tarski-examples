@@ -14,7 +14,7 @@ val sentences06 = Seq(
   fof"Bel(c, f) ∧ Less(c, f)",
   fof"Row(b, a) ∧ ¬Col(b, f)",
   fof"¬Col(e, c) ∧ ¬Col(e, d)",
-  fof"Tone(a, c) ∧ Shp(a, b)",
+  fof"Ton(a, c) ∧ Shp(a, b)",
   fof"Cir(d) ∧ Cir(e) ∧ Cir(f)"
 )
 ```
