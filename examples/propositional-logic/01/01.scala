@@ -31,8 +31,8 @@ val WittgenSteinSentencesA = Seq(
   fof"Left(a, a)",
   fof"Rgt(a, b)",
   fof"Rgt(b, d)",
-  fof"Size(d, f)",
-  fof"Size(b, c)"
+  fof"Siz(d, f)",
+  fof"Siz(b, c)"
 )
 
 val WittgenSteinSentencesB = Seq(

@@ -12,10 +12,10 @@ val AbelardSentences = Seq(
   fof"Sqr(d) → Tri(f)",
   fof"Cir(d) → Tri(f)",
   fof"Cir(d) → Sqr(f)",
-  fof"Size(a, b) → Row(a, b)",
-  fof"Size(c, b) → Size(a, c)", // change first a to c
-  fof"Size(a, c) → Size(a, b)",
-  fof"Size(a, c) → Size(a, d)",
+  fof"Siz(a, b) → Row(a, b)",
+  fof"Siz(c, b) → Siz(a, c)", // change first a to c
+  fof"Siz(a, c) → Siz(a, b)",
+  fof"Siz(a, c) → Siz(a, d)",
   fof"(Tri(a) ∧ Sqr(c)) → Cir(e)", // change d to e
   fof"Left(a, b) → Rgt(b, a)",
   fof"Left(e, d) → Rgt(d, e)",

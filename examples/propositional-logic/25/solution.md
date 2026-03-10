@@ -14,8 +14,8 @@ val GentzenSentences2 = Seq(
   fof"¬(¬(Tri(a) ∨ Sqr(b) ∨ Lim(c)) ∨ ¬(¬Blu(b) ∨ ¬Big(f)))",
   fof"¬(Bel(b,c) ∧ Row(b,c)) ∨ (Ton(b,c) ∧ Adj(b,c))",
   fof"(¬Bel(b,c) ∨ ¬Row(b,c)) ∨ ¬(¬Ton(b,c) ∨ ¬Adj(b,c))",
-  fof"(Cir(f) ∧ Red(d)) ∨ (Big(b) ∧ (Size(b,c) ∨ ¬Big(f)))",
-  fof"¬(¬Cir(f) ∨ ¬Red(d)) ∨ ¬(¬Big(b) ∨ ¬(Size(b,c) ∨ ¬Big(f)))",
+  fof"(Cir(f) ∧ Red(d)) ∨ (Big(b) ∧ (Siz(b,c) ∨ ¬Big(f)))",
+  fof"¬(¬Cir(f) ∨ ¬Red(d)) ∨ ¬(¬Big(b) ∨ ¬(Siz(b,c) ∨ ¬Big(f)))",
 )
 ```
 

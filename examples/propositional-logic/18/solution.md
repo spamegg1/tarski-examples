@@ -4,8 +4,8 @@
 val GentzenSentences = Seq(
   fof"Tri(a) → Sqr(b)",
   fof"¬Tri(a) ∨ Sqr(b)",
-  fof"(Sml(a) ∨ ¬Cir(b)) → (Size(c,d) ∧ Less(a,c))",
-  fof"¬(Sml(a) ∨ ¬Cir(b)) ∨ (Size(c,d) ∧ Less(a,c))",
+  fof"(Sml(a) ∨ ¬Cir(b)) → (Siz(c,d) ∧ Less(a,c))",
+  fof"¬(Sml(a) ∨ ¬Cir(b)) ∨ (Siz(c,d) ∧ Less(a,c))",
   fof"Adj(a,b) ↔ Btw(e,d,f)",
   fof"(¬Adj(a,b) ∨ Btw(e,d,f)) ∧ ((¬Btw(e,d,f) ∨ Adj(a,b)))",
   fof"(Blu(a) ∧ Red(b)) ↔ Lim(c)",

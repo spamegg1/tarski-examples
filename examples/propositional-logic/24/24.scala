@@ -9,7 +9,7 @@ val GentzenSentences1 = Seq(
   // add here! ¬∧∨
   fof"¬(Bel(b,c) ∧ Row(b,c)) ∨ (Ton(b,c) ∧ Adj(b,c))",
   // add here! ¬∧∨
-  fof"(Cir(f) ∧ Red(d)) ∨ (Big(b) ∧ (Size(b,c) ∨ ¬Big(f)))"
+  fof"(Cir(f) ∧ Red(d)) ∨ (Big(b) ∧ (Siz(b,c) ∨ ¬Big(f)))"
   // add here! ¬∧∨
 )
 

@@ -9,8 +9,8 @@ val BernaysSentences = Seq(
   fof"Col(d,b)",
   fof"¬Left(a,b) ∧ ¬Rgt(a,b)", // also ¬Left(a,b) ∧ ¬Left(b,a), or ¬Rgt(a,b) ∧ ¬Rgt(b,a)
   fof"a = d",
-  fof"Size(a,d) ∧ Shape(a,d) ∧ Ton(a,d)", // does Row(a,d)∧Col(a,d) work? Why or why not?
-  fof"Size(a,b)",
+  fof"Siz(a,d) ∧ Shape(a,d) ∧ Ton(a,d)", // does Row(a,d)∧Col(a,d) work? Why or why not?
+  fof"Siz(a,b)",
   fof"¬More(a,b) ∧ ¬Less(a,b)", // also ¬More(a,b) ∧ ¬More(b,a), ¬Less(b,a) ∧ ¬Less(a,b)
   // also (Sml(a) ↔ Sml(b)) ∧ (Mid(a) ↔ Mid(b)) ∧ (Big(a) ↔ Big(b))
   fof"Shp(a,b)",
