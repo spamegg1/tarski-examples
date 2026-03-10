@@ -1,3 +1,3 @@
 //> using scala 3.8.2
 //> using toolkit 0.9.1
-//> using dep io.github.spamegg1::tarski:0.2.2
+//> using dep io.github.spamegg1::tarski:0.2.3
