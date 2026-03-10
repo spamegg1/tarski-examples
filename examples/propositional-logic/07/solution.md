@@ -13,7 +13,7 @@ val sentences07 = Seq(
   fof"¬Btw(c, a, b) ∧ ¬Bel(c, a) ∧ ¬Bel(c, b)",
   fof"(Tri(a) ∧ Tri(e)) ∨ (Tri(a) ∧ Tri(f))",
   fof"¬Bel(d, c) ∧ ¬Bel(d, b) ∧ ¬Bel(c, c) ∧ ¬Bel(c, b)",
-  fof"Btw(c, d, f) ∨ (Less(c, d) ∧ Less(c, f))",
+  fof"Btw(c, d, f) ∨ (Les(c, d) ∧ Les(c, f))",
   fof"¬Row(b, c)",
   fof"Col(b, e) ∧ Row(e, d) ∧ Col(d, a)"
 )

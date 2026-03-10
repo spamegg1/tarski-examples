@@ -13,7 +13,7 @@ val BozoSentences2 = Seq(
   fof"∀x ∀y ((Sqr(x) ∧ Sqr(y) ∧ x != y) → ∃z (Tri(z) ∧ Btw(z, x, y)))",
   fof"∀x ∀y ((Blu(x) ∧ Blu(y) ∧ x != y) → ∃z (Red(z) ∧ Btw(z, x ,y)))",
   fof"∀x ∀y ((Red(x) ∧ Big(x) ∧ Sml(y)) → Bel(y, x))",
-  fof"¬ ∃x ∃y (Cir(x) ∧ Cir(y) ∧ Less(x, y))",
+  fof"¬ ∃x ∃y (Cir(x) ∧ Cir(y) ∧ Les(x, y))",
   fof"∀x (Mid(x) ∧ Sqr(x) → Tri(x) ∧ Red(x))",
   fof"∃x ∃y (Sqr(x) ∧ Sqr(y) ∧ ∀z (Btw(z, x, y) ↔ Loc(z, b)))",
   fof"∀x ∃y ¬Adj(x, y)",

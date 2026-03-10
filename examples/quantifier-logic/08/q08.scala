@@ -17,7 +17,7 @@ val BozoSentences2 = Seq(
   // Help Bozo say that unequal blue blocks have a red block between them.
   fof"∀x ∀y (Blue(x) ∧ Blue(y) ∧ x != y → ∃z Red(z) ∧ Btw(z,x,y))",
   fof"∀x ((Red(x) ∧ Big(x) ∧ Sml(y)) → Bel(y, x))",
-  fof"∃x, y (Cir(x) ∧ Cir(y) ∧ Less(x, y))",
+  fof"∃x, y (Cir(x) ∧ Cir(y) ∧ Les(x, y))",
   // Bozo wants to say that all mid-size squares are red triangles.
   fof"∀x (Mid(x) ∨ Sqr(x) → Tri(x) ∨ Red(x))",
   // Help Bozo say that there are two squares that have only b between them.

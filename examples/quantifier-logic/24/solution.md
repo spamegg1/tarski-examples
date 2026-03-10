@@ -6,23 +6,23 @@ Initial evaluation:
 
 The false sentences are:
 
-- ∃x ∀y Less(x, y)
+- ∃x ∀y Les(x, y)
   - This is false because it says that there is a block smaller than all blocks.
   - This can never be true in *any world* because
     - "all blocks" i.e. the y in ∀y also includes the specific block x in ∃x and
     - a block cannot be smaller than itself.
-  - We can add a negation sign in front of Less(x, y) to make this true.
+  - We can add a negation sign in front of Les(x, y) to make this true.
     - Now the existential is satisfied by either one of the two big blocks:
       - at (2, 0) or
       - at (2, 4).
-- ∃x (Cir(x) ∧ ∀y Less(x, y))
+- ∃x (Cir(x) ∧ ∀y Les(x, y))
   - This is false because it says there is a circle smaller than all blocks.
   - Similar to the previous sentence, it can never be true in any world.
-  - We have to add a negation to ∀y Less(x, y).
+  - We have to add a negation to ∀y Les(x, y).
   - Now the existential is satisfied by any one of the circles.
-- ∃y ∀x (Cir(x) → Less(y, x))
+- ∃y ∀x (Cir(x) → Les(y, x))
   - False because it says there is a block smaller than all circles.
-  - All the circles in `PeanoWorld` are small, so we have to negate Less(y, x).
+  - All the circles in `PeanoWorld` are small, so we have to negate Les(y, x).
   - Now the existential is satisfied by any block.
   - If we try to negate Cir(x) instead,
     now it says there is a block smaller than all non-circles.
@@ -33,14 +33,14 @@ The false sentences are:
   - Notice that mid square is at the top, so there is nothing above it.
   - We can negate Big(x), now the only x satisfying it is the mid square.
   - And there is nothing above it, so the whole sentence is true.
-- ∃x (Sqr(x) ∧ ∀y (Less(y, x) → Cir(y)))
+- ∃x (Sqr(x) ∧ ∀y (Les(y, x) → Cir(y)))
   - False because it says that there is a square such that
     everything smaller than it must be a circle.
   - However there is a small triangle near the bottom at (6, 3)
     and the only two squares are mid or big.
   - We can negate Sqr(x) to make this true.
   - Now the existential is satisfied by any one of the small blocks.
-  - However, this way the ∀y (Less(y, x) → Cir(y)) part is only vacuously true.
+  - However, this way the ∀y (Les(y, x) → Cir(y)) part is only vacuously true.
   - Can it be made nonvacuously true?
   - No, because if we try to satisfy the existential with a mid or big block,
     the small triangle at (6, 3) is a counterexample to the universal.
@@ -80,20 +80,20 @@ Here are the corrected sentences, all true:
 
 ```scala
 val HilbertSentences = Seq(
-  fof"∃x ∀y ¬ Less(x, y)", // changed
-  fof"∀x (Cir(x) → ∃y Less(x, y))",
-  fof"∃x (Cir(x) ∧ ¬ ∀y Less(x, y))", // changed
-  fof"∃y ∀x (Cir(x) → Less(x, y))",
-  fof"∃y ∀x (Cir(x) → ¬Less(y, x))", // changed
-  fof"∃y ∀x (Cir(x) → ¬Less(x, y))",
+  fof"∃x ∀y ¬ Les(x, y)", // changed
+  fof"∀x (Cir(x) → ∃y Les(x, y))",
+  fof"∃x (Cir(x) ∧ ¬ ∀y Les(x, y))", // changed
+  fof"∃y ∀x (Cir(x) → Les(x, y))",
+  fof"∃y ∀x (Cir(x) → ¬Les(y, x))", // changed
+  fof"∃y ∀x (Cir(x) → ¬Les(x, y))",
   fof"∀x ((Sqr(x) ∧ Mid(x)) → ¬ ∃y Abv(y, x))",
   fof"∀x ((Sqr(x) ∧ Mid(x)) → ∃y ¬Abv(y, x))",
   fof"∀x ((Sqr(x) ∧ ¬Big(x)) → ¬ ∃y Abv(y, x))", // changed
   fof"∀x ((Sqr(x) ∧ Big(x)) → ∃y ¬Abv(y, x))",
   fof"∃x (Tri(x) ∧ ∀y (Sqr(y) → Abv(y, x)))",
   fof"∃x (Tri(x) ∧ ∀y (Abv(y, x) → Sqr(y)))",
-  fof"∃x (Sqr(x) ∧ ∀y (Cir(y) → Less(y, x)))",
-  fof"∃x (¬Sqr(x) ∧ ∀y (Less(y, x) → Cir(y)))", // changed
+  fof"∃x (Sqr(x) ∧ ∀y (Cir(y) → Les(y, x)))",
+  fof"∃x (¬Sqr(x) ∧ ∀y (Les(y, x) → Cir(y)))", // changed
   fof"∀x ((Tri(x) ∧ ¬ ∃y Bel(x, y)) → Sml(x))", // changed
   fof"∀x (¬ ∃y Abv(y, x) → Sqr(x))",
   fof"∀x (¬ ∃y ¬Bel(y, x) → Tri(x))", // changed

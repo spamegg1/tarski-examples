@@ -1,9 +1,9 @@
 # 04 - Solution
 
-1. `~Mid(c) & Less(c, a)` is `false`
-    - can be made `true` by adding parentheses: `~(Mid(c) & Less(c, a))`
+1. `~Mid(c) & Les(c, a)` is `false`
+    - can be made `true` by adding parentheses: `~(Mid(c) & Les(c, a))`
     - so it becomes the same as the next sentence.
-2. `~(Mid(c) & Less(c, a))` is `true`
+2. `~(Mid(c) & Les(c, a))` is `true`
 3. `~Sqr(d) | Tri(f)` is `true`
 4. `~(Sqr(d) | Tri(f))` is `false`:
     - can be made `true` by deleting parentheses: `~Sqr(d) | Tri(f)`
@@ -31,6 +31,6 @@
     - cannot be made `true` with parentheses!
     - It's a chain of conjunctions, so no matter how we place parentheses,
       they are logically equivalent.
-19. `Less(c, e) | ~(Sqr(a) | Sqr(d))` is `true`
+19. `Les(c, e) | ~(Sqr(a) | Sqr(d))` is `true`
 20. `~(~Cir(e) | ~ ~Tri(f))` is `false`
     - can be made true by removing parentheses: `~ ~Cir(e) | ~ ~Tri(f)`

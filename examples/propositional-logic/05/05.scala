@@ -9,7 +9,7 @@ val QuinnSentences = Seq(
   fof"¬Sqr(b) ∨ (Sqr(d) ∧ Abv(d, b))",
   fof"(Sml(c) ∧ Bel(c, b)) ∨ Sqr(d)",
   fof"More(f, a) ∧ More(a, b) ∧ Ton(a, f)",
-  fof"¬(Less(c, a) ∨ Less(a, c)) ∧ ¬Ton(a, c)",
+  fof"¬(Les(c, a) ∨ Les(a, c)) ∧ ¬Ton(a, c)",
   fof"More(d, b) ∧ More(f, d) ∧ ¬(More(e, d) ∨ More(d, e))"
 )
 

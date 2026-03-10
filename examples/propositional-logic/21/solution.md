@@ -10,8 +10,8 @@ val TuringSentences = Seq(
   fof"¬Sqr(a) ∧ More(b, a)",
   fof"¬(¬Sqr(a) ∨ ¬More(a, b) ∨ a != b)",
   fof"Sqr(a) ∧ More(a, b) ∧ a = b",
-  fof"¬(Tri(b) ∨ (Big(c) ∧ ¬Less(d, e)))",
-  fof"¬Tri(b) ∧ (¬Big(c) ∨ Less(d, e))",
+  fof"¬(Tri(b) ∨ (Big(c) ∧ ¬Les(d, e)))",
+  fof"¬Tri(b) ∧ (¬Big(c) ∨ Les(d, e))",
   fof"Cir(f) ∨ ¬(Tri(b) ∨ ¬Tri(f) ∨ ¬Cir(f))",
   fof"Cir(f) ∨ (¬Tri(b) ∧ Tri(f) ∧ Cir(f))"
 )

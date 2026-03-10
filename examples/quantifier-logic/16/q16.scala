@@ -12,7 +12,7 @@ val RamseySentences1 = Seq(
   fof"∃x (Sqr(x) ∧ ¬Loc(x, d) ∧ ¬Loc(x, e))",
   // Re-position things to make this true without adding new blocks.
   fof"∃x (Tri(x) ∧ Btw(x, c, d))",
-  fof"∃x ∃y (Btw(a, x, y) ∧ More(a, x) ∧ Less(a, y))",
+  fof"∃x ∃y (Btw(a, x, y) ∧ More(a, x) ∧ Les(a, y))",
   fof"∃x (Sqr(x) ∧ (Big(x) ∨ (¬Loc(x, c) ∧ ¬Loc(x, d))))",
   fof"∃x ∃y ∃z (Sqr(x) ∧ Cir(y) ∧ Cir(z) ∧ Btw(y, x, z) ∧ Left(x, z))"
 )

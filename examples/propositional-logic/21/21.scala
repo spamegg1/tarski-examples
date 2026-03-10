@@ -11,7 +11,7 @@ val TuringSentences = Seq(
   // add negation normal form here!
   fof"¬(¬Sqr(a) ∨ ¬More(a, b) ∨ a != b)",
   // The NNF of this one will have no negation signs in it!
-  fof"¬(Tri(b) ∨ (Big(c) ∧ ¬Less(d, e)))",
+  fof"¬(Tri(b) ∨ (Big(c) ∧ ¬Les(d, e)))",
   // add negation normal form here!
   fof"Cir(f) ∨ ¬(Tri(b) ∨ ¬Tri(f) ∨ ¬Cir(f))"
   // add negation normal form here!

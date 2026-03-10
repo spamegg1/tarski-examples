@@ -11,7 +11,7 @@ val MontagueSentences = Seq(
   fof"∀x (∃y (Big(y) ∧ Sqr(y) ∧ Rgt(x, y)) → Sml(x))",
   fof"∀x ((∃y (Sqr(y) ∧ Abv(x, y)) ∧ ∃z (Sqr(z) ∧ Bel(x, z))) → ¬Big(x))",
   fof"∀x (¬ ∃y Abv(y, x) → Sqr(x))",
-  fof"∀x (Cir(x) → ∃y (Tri(y) ∧ Less(x, y)))"
+  fof"∀x (Cir(x) → ∃y (Tri(y) ∧ Les(x, y)))"
 )
 ```
 

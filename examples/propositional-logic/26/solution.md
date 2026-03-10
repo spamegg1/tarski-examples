@@ -11,7 +11,7 @@ val BernaysSentences = Seq(
   fof"a = d",
   fof"Siz(a,d) ∧ Shape(a,d) ∧ Ton(a,d)", // does Row(a,d)∧Col(a,d) work? Why or why not?
   fof"Siz(a,b)",
-  fof"¬More(a,b) ∧ ¬Less(a,b)", // also ¬More(a,b) ∧ ¬More(b,a), ¬Less(b,a) ∧ ¬Less(a,b)
+  fof"¬More(a,b) ∧ ¬Les(a,b)", // also ¬More(a,b) ∧ ¬More(b,a), ¬Les(b,a) ∧ ¬Les(a,b)
   // also (Sml(a) ↔ Sml(b)) ∧ (Mid(a) ↔ Mid(b)) ∧ (Big(a) ↔ Big(b))
   fof"Shp(a,b)",
   fof"(Tri(a) ↔ Tri(b)) ∧ (Sqr(a) ↔ Sqr(b)) ∧ (Cir(a) ↔ Cir(b))",
@@ -24,7 +24,7 @@ val BernaysSentences = Seq(
   fof"Mid(c)",
   fof"¬Sml(c) ∧ ¬Big(c)",
   fof"More(a,b)",
-  fof"Less(b,a)", // also (Big(a) ∧ Mid(b)) ∨ (Big(a) ∧ Sml(b)) ∨ (Mid(a) ∧ Sml(b))
+  fof"Les(b,a)", // also (Big(a) ∧ Mid(b)) ∨ (Big(a) ∧ Sml(b)) ∨ (Mid(a) ∧ Sml(b))
   fof"Sqr(a)",
   fof"¬Tri(a) ∧ ¬Cir(a)"
 )

@@ -7,8 +7,8 @@ Here's what we get:
 
 ```scala
 val GentzenSentences1 = Seq(
-  fof"¬(More(a,b) ∧ Less(a,b)) ∨ Btw(a,b,c)",
-  fof"¬((More(a,b) ∧ Less(a,b)) ∧ ¬Btw(a,b,c))",
+  fof"¬(More(a,b) ∧ Les(a,b)) ∨ Btw(a,b,c)",
+  fof"¬((More(a,b) ∧ Les(a,b)) ∧ ¬Btw(a,b,c))",
   fof"¬(Shp(a,c) ∨ Abv(b,c)) ∧ Adj(b,c)",
   fof"(¬Shp(a,c) ∧ ¬Abv(b,c)) ∧ Adj(b,c)",
   fof"(Tri(a) ∨ Sqr(b) ∨ Lim(c)) ∧ ¬(Blu(b) ∧ Big(f))",

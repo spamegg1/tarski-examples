@@ -17,7 +17,7 @@ each followed by an empty sentence position.
 1. ¬(Sqr(a) ∧ More(a, b))
 2. ¬(Sqr(a) ∨ ¬More(b, a))
 3. ¬(¬Sqr(a) ∨ ¬More(a, b) ∨ a != b)
-4. ¬(Tri(b) ∨ (Big(c) ∧ ¬Less(d, e)))
+4. ¬(Tri(b) ∨ (Big(c) ∧ ¬Les(d, e)))
 5. Cir(f) ∨ ¬(Tri(b) ∨ ¬Tri(f) ∨ ¬Cir(f))
 
 - In the empty positions, write the negation normal form of the sentence above it.

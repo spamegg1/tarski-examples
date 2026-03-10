@@ -53,19 +53,19 @@ Finally replace the conditional in Tri(a) → More(a,b):
 
 Consider:
 
-Rgt(a,b) ↔ (Left(a,b) ↔ Less(a,a))
+Rgt(a,b) ↔ (Left(a,b) ↔ Les(a,a))
 
 First replace the first biconditional:
 
-(Rgt(a,b) → (Left(a,b) ↔ Less(a,a))) ∧
-((Left(a,b) ↔ Less(a,a)) → Rgt(a,b))
+(Rgt(a,b) → (Left(a,b) ↔ Les(a,a))) ∧
+((Left(a,b) ↔ Les(a,a)) → Rgt(a,b))
 
 Now replace the biconditional Left ↔ Less
 
-(Rgt(a,b) → ((Left(a,b) → Less(a,a)) ∧ (Less(a,a) → Left(a,b)))) ∧
-(((Left(a,b) → Less(a,a)) ∧ (Less(a,a) → Left(a,b))) → Rgt(a,b))
+(Rgt(a,b) → ((Left(a,b) → Les(a,a)) ∧ (Les(a,a) → Left(a,b)))) ∧
+(((Left(a,b) → Les(a,a)) ∧ (Les(a,a) → Left(a,b))) → Rgt(a,b))
 
 Now replace the conditionals
 
-(¬Rgt(a,b) ∨ ((¬Left(a,b) ∨ Less(a,a)) ∧ (¬Less(a,a) ∨ Left(a,b)))) ∧
-(¬((¬Left(a,b) ∨ Less(a,a)) ∧ (¬Less(a,a) ∨ Left(a,b))) ∨ Rgt(a,b))
+(¬Rgt(a,b) ∨ ((¬Left(a,b) ∨ Les(a,a)) ∧ (¬Les(a,a) ∨ Left(a,b)))) ∧
+(¬((¬Left(a,b) ∨ Les(a,a)) ∧ (¬Les(a,a) ∨ Left(a,b))) ∨ Rgt(a,b))
