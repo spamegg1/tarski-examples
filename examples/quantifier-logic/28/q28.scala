@@ -10,7 +10,7 @@ val RussellSentences = Seq(
   fof"∃x ((Cir(x) ∧ Red(x)) ∧ ∀y ((Cir(y) ∧ Red(y)) → Loc(x, y)) ∧ x = b)",
   fof"∃x ((Cir(x) ∧ Mid(x)) ∧ ∀y ((Cir(y) ∧ Mid(y)) → Loc(x, y)) ∧ x = c)",
   fof"Abv(b, a) ∧ Bel(c, a)",
-  fof"Left(b, c)"
+  fof"Lft(b, c)"
 )
 
 @main

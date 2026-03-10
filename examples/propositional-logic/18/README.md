@@ -31,41 +31,41 @@ the expressive power of the language (but while sacrificing convenience.)
 
 Consider:
 
-(Tri(a) → Mor(a,b)) ↔ (Left(b,c) ∨ ¬Bel(b,c))
+(Tri(a) → Mor(a,b)) ↔ (Lft(b,c) ∨ ¬Bel(b,c))
 
 We will replace the redundant conditionals.
 First we replace the biconditional A ↔ B in the middle by using (A → B) ∧ (B → A):
 
-((Tri(a) → Mor(a,b)) → (Left(b,c) ∨ ¬Bel(b,c))) ∧
-((Left(b,c) ∨ ¬Bel(b,c)) → (Tri(a) → Mor(a,b)))
+((Tri(a) → Mor(a,b)) → (Lft(b,c) ∨ ¬Bel(b,c))) ∧
+((Lft(b,c) ∨ ¬Bel(b,c)) → (Tri(a) → Mor(a,b)))
 
 Now replace the conditionals in A → B and in B → A with ¬A ∨ B and ¬B ∨ A:
 
-(¬(Tri(a) → Mor(a,b)) ∨ (Left(b,c) ∨ ¬Bel(b,c))) ∧
-(¬(Left(b,c) ∨ ¬Bel(b,c)) ∨ (Tri(a) → Mor(a,b)))
+(¬(Tri(a) → Mor(a,b)) ∨ (Lft(b,c) ∨ ¬Bel(b,c))) ∧
+(¬(Lft(b,c) ∨ ¬Bel(b,c)) ∨ (Tri(a) → Mor(a,b)))
 
 Finally replace the conditional in Tri(a) → Mor(a,b):
 
-(¬(¬Tri(a) ∨ Mor(a,b)) ∨ (Left(b,c) ∨ ¬Bel(b,c))) ∧
-(¬(Left(b,c) ∨ ¬Bel(b,c)) ∨ (¬Tri(a) ∨ Mor(a,b)))
+(¬(¬Tri(a) ∨ Mor(a,b)) ∨ (Lft(b,c) ∨ ¬Bel(b,c))) ∧
+(¬(Lft(b,c) ∨ ¬Bel(b,c)) ∨ (¬Tri(a) ∨ Mor(a,b)))
 
 ### Second example
 
 Consider:
 
-Rgt(a,b) ↔ (Left(a,b) ↔ Les(a,a))
+Rgt(a,b) ↔ (Lft(a,b) ↔ Les(a,a))
 
 First replace the first biconditional:
 
-(Rgt(a,b) → (Left(a,b) ↔ Les(a,a))) ∧
-((Left(a,b) ↔ Les(a,a)) → Rgt(a,b))
+(Rgt(a,b) → (Lft(a,b) ↔ Les(a,a))) ∧
+((Lft(a,b) ↔ Les(a,a)) → Rgt(a,b))
 
 Now replace the biconditional Left ↔ Less
 
-(Rgt(a,b) → ((Left(a,b) → Les(a,a)) ∧ (Les(a,a) → Left(a,b)))) ∧
-(((Left(a,b) → Les(a,a)) ∧ (Les(a,a) → Left(a,b))) → Rgt(a,b))
+(Rgt(a,b) → ((Lft(a,b) → Les(a,a)) ∧ (Les(a,a) → Lft(a,b)))) ∧
+(((Lft(a,b) → Les(a,a)) ∧ (Les(a,a) → Lft(a,b))) → Rgt(a,b))
 
 Now replace the conditionals
 
-(¬Rgt(a,b) ∨ ((¬Left(a,b) ∨ Les(a,a)) ∧ (¬Les(a,a) ∨ Left(a,b)))) ∧
-(¬((¬Left(a,b) ∨ Les(a,a)) ∧ (¬Les(a,a) ∨ Left(a,b))) ∨ Rgt(a,b))
+(¬Rgt(a,b) ∨ ((¬Lft(a,b) ∨ Les(a,a)) ∧ (¬Les(a,a) ∨ Lft(a,b)))) ∧
+(¬((¬Lft(a,b) ∨ Les(a,a)) ∧ (¬Les(a,a) ∨ Lft(a,b))) ∨ Rgt(a,b))

@@ -5,10 +5,10 @@ Here are the sentences:
 ```scala
 val sentences12 = Seq(
   fof"Tri(a) → Bel(a, d)",
-  fof"(Left(a,d) ∨ Rgt(a,d)) → Sqr(a)",
+  fof"(Lft(a,d) ∨ Rgt(a,d)) → Sqr(a)",
   fof"Btw(c,a,e) ∨ Btw(c,a,d)",
   fof"Sml(c) → Rgt(c, a)",
-  fof"Rgt(c,d) → (Rgt(b,c) ∧ Left(b,e))",
+  fof"Rgt(c,d) → (Rgt(b,c) ∧ Lft(b,e))",
   fof"Tri(e) → (Rgt(e,b) ↔ Bel(e,b))",
   fof"Cir(b) → (¬Bel(b,d) → ¬Abv(b,d))",
   fof"Abv(c,a) ∧ Bel(c,e)",

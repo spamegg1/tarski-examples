@@ -12,7 +12,7 @@ val ArnaultSentences = Seq(
   fof"∃x ∃y (¬Loc(x, y) ∧ ∀w ((w = x ∨ w = y) → ∀z ¬Abv(z, w)))",
   fof"∀x (Sqr(x) ↔ ∃y (Tri(y) ∧ Abv(y, x)))",
   fof"∀x ∀y (Mor(x, y) → ∃z Btw(x, y, z))",
-  fof"¬ ∀x ∀y (Left(x, y) ∨ Rgt(x, y))",
+  fof"¬ ∀x ∀y (Lft(x, y) ∨ Rgt(x, y))",
   fof"∃x ∃y ¬(Bel(x, y) ∨ Abv(x, y))"
 )
 

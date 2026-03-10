@@ -3,7 +3,7 @@ import tarski.main.*, Sizes.*, Shape.*, Tone.*
 val RebusSentences = Seq(
   fof"Sqr(a) ∧ Sqr(b) ∧ Sqr(c)",
   fof"Cir(e) ∧ Cir(f)",
-  fof"Left(a,b) → (Left(e,f) ∨ Left(f,e))",
+  fof"Lft(a,b) → (Lft(e,f) ∨ Lft(f,e))",
   fof"Btw(a, b, c)",
   fof"¬Adj(e, f)",
   fof"Col(b,e) ∨ Col(c,e)",

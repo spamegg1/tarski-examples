@@ -29,9 +29,9 @@ After editing the sentences (all true):
 
 In `PeanoSentences2`, the false sentences are:
 
-- ∀x ((Sqr(x) ∧ Mid(x)) → ∀y Left(y, x)) (no. 1)
+- ∀x ((Sqr(x) ∧ Mid(x)) → ∀y Lft(y, x)) (no. 1)
   - can be made true with:
-  - ∀x ((Sqr(x) ∧ Mid(x)) → ∀y (Left(y, x) → x != y))
+  - ∀x ((Sqr(x) ∧ Mid(x)) → ∀y (Lft(y, x) → x != y))
 - ∀x ((Tri(x) ∧ Sml(x)) → ∀y Bel(x, y)) (no. 3)
   - can be made true with:
   - ∀x ((Tri(x) ∧ Sml(x)) → ∀y (¬Row(x, y) → Bel(x, y)))

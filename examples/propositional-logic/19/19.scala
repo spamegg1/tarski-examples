@@ -15,8 +15,8 @@ val DeMorganSentences = Seq(
   fof"¬Sml(b) ∨ ¬Sqr(b)",
   fof"¬Bel(c,b) ∧ ¬Abv(c,b)",
   fof"¬(Bel(c,b) ∨ Abv(c,b))",
-  fof"¬Left(b,c) ∨ ¬Left(c,a)",
-  fof"¬(Left(b,c) ∧ Left(c,a))"
+  fof"¬Lft(b,c) ∨ ¬Lft(c,a)",
+  fof"¬(Lft(b,c) ∧ Lft(c,a))"
 )
 
 @main

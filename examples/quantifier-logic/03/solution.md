@@ -13,9 +13,9 @@ val BernsteinSentences = Seq(
   fof"∃u (Sml(u) ∧ Sqr(u))",              // add missing paren at the end
   fof"¬ ∃x (Mor(a, x) ∧ Mor(x, a))",
   fof"∀w (Row(w, b) → Row(b, w))",
-  fof"∀x ∀y ∀z (Left(x,y) ∧ Left(y,z) → Left(x,z))",
+  fof"∀x ∀y ∀z (Lft(x,y) ∧ Lft(y,z) → Lft(x,z))",
   fof"∀x ∀y (Mor(a, b) → Sqr(x) ∧ Cir(y))",
-  fof"∀x ∀y (Sqr(x) ∧ Sqr(y) → Left(x, y))",
+  fof"∀x ∀y (Sqr(x) ∧ Sqr(y) → Lft(x, y))",
   fof"∀x (Sqr(x) → ∃y Btw(x, x, y))"      // change ∃ variable to y
 )
 ```

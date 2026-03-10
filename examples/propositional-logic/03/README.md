@@ -4,7 +4,7 @@ Some of the following are not well-formed sentences:
 
 1. Sqr(a) ∧ Sqr(b) ∨ Cir(e)
 2. Tri(b) ∧ Sml(a) → Abv(a b)
-3. Sqr(c  ∧ Sml(c) ∧ Left(c, b)
+3. Sqr(c  ∧ Sml(c) ∧ Lft(c, b)
 4. Tri(a) → Sml(a) ∨ Mid(a)
 5. Tri(a) ↔ Sqr(b) ↔ Cir(c)
 6. Btw(cba

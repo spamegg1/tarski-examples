@@ -24,12 +24,12 @@ at least if we pretend that x is a name.
 It has the same general form as the sentence "b is to the left of a triangle",
 and would be translated as:
 
-∃y (Tri(y) ∧ Left(x, y))
+∃y (Tri(y) ∧ Lft(x, y))
 
 Substituting this in the above, we get the desired
 translation of the original English sentence:
 
-∀x (Sqr(x) → ∃y (Tri(y) ∧ Left(x, y)))
+∀x (Sqr(x) → ∃y (Tri(y) ∧ Lft(x, y)))
 
 This multi-step process usually makes translation of multiple quantifier
 sentences much easier than if we tried it in a single blow.
@@ -53,7 +53,7 @@ Repeat for the rest of the sentences.
 - together with some blanks that need to be replaced by wffs.
 - Commented out below this, you will find an intermediate "sentence."
 - Make sure you understand how we got to this intermediate stage of the translation.
-- Then complete the translation by replacing the blank with ∀y (Tri(y) → Left(x, y)).
+- Then complete the translation by replacing the blank with ∀y (Tri(y) → Lft(x, y)).
 - Once this is done, check to see if you have a well-formed sentence.
 - Does it look like a proper translation of the original English? It should.
 

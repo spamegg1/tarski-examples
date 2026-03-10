@@ -13,7 +13,7 @@ val SchönfinkelSentences = Seq(
   fof"∀x Sqr(a)",
   fof"∀x ∃y Tri(y) → ∀x Sml(x)",
   fof"∀x ∃y ((Tri(x) ∧ Tri(y)) → ∀x ∃y ∀z Btw(z,x,y))",
-  fof"∃x (Tri(x) ∧ Big(x)) → ∀x ∃y Left(x,y)"
+  fof"∃x (Tri(x) ∧ Big(x)) → ∀x ∃y Lft(x,y)"
 )
 ```
 

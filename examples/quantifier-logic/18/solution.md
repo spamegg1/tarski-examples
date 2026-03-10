@@ -16,7 +16,7 @@ the only big square is `e`. We can make it false by adding a big square:
 
 ![q18b](q18b.png)
 
-Sentence 13: ∀x ¬Left(x, d) says there is nothing to the left of `d`.
+Sentence 13: ∀x ¬Lft(x, d) says there is nothing to the left of `d`.
 We can make this false by adding a block to the left of `d`:
 
 ![q18c](q18c.png)
@@ -39,7 +39,7 @@ because it says that for any two triangles that are not identical,
 one of them must be `a`. Previously there were 2 triangles `a` and `b`,
 and now there is a third one, therefore the sentence is false.
 
-Sentence 16: ∀x ((Left(x, a) ∧ ¬Sqr(x)) → (Tri(x) ∧ Sml(x))) says that
+Sentence 16: ∀x ((Lft(x, a) ∧ ¬Sqr(x)) → (Tri(x) ∧ Sml(x))) says that
 any block to the left of `a` that is not a square must be a small triangle.
 We can make this false by adding a non-square to the left of `a` that is not small:
 

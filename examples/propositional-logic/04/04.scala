@@ -11,14 +11,14 @@ val BooleSentences = Seq(
   fof"~Sqr(d) & ~Sqr(f)",
   fof"~Sqr(d) | ~Sqr(f)",
   fof"~(Sqr(d) | Sqr(f))",
-  fof"~(Left(c, f) | Rgt(c, f))",
-  fof"~(Left(a, d) | Rgt(a, d))",
+  fof"~(Lft(c, f) | Rgt(c, f))",
+  fof"~(Lft(a, d) | Rgt(a, d))",
   fof"Tri(a) | (Tri(f) & Tri(c))",
   fof"(Tri(a) | Tri(f)) & Tri(c)",
   fof"Cir(a) | Cir(b) | Cir(c)",
-  fof"Left(a, c) & Left(c, b) & ~Btw(c, a, b)",
+  fof"Lft(a, c) & Lft(c, b) & ~Btw(c, a, b)",
   fof"~ ~(Abv(e, b) & ~Bel(c, b))",
-  fof"Abv(d, a) & Left(d, e) & Bel(b, e) & Btw(c, d, b)",
+  fof"Abv(d, a) & Lft(d, e) & Bel(b, e) & Btw(c, d, b)",
   fof"Les(c, e) | ~(Sqr(a) | Sqr(d))",
   fof"~(~Cir(e) | ~ ~Tri(f))"
 )

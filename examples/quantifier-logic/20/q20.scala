@@ -13,10 +13,10 @@ val LeibnizSentences = Seq(
   // Why is this false, but the previous one is true? Play committed to true.
   fof"∀x (∃y ∃z Btw(x, y, z) → ¬Big(x))",
   fof"∀x (∃y ∃z Btw(x, y, z) → Tri(x))",
-  fof"∀x (¬ ∃y Left(y, x) → x = a)",
+  fof"∀x (¬ ∃y Lft(y, x) → x = a)",
 
   // Why is this true, but the previous one is false?
-  fof"∀x (¬ ∃y Left(y, x) ∧ ¬ ∃y Bel(y, x) → x = a)",
+  fof"∀x (¬ ∃y Lft(y, x) ∧ ¬ ∃y Bel(y, x) → x = a)",
   fof"∀x (Red(x) → ∃y ∃z (Btw(x, y, z) ∧ Blu(x) ∧ Blu(z)))",
   fof"∀x (Red(x) → ∃y ∃z (Btw(x, y, z) ∧ Red(x) ∧ Red(z)))",
 

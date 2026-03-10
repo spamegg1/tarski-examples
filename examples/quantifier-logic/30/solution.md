@@ -2,7 +2,7 @@
 
 ```scala
 val MontagueSentences = Seq(
-  fof"∀x (Sqr(x) → ∀y (Tri(y) → Left(x, y)))",
+  fof"∀x (Sqr(x) → ∀y (Tri(y) → Lft(x, y)))",
   fof"∀x ((Sqr(x) ∧ Sml(x)) → ∃y (Big(y) ∧ Sqr(y) ∧ Abv(x, y)))",
   fof"∃x (Sqr(x) ∧ ∀y (Tri(y) → Bel(x, y)))",
   fof"∃x (Sqr(x) ∧ Big(x) ∧ ∃y (Sml(y) ∧ Sqr(y) ∧ Bel(x, y)))",

@@ -19,7 +19,7 @@ val SchönfinkelSentences = Seq(
   // and does not bind "x" (out of scope).
   fof"∀x Tri(y) → Sml(x)",
   fof"((Tri(x) ∧ Tri(y)) → Btw(z,x,y))",
-  fof"(Tri(x) ∧ Big(x)) → Left(x,y)"
+  fof"(Tri(x) ∧ Big(x)) → Lft(x,y)"
 )
 
 @main

@@ -15,7 +15,7 @@ val BernaysSentences = Seq(
   // add sentence here! ¬∧∨→↔
   fof"Abv(c,b)",
   // add sentence here! ¬∧∨→↔
-  fof"Left(a,b)",
+  fof"Lft(a,b)",
   // add sentence here! ¬∧∨→↔
   fof"Mid(c)",
   // add sentence here! ¬∧∨→↔

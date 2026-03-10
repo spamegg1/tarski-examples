@@ -4,10 +4,10 @@
 val sentencesQ12 = Seq(
   fof"∀x (Sqr(x) → Sml(x) ∧ Blu(x))",        // All squares are small and blue.
   fof"∀x (Sqr(x) ∧ Sml(x) → Rgt(x, a))",     // Each small square is to the right of a.
-  fof"∀x (Blu(x) ∨ Lim(x) → Left(a, x))",    // a is to the left of every blue block and every red block.
+  fof"∀x (Blu(x) ∨ Lim(x) → Lft(a, x))",    // a is to the left of every blue block and every red block.
   fof"∀x (Mid(x) ∧ Tri(x) → Bel(x, b))",     // Every medium triangle is below b.
   fof"∀x (Sqr(x) → Bel(x, b) ∨ Abv(x, a))",  // Each square is either below b or above a.
-  fof"∀x (Sqr(x) → Rgt(x, a) ∧ Left(x, b))", // Every square is to the right of a and to the left of b.
+  fof"∀x (Sqr(x) → Rgt(x, a) ∧ Lft(x, b))", // Every square is to the right of a and to the left of b.
   fof"∀x (Btw(x, a, b) → Sqr(x))",           // Everything between a and b is a square.
   fof"∀x (Les(x, a) → Blu(x))",             // Everything smaller than a is blue.
   fof"∀x (Cir(x) → ¬Sml(x))",                // No circle is small.

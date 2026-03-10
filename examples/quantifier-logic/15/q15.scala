@@ -21,8 +21,8 @@ val PeanoSentences1 = Seq(
 )
 
 val PeanoSentences2 = Seq(
-  fof"∀x ((Sqr(x) ∧ Mid(x)) → ∀y Left(y, x))", // understand the difference from next one
-  fof"∀x ((Sqr(x) ∧ Mid(x)) → ∀y (y != x → Left(y, x)))",
+  fof"∀x ((Sqr(x) ∧ Mid(x)) → ∀y Lft(y, x))", // understand the difference from next one
+  fof"∀x ((Sqr(x) ∧ Mid(x)) → ∀y (y != x → Lft(y, x)))",
   fof"∀x ((Tri(x) ∧ Sml(x)) → ∀y Bel(x, y))",
   fof"∀x ((Tri(x) ∧ Sml(x)) → ∀y (y != x → Bel(x, y)))",
   fof"∀x ((Tri(x) ∧ Sml(x)) → ∀y ¬Bel(y, x))",
@@ -32,7 +32,7 @@ val PeanoSentences2 = Seq(
   fof"∃x ∃y (Tri(x) ∧ Tri(y) ∧ ∃z (Cir(z) ∧ Btw(z,x,y)))",
   fof"∃x ∃y (Lim(x) ∧ Blu(y) ∧ ∃z (Red(z) ∧ Btw(x, y, z)))",
   fof"∀x ∀y ((Sqr(x) ∧ Tri(y)) → (Bel(x, y) ∨ Bel(y, x)))",
-  fof"∀x ∀y ((Sqr(x) ∧ Tri(y)) → (Left(x, y) ∨ Left(y, x)))",
+  fof"∀x ∀y ((Sqr(x) ∧ Tri(y)) → (Lft(x, y) ∨ Lft(y, x)))",
   fof"∀x ∀y ((Sqr(x) ∧ Sqr(y)) → ¬Row(x, y))", // you may want to play the game for this.
   fof"∀x ∀y ((Cir(x) ∧ Cir(y)) → Siz(x, y))",
   fof"∀x ∀y ((Tri(x) ∧ Tri(y)) → ¬Siz(x, y))",

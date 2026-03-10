@@ -1,7 +1,7 @@
 import tarski.main.*
 
 val CNFSentences = Seq(
-  fof"(Left(a, b) ∨ Abv(a, b)) ∧ Sqr(a)",
+  fof"(Lft(a, b) ∨ Abv(a, b)) ∧ Sqr(a)",
   // add disjunctive normal form here!
   fof"Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ a = b)",
   // add disjunctive normal form here!

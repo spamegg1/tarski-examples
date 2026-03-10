@@ -4,8 +4,8 @@ Here are the sentences with their disjunctive normal form equivalents:
 
 ```scala
 val CNFSentences = Seq(
-  fof"(Left(a, b) ∨ Abv(a, b)) ∧ Sqr(a)",
-  fof"(Left(a, b) ∧ Sqr(a)) ∨ (Abv(a, b) ∧ Sqr(a))",
+  fof"(Lft(a, b) ∨ Abv(a, b)) ∧ Sqr(a)",
+  fof"(Lft(a, b) ∧ Sqr(a)) ∨ (Abv(a, b) ∧ Sqr(a))",
   fof"Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ a = b)",
   fof"(Mor(a, b) ∧ Sqr(a)) ∨ (Mor(a, b) ∧ Tri(a)) ∨ (Mor(a, b) ∧ a = b)",
   fof"(Btw(a, b, c) ∨ Tri(a) ∨ ¬Tri(b)) ∧ Cir(c)",

@@ -17,9 +17,9 @@ val AbelardSentences = Seq(
   fof"Siz(a, c) → Siz(a, b)",
   fof"Siz(a, c) → Siz(a, d)",
   fof"(Tri(a) ∧ Sqr(c)) → Cir(e)", // change d to e
-  fof"Left(a, b) → Rgt(b, a)",
-  fof"Left(e, d) → Rgt(d, e)",
-  fof"(Left(e, c) ∧ Left(c, b)) → Btw(c, a, b)", // change first a to e
+  fof"Lft(a, b) → Rgt(b, a)",
+  fof"Lft(e, d) → Rgt(d, e)",
+  fof"(Lft(e, c) ∧ Lft(c, b)) → Btw(c, a, b)", // change first a to e
   fof"Sqr(c) → (Big(c) → (Sqr(c) ∧ Big(c)))",
   fof"¬(Tri(a) → Big(a)) → (Tri(a) ∧ ¬Big(a))",
   fof"Big(d) ↔ Sml(a)",

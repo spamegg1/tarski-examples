@@ -2,7 +2,7 @@
 
 - `Tri(b) ∧ Sml(a) → Abv(a b)` is not well-formed.
   - We can make it well-formed by adding a comma: `Abv(a, b)`.
-- `Sqr(c  ∧ Sml(c) ∧ Left(c, b)` is not well-formed.
+- `Sqr(c  ∧ Sml(c) ∧ Lft(c, b)` is not well-formed.
   - We can make it well-formed by closing the parentheses: `Sqr(c)`.
 - `Btw(cba` is not well-formed.
   - We can make it well-formed as: `Btw(c, b, a)`.
@@ -19,8 +19,8 @@
       It evaluates to `true`.
   - `Tri(b) ∧ (Sml(a) → Abv(a, b))`, which evaluates to `false`!
 - The third can be parenthesized in two ways, but they are logically equivalent:
-  - `Sqr(c) ∧ (Sml(c) ∧ Left(c, b))`
-  - `(Sqr(c) ∧ Sml(c)) ∧ Left(c, b)`
+  - `Sqr(c) ∧ (Sml(c) ∧ Lft(c, b))`
+  - `(Sqr(c) ∧ Sml(c)) ∧ Lft(c, b)`
   - The parser drops parentheses entirely.
 - The fourth can be parenthesized in two ways:
   - `(Tri(a) → Sml(a)) ∨ Mid(a)` which evaluates to `true`.

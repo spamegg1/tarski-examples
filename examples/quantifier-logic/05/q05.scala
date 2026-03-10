@@ -15,11 +15,11 @@ val MaigretSentences = Seq(
   fof"Btw(c,a,d) ∧ ¬Tri(c)",
   fof"∃x Abv(x, a) ∧ ∃x Bel(x, c)",
   fof"Bel(a,c) ∧ ¬ ∃x(Abv(x,a) ∧ Bel(x,c))",
-  fof"∃x Left(x, d) ↔ Big(b)",
+  fof"∃x Lft(x, d) ↔ Big(b)",
   fof"∃x ∃y (¬Tri(x) ∧ ¬Tri(y) ∧ Btw(b,x,y))",
-  fof"Bel(d,b) ∧ Left(d,f)",
+  fof"Bel(d,b) ∧ Lft(d,f)",
   fof"Cir(e) ∧ Lim(f) ∧ Ton(b,a)",
-  fof"¬ ∃x Left(x,e) ∨ Big(e)"
+  fof"¬ ∃x Lft(x,e) ∨ Big(e)"
 )
 
 @main

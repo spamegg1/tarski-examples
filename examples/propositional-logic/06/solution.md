@@ -5,7 +5,7 @@ Here are the sentences:
 ```scala
 val sentences06 = Seq(
   fof"¬Bel(f, a)",
-  fof"Rgt(f, a) ∧ Left(f, b)",
+  fof"Rgt(f, a) ∧ Lft(f, b)",
   fof"Abv(f, a) ∨ Les(f, a)",
   fof"Btw(e, c, a) ∧ Btw(d, c, a)",
   fof"¬Mor(e, c) ∧ ¬Mor(d, c)",

@@ -13,7 +13,7 @@ val BuridanSentences = Seq(
   fof"∃x (Cir(x) ∧ ∃y ∃z (Tri(y) ∧ Tri(z) ∧ Btw(x, y, z)))",
   fof"∀x (Mid(x) → ∃y Bel(x, y))",
   fof"∀x (∃y Bel(x, y) → Mid(x))",
-  fof"∀x (Left(x, c) → (Cir(x) ∨ Big(x)))",
+  fof"∀x (Lft(x, c) → (Cir(x) ∨ Big(x)))",
   fof"∀x (∃y Abv(x, y) → (x = a ∨ x = b ∨ x = c))"
 )
 

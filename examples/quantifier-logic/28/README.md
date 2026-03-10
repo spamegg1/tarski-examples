@@ -36,6 +36,6 @@ If we fully wrote it out long hand, without resorting to named objects, it would
   (Cir(x) ∧ Red(x)) ∧ ∀y ((Cir(y) ∧ Red(y)) → Loc(x, y)) "x is the (unique) red circle"
   ∧ ∃z (
     (Cir(z) ∧ Mid(z)) ∧ ∀u ((Cir(u) ∧ Mid(u)) → Loc(z, u)) "z is the (unique) mid circle"
-    ∧ Left(x, z)  "the red circle is to the left of the mid circle"
+    ∧ Lft(x, z)  "the red circle is to the left of the mid circle"
   )
 )

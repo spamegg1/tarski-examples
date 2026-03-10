@@ -7,7 +7,7 @@ val BernaysSentences = Seq(
   fof"Row(a,b)",
   fof"¬Bel(a,b) ∧ ¬Abv(a,b)", // also ¬Bel(a,b) ∧ ¬Bel(b,a), or ¬Abv(b,a) ∧ ¬Abv(a,b)
   fof"Col(d,b)",
-  fof"¬Left(a,b) ∧ ¬Rgt(a,b)", // also ¬Left(a,b) ∧ ¬Left(b,a), or ¬Rgt(a,b) ∧ ¬Rgt(b,a)
+  fof"¬Lft(a,b) ∧ ¬Rgt(a,b)", // also ¬Lft(a,b) ∧ ¬Lft(b,a), or ¬Rgt(a,b) ∧ ¬Rgt(b,a)
   fof"a = d",
   fof"Siz(a,d) ∧ Shape(a,d) ∧ Ton(a,d)", // does Row(a,d)∧Col(a,d) work? Why or why not?
   fof"Siz(a,b)",
@@ -19,8 +19,8 @@ val BernaysSentences = Seq(
   fof"(Lim(a) ↔ Lim(b)) ∧ (Red(a) ↔ Red(b)) ∧ (Blu(a) ↔ Blu(b))",
   fof"Abv(c,b)",
   fof"Bel(c,b)", // also ¬Bel(c,b) ∧ Row(c,b), ¬Abv(b,c) ∧ Row(c,b)
-  fof"Left(a,b)",
-  fof"Rgt(b,a)", // also ¬Left(b,a) ∧ Col(b,a), ¬Rgt(a,b) ∧ Col(a,b)
+  fof"Lft(a,b)",
+  fof"Rgt(b,a)", // also ¬Lft(b,a) ∧ Col(b,a), ¬Rgt(a,b) ∧ Col(a,b)
   fof"Mid(c)",
   fof"¬Sml(c) ∧ ¬Big(c)",
   fof"Mor(a,b)",
