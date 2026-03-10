@@ -16,7 +16,7 @@ each followed by an empty sentence position.
 
 1. ¬(Sqr(a) ∧ Mor(a, b))
 2. ¬(Sqr(a) ∨ ¬Mor(b, a))
-3. ¬(¬Sqr(a) ∨ ¬Mor(a, b) ∨ a != b)
+3. ¬(¬Sqr(a) ∨ ¬Mor(a, b) ∨ ¬Eq(a, b))
 4. ¬(Tri(b) ∨ (Big(c) ∧ ¬Les(d, e)))
 5. Cir(f) ∨ ¬(Tri(b) ∨ ¬Tri(f) ∨ ¬Cir(f))
 
@@ -31,7 +31,7 @@ each followed by an empty sentence position.
 - Save the modified sentences in `TuringSentences`.
 
 (Recall that equality `=` means "value equality", a.k.a. equality:
-`a = b` if the blocks labeled `a` and `b` are equal in size, shape and tone.
+`Eq(a, b)` if the blocks labeled `a` and `b` are equal in size, shape and tone.
 This is in contrast to "reference equality" `Loc`, a.k.a. identity:
 `Loc(x,y)` means that `x` and `y` have the same row and column on the board,
 in other words they refer to the same one block.)

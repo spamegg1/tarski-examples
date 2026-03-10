@@ -6,9 +6,9 @@ val RussellSentences = Seq(
   fof"∃x (Sqr(x) ∧ ∀y (Sqr(y) → Loc(x, y)))",
   fof"∃x (Sqr(x) ∧ ∀y (Sqr(y) → Loc(x, y)) ∧ Red(x))",
   fof"∃x (Tri(x) ∧ ∀y (Tri(y) → Loc(x, y)) ∧ Big(x))",
-  fof"∃x (Tri(x) ∧ ∀y (Tri(y) → Loc(x, y)) ∧ x = a)",
-  fof"∃x ((Cir(x) ∧ Red(x)) ∧ ∀y ((Cir(y) ∧ Red(y)) → Loc(x, y)) ∧ x = b)",
-  fof"∃x ((Cir(x) ∧ Mid(x)) ∧ ∀y ((Cir(y) ∧ Mid(y)) → Loc(x, y)) ∧ x = c)",
+  fof"∃x (Tri(x) ∧ ∀y (Tri(y) → Loc(x, y)) ∧ Eq(x, a))",
+  fof"∃x ((Cir(x) ∧ Red(x)) ∧ ∀y ((Cir(y) ∧ Red(y)) → Loc(x, y)) ∧ Eq(x, b))",
+  fof"∃x ((Cir(x) ∧ Mid(x)) ∧ ∀y ((Cir(y) ∧ Mid(y)) → Loc(x, y)) ∧ Eq(x, c))",
   fof"Abv(b, a) ∧ Bel(c, a)",
   fof"Lft(b, c)"
 )

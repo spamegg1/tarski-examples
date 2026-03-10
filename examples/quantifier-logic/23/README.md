@@ -3,7 +3,7 @@
 - Show that the following sentence is independent of those in `BuridanSentences`,
 - that is, neither it nor its negation is a consequence of those sentences:
 
-    `∃x ∃y (x != y ∧ Tri(x) ∧ Tri(y) ∧ Mid(x) ∧ Mid(y))`
+    `∃x ∃y (¬Eq(x, y) ∧ Tri(x) ∧ Tri(y) ∧ Mid(x) ∧ Mid(y))`
 
 - You will do this by building two worlds:
   - one in which this sentence is false (call this `worldQ23a`)

@@ -33,7 +33,7 @@ when you come across them in our first-order language.
     ∃x ∃y ∃z (¬Loc(x,y) ∧ ¬Loc(x,z) ∧ ¬Loc(y,z) ∧ ∀u (Loc(u,x) ∨ Loc(u,y) ∨ Loc(u,z)))
   - This says there are exactly three non-identical blocks (placed at different positions).
   - A similar but different statement is:
-    ∃x ∃y ∃z (x != y ∧ x != z ∧ y != z ∧ ∀u (u = x ∨ u = y ∨ u = z)).
+    ∃x ∃y ∃z (¬Eq(x, y) ∧ ¬Eq(x, z) ∧ ¬Eq(y, z) ∧ ∀u (Eq(u, x) ∨ Eq(u, y) ∨ Eq(u, z))).
     - This says there are three unequal blocks and every block is equal to one of them.
     - Notice how this does not restrict the number of blocks to be exactly 3.
     - There could be tens of objects as long as they are equal (in shape, size, tone)

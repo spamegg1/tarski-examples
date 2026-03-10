@@ -3,7 +3,7 @@ import tarski.main.*
 val CNFSentences = Seq(
   fof"(Lft(a, b) ∨ Abv(a, b)) ∧ Sqr(a)",
   // add disjunctive normal form here!
-  fof"Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ a = b)",
+  fof"Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ Eq(a, b))",
   // add disjunctive normal form here!
   fof"(Btw(a, b, c) ∨ Tri(a) ∨ ¬Tri(b)) ∧ Cir(c)",
   // add disjunctive normal form here!

@@ -1,7 +1,7 @@
 import tarski.main.*
 
 val BozoSentences2 = Seq(
-  fof"a = c",
+  fof"Eq(a, c)",
   fof"a = u",
   fof"u = u",
   // Bozo wants to say there is a block between any two non-identical squares.
@@ -13,9 +13,9 @@ val BozoSentences2 = Seq(
   fof"Sqr(x) → ¬ Mid(x)", // Bozo wants to say that no squares are medium.
   fof"Tri(x) → Red(x)",   // Bozo wants to say all triangles are red.
   // Help Bozo say that unequal squares have a triangle between them.
-  fof"∀x ∀y (Sqr(x) ∧ Sqr(v) ∧ x != y → ∃z Tri(z) ∧ Btw(z x y))",
+  fof"∀x ∀y (Sqr(x) ∧ Sqr(v) ∧ ¬Eq(x, y) → ∃z Tri(z) ∧ Btw(z x y))",
   // Help Bozo say that unequal blue blocks have a red block between them.
-  fof"∀x ∀y (Blue(x) ∧ Blue(y) ∧ x != y → ∃z Red(z) ∧ Btw(z,x,y))",
+  fof"∀x ∀y (Blue(x) ∧ Blue(y) ∧ ¬Eq(x, y) → ∃z Red(z) ∧ Btw(z,x,y))",
   fof"∀x ((Red(x) ∧ Big(x) ∧ Sml(y)) → Bel(y, x))",
   fof"∃x, y (Cir(x) ∧ Cir(y) ∧ Les(x, y))",
   // Bozo wants to say that all mid-size squares are red triangles.

@@ -9,7 +9,7 @@ val ArnaultSentences = Seq(
   fof"¬ ∃x Big(x)",
   fof"∀x (Tri(x) → ∃y (Sqr(y) ∧ Abv(x, y)))",
   fof"∀x ∀y ∀z (Btw(x, y, z) → Mor(x, y))",
-  fof"∃x ∃y (¬Loc(x, y) ∧ ∀w ((w = x ∨ w = y) → ∀z ¬Abv(z, w)))",
+  fof"∃x ∃y (¬Loc(x, y) ∧ ∀w ((Eq(w, x) ∨ Eq(w, y)) → ∀z ¬Abv(z, w)))",
   fof"∀x (Sqr(x) ↔ ∃y (Tri(y) ∧ Abv(y, x)))",
   fof"∀x ∀y (Mor(x, y) → ∃z Btw(x, y, z))",
   fof"¬ ∀x ∀y (Lft(x, y) ∨ Rgt(x, y))",

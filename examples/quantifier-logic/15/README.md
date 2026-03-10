@@ -7,7 +7,7 @@
   until you see where you are going wrong.
 - Then change each of Alex's false claims into a true claim.
 - If you can make the sentence true by adding a clause of the form
-  - `x != y`, or
+  - `¬Eq(x, y)`, or
   - `¬Loc(x,y)`, do so.
 - Otherwise, see if you can turn the false claim into an interesting truth:
   don't just add a negation sign to the front of the sentence.

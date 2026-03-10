@@ -31,13 +31,13 @@ In `PeanoSentences2`, the false sentences are:
 
 - ∀x ((Sqr(x) ∧ Mid(x)) → ∀y Lft(y, x)) (no. 1)
   - can be made true with:
-  - ∀x ((Sqr(x) ∧ Mid(x)) → ∀y (Lft(y, x) → x != y))
+  - ∀x ((Sqr(x) ∧ Mid(x)) → ∀y (Lft(y, x) → ¬Eq(x, y)))
 - ∀x ((Tri(x) ∧ Sml(x)) → ∀y Bel(x, y)) (no. 3)
   - can be made true with:
   - ∀x ((Tri(x) ∧ Sml(x)) → ∀y (¬Row(x, y) → Bel(x, y)))
-- ∀x ((Tri(x) ∧ Sml(x)) → ∀y (y != x → Bel(x, y))) (no. 4)
+- ∀x ((Tri(x) ∧ Sml(x)) → ∀y (¬Eq(y, x) → Bel(x, y))) (no. 4)
   - can be made true with:
-  - ∀x ((Tri(x) ∧ Sml(x)) → ∀y (y != x → (Bel(x, y) ∨ Cir(y))))
+  - ∀x ((Tri(x) ∧ Sml(x)) → ∀y (¬Eq(y, x) → (Bel(x, y) ∨ Cir(y))))
 - ∃x ∃y (Tri(x) ∧ Tri(y) ∧ ∃z (Cir(z) ∧ Btw(z,x,y))) (no. 9)
   - can be made true with:
   - ∃x ∃y (Tri(x) ∧ Sqr(y) ∧ ∃z (Cir(z) ∧ Btw(z,x,y)))
@@ -46,11 +46,11 @@ In `PeanoSentences2`, the false sentences are:
   - ∀x ∀y ((Sqr(x) ∧ Tri(y)) → (Big(x) ∨ Bel(x, y) ∨ Bel(y, x)))
 - ∀x ∀y ((Sqr(x) ∧ Sqr(y)) → ¬Row(x, y)) (no. 13)
   - can be made true with:
-  - ∀x ∀y ((Sqr(x) ∧ Sqr(y) ∧ x != y) → ¬Row(x, y))
-  - ¬Loc(x, y) also works instead of x != y
+  - ∀x ∀y ((Sqr(x) ∧ Sqr(y) ∧ ¬Eq(x, y)) → ¬Row(x, y))
+  - ¬Loc(x, y) also works instead of ¬Eq(x, y)
 - ∀x ∀y ((Tri(x) ∧ Tri(y)) → ¬Siz(x, y)) (no. 15)
   - can be made true with:
-  - ∀x ∀y ((Tri(x) ∧ Tri(y) ∧ x != y) → ¬Siz(x, y))
+  - ∀x ∀y ((Tri(x) ∧ Tri(y) ∧ ¬Eq(x, y)) → ¬Siz(x, y))
 
 Initial evaluation (1, 3, 4, 9, 11, 13, 15 false):
 

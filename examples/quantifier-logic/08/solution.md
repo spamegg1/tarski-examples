@@ -2,7 +2,7 @@
 
 ```scala
 val BozoSentences2 = Seq(
-  fof"a = c",
+  fof"Eq(a, c)",
   fof"∃u (a = u)",
   fof"∀u (u = u)",
   fof"∀x ∀y (Sqr(x) ∧ Sqr(y) ∧ ¬Loc(x, y) → ∃z Btw(z, x, y))",
@@ -10,8 +10,8 @@ val BozoSentences2 = Seq(
   fof"∃x ∃y ¬Loc(x, y)",
   fof"∀x (Sqr(x) → ¬Mid(x))",
   fof"∀x (Tri(x) → Red(x))",
-  fof"∀x ∀y ((Sqr(x) ∧ Sqr(y) ∧ x != y) → ∃z (Tri(z) ∧ Btw(z, x, y)))",
-  fof"∀x ∀y ((Blu(x) ∧ Blu(y) ∧ x != y) → ∃z (Red(z) ∧ Btw(z, x ,y)))",
+  fof"∀x ∀y ((Sqr(x) ∧ Sqr(y) ∧ ¬Eq(x, y)) → ∃z (Tri(z) ∧ Btw(z, x, y)))",
+  fof"∀x ∀y ((Blu(x) ∧ Blu(y) ∧ ¬Eq(x, y)) → ∃z (Red(z) ∧ Btw(z, x ,y)))",
   fof"∀x ∀y ((Red(x) ∧ Big(x) ∧ Sml(y)) → Bel(y, x))",
   fof"¬ ∃x ∃y (Cir(x) ∧ Cir(y) ∧ Les(x, y))",
   fof"∀x (Mid(x) ∧ Sqr(x) → Tri(x) ∧ Red(x))",

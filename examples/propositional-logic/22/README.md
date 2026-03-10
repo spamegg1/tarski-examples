@@ -19,7 +19,7 @@ normal form sentences in the odd numbered positions, but you will see
 that the even numbered positions are blank.
 
 1. (Lft(a, b) ∨ Abv(a, b)) ∧ Sqr(a)
-2. Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ a = b)
+2. Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ Eq(a, b))
 3. (Btw(a, b, c) ∨ Tri(a) ∨ ¬Tri(b)) ∧ Cir(c)
 4. Sqr(a) ∧ Sqr(b) ∧ (¬Sml(a) ∨ ¬Sml(b))
 
@@ -29,7 +29,7 @@ several worlds and checking to see that each of your sentences has the
 same truth value as the one above it.
 
 (Recall that equality `=` means "value equality", a.k.a. equality:
-`a = b` if the blocks labeled `a` and `b` are equal in size, shape and tone.
+`Eq(a, b)` if the blocks labeled `a` and `b` are equal in size, shape and tone.
 This is in contrast to "reference equality" `Loc`, a.k.a. identity:
 `Loc(x,y)` means that `x` and `y` have the same row and column on the board,
 in other words they refer to one and the same block.)

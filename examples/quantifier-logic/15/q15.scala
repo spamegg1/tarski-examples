@@ -22,9 +22,9 @@ val PeanoSentences1 = Seq(
 
 val PeanoSentences2 = Seq(
   fof"∀x ((Sqr(x) ∧ Mid(x)) → ∀y Lft(y, x))", // understand the difference from next one
-  fof"∀x ((Sqr(x) ∧ Mid(x)) → ∀y (y != x → Lft(y, x)))",
+  fof"∀x ((Sqr(x) ∧ Mid(x)) → ∀y (¬Eq(y, x) → Lft(y, x)))",
   fof"∀x ((Tri(x) ∧ Sml(x)) → ∀y Bel(x, y))",
-  fof"∀x ((Tri(x) ∧ Sml(x)) → ∀y (y != x → Bel(x, y)))",
+  fof"∀x ((Tri(x) ∧ Sml(x)) → ∀y (¬Eq(y, x) → Bel(x, y)))",
   fof"∀x ((Tri(x) ∧ Sml(x)) → ∀y ¬Bel(y, x))",
   fof"∀x ∀y (Abv(x, y) → ¬Bel(x, y))",
   fof"∃x ∃y (Abv(x, y) ∧ ¬Bel(x, y))",

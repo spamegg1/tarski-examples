@@ -5,7 +5,7 @@ val BernaysSentences = Seq(
   // add sentence here! ¬∧∨→↔
   fof"Col(d,b)",
   // add sentence here! ¬∧∨→↔
-  fof"a = d",
+  fof"Eq(a, d)",
   // add sentence here! ¬∧∨→↔
   fof"Siz(a,b)",
   // add sentence here! ¬∧∨→↔

@@ -5,7 +5,7 @@ val worldQ21: Grid = Map(
 )
 
 val BuridanSentences = Seq(
-  fof"a != b ∧ b != c ∧ a != c",
+  fof"¬Eq(a, b) ∧ ¬Eq(b, c) ∧ ¬Eq(a, c)",
   fof"Mor(a, b) ∧ ¬Mor(a, c)",
   fof"¬ ∃x Sml(x)",
   fof"∀x (¬Sml(x) → ¬Sqr(x))",
@@ -14,7 +14,7 @@ val BuridanSentences = Seq(
   fof"∀x (Mid(x) → ∃y Bel(x, y))",
   fof"∀x (∃y Bel(x, y) → Mid(x))",
   fof"∀x (Lft(x, c) → (Cir(x) ∨ Big(x)))",
-  fof"∀x (∃y Abv(x, y) → (x = a ∨ x = b ∨ x = c))"
+  fof"∀x (∃y Abv(x, y) → (Eq(x, a) ∨ Eq(x, b) ∨ Eq(x, c)))"
 )
 
 @main

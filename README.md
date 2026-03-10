@@ -42,7 +42,7 @@ two names `a, b` are referring to the same block, and is implemented using `Loc(
 ("Loc" means location, so `a` and `b` have the same location on the board.)
 
 Value equality a.k.a "equality" (or "equal" when used as adjective) means that
-two blocks `a, b` are equal in size, shape and tone, and is implemented using `a = b`.
+two blocks `a, b` are equal in size, shape and tone, and is implemented using `Eq(a, b)`.
 
 ## Work in progress
 

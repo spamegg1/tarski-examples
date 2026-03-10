@@ -6,8 +6,8 @@ Here are the sentences with their disjunctive normal form equivalents:
 val CNFSentences = Seq(
   fof"(Lft(a, b) ∨ Abv(a, b)) ∧ Sqr(a)",
   fof"(Lft(a, b) ∧ Sqr(a)) ∨ (Abv(a, b) ∧ Sqr(a))",
-  fof"Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ a = b)",
-  fof"(Mor(a, b) ∧ Sqr(a)) ∨ (Mor(a, b) ∧ Tri(a)) ∨ (Mor(a, b) ∧ a = b)",
+  fof"Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ Eq(a, b))",
+  fof"(Mor(a, b) ∧ Sqr(a)) ∨ (Mor(a, b) ∧ Tri(a)) ∨ (Mor(a, b) ∧ Eq(a, b))",
   fof"(Btw(a, b, c) ∨ Tri(a) ∨ ¬Tri(b)) ∧ Cir(c)",
   fof"(Btw(a, b, c) ∧ Cir(c)) ∨ (Tri(a) ∧ Cir(c)) ∨ (¬Tri(b) ∧ Cir(c))",
   fof"Sqr(a) ∧ Sqr(b) ∧ (¬Sml(a) ∨ ¬Sml(b))",

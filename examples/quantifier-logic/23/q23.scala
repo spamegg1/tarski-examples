@@ -9,7 +9,7 @@ val worldQ23b: Grid = Map(
 )
 
 val sentencesQ23 =
-  BuridanSentences :+ fof"∃x ∃y (x != y ∧ Tri(x) ∧ Tri(y) ∧ Mid(x) ∧ Mid(y))"
+  BuridanSentences :+ fof"∃x ∃y (¬Eq(x, y) ∧ Tri(x) ∧ Tri(y) ∧ Mid(x) ∧ Mid(y))"
 
 // First ten sentences should be true, last sentence should be false here:
 @main
