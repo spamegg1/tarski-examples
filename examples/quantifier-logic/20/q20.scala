@@ -25,15 +25,15 @@ val LeibnizSentences = Seq(
 
   // Why is this true, but the previous is false?
   fof"∀x (Blu(x) → ∃y ∃z (Btw(y, x, z) ∧ Red(y) ∧ Blu(z)))",
-  fof"∀x (∃y ∃z (Btw(x, y, z) ∧ Tri(y) ∧ Tri(z)) → Loc(x, e))",
+  fof"∀x (∃y ∃z (Btw(x, y, z) ∧ Tri(y) ∧ Tri(z)) → x = e)",
   fof"∀x (∃y ∃z (Btw(x, y, z) ∧ Sqr(y) ∧ Sqr(z)) → Eq(x, b))",
   fof"∀x ∃y ∃z ((Btw(x, y, z) ∧ Eq(x, b)) → (Eq(y, a) ∨ Eq(y, c)))",
 
   // Do you see what this says?
-  fof"∀x ∀y ((Tri(x) ∧ Tri(y) ∧ Sml(x) ∧ Sml(y)) → Loc(x, y))",
+  fof"∀x ∀y ((Tri(x) ∧ Tri(y) ∧ Sml(x) ∧ Sml(y)) → x = y)",
 
   // If you understand the previous one, you see why this is true as well.
-  fof"∀x ∀y ((Cir(x) ∧ Cir(y) ∧ Sml(x) ∧ Sml(y)) → Loc(x, y))",
+  fof"∀x ∀y ((Cir(x) ∧ Cir(y) ∧ Sml(x) ∧ Sml(y)) → x = y)",
 
   // This may look like a dumb thing to say, but make sure you understand it.
   // Why is it true?
@@ -50,7 +50,7 @@ val LeibnizSentences = Seq(
   fof"∃y ∀x ((Tri(x) ∧ Sml(x)) ↔ Eq(x, y))",
 
   // Play the game here too. Do you see why you can't win when committed to true?
-  fof"∃y ∀x ((Sqr(x) ∧ Sml(x)) ↔ Loc(x, y))"
+  fof"∃y ∀x ((Sqr(x) ∧ Sml(x)) ↔ x = y)"
 
   // In this slot, write a sentence that says there is exactly one large triangle.
   // Pattern it on the previous sentence.

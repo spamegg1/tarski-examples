@@ -5,7 +5,7 @@ Here are the translation of the two sentences:
 ```scala
 val twoSentencesQ22 = Seq(
   fof"¬ ∃x Sqr(x)",
-  fof"∃x ∀y ((Tri(y) ∧ Big(y)) ↔ Loc(x, y))"
+  fof"∃x ∀y ((Tri(y) ∧ Big(y)) ↔ x = y)"
 )
 ```
 

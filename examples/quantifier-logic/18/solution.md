@@ -11,7 +11,7 @@ We can make it false by adding a block above `d`:
 
 ![q18a](q18a.png)
 
-Sentence 12: ∀x ((Sqr(x) ∧ Big(x)) → Loc(x, e)) says that
+Sentence 12: ∀x ((Sqr(x) ∧ Big(x)) → x = e) says that
 the only big square is `e`. We can make it false by adding a big square:
 
 ![q18b](q18b.png)
@@ -21,7 +21,7 @@ We can make this false by adding a block to the left of `d`:
 
 ![q18c](q18c.png)
 
-Sentence 14: ∀x (¬Loc(x, e) ∧ ¬Loc(x, d) → (Bel(x, e) ∨ Rgt(e, x))) says
+Sentence 14: ∀x (x != e ∧ x != d → (Bel(x, e) ∨ Rgt(e, x))) says
 that for any block other than `d` and `e`,
 it is either below `e`, or `e` is to the right of it.
 We can make it false by adding a counterexample.
@@ -29,7 +29,7 @@ Add a block that is neither below `e`, nor `e` is to the right of it:
 
 ![q18d](q18d.png)
 
-Sentence 15: ∀x ((Tri(x) ∧ Big(x)) ↔ Loc(x, b)) says that the only big triangle is `b`.
+Sentence 15: ∀x ((Tri(x) ∧ Big(x)) ↔ x = b) says that the only big triangle is `b`.
 We can make it false by adding another big triangle:
 
 ![q18e](q18e.png)
@@ -45,14 +45,14 @@ We can make this false by adding a non-square to the left of `a` that is not sma
 
 ![q18f](q18f.png)
 
-Sentence 17: ∀x ∀y ((Mid(x) ∧ Mid(y)) → Loc(x, y)) says that
+Sentence 17: ∀x ∀y ((Mid(x) ∧ Mid(y)) → x = y) says that
 there is only one mid-sized block.
 We can make it false by adding a second mid-sized block.
 I'll simply change the block from the previous step to be mid-sized:
 
 ![q18g](q18g.png)
 
-Sentence 19: ∀x ∀y ((Tri(x) ∧ Tri(y) ∧ ¬Loc(x, y)) → (Loc(x, a) ∨ Loc(y, a)))
+Sentence 19: ∀x ∀y ((Tri(x) ∧ Tri(y) ∧ x != y) → (x = a ∨ y = a))
 was handled above.
 
 Sentence 20: ∀x (Btw(x, c, d) → (Tri(x) ∧ Mid(x))) says that

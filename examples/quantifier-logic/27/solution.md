@@ -9,7 +9,7 @@ Sentence 4 is equivalent to 3, so it is also true.
 
 Sentence 5 seems like it says there are at least 3 objects.
 But it is still true in the same world, instead of false. Why?
-∃x ∃y ∃z (¬Loc(x, y) ∧ ¬Loc(y, z)) says that x and y are non-identical,
+∃x ∃y ∃z (x != y ∧ y != z) says that x and y are non-identical,
 and y and z are non-identical, but x and z can still be identical.
 So the existentials ∃x and ∃z can be satisfied by the same block.
 
@@ -29,7 +29,7 @@ Tarski's world will choose `a` as its counterexample:
 
 ![q27b](q27b.png)
 
-Eventually you have to pick between `¬Loc(a, a)` or `Big(a)`:
+Eventually you have to pick between `a != a` or `Big(a)`:
 
 ![q27c](q27c.png)
 

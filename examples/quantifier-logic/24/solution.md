@@ -68,7 +68,7 @@ The false sentences are:
   - False because it says there is a block that is on the same row as every small block.
   - Negating Sml(x) does not work since there are mid and big blocks on different rows.
   - We have to negate Row(x, y).
-- ∀x (Sml(x) → ∃y (¬Loc(x, y) ∧ Col(x, y)))
+- ∀x (Sml(x) → ∃y (x != y ∧ Col(x, y)))
   - False because it says every small block has something else on the same column.
   - The small circle at (4, 1) is a counterexample.
     - There are no other blocks on that column.
@@ -102,8 +102,8 @@ val HilbertSentences = Seq(
   fof"∃z ∀x (Tri(x) → ∃y Btw(x, y, z))",
   fof"∃y ∃z ∀x (Tri(x) → ¬Btw(x, y, z))", // changed
   fof"∃y ∀x (Sml(x) → ¬Row(x, y))", // changed
-  fof"∀x (Sml(x) → ∃y (¬Loc(x, y) ∧ Row(x, y)))",
-  fof"∀x (Sml(x) → ∃y (¬Loc(x, y) ∧ ¬Col(x, y)))" // changed
+  fof"∀x (Sml(x) → ∃y (x != y ∧ Row(x, y)))",
+  fof"∀x (Sml(x) → ∃y (x != y ∧ ¬Col(x, y)))" // changed
 )
 ```
 

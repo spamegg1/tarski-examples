@@ -14,13 +14,13 @@ val worldQ17: Grid = Map(
 
 val RamseySentences2 = Seq(
   fof"∀x ¬Abv(x, d)",
-  fof"∀x ((Sqr(x) ∧ Big(x)) → Loc(x, e))",
+  fof"∀x ((Sqr(x) ∧ Big(x)) → x = e)",
   fof"∀x ¬Lft(x, d)",
-  fof"∀x (¬Loc(x, e) ∧ ¬Loc(x, d) → (Bel(x, e) ∨ Rgt(e, x)))",
-  fof"∀x ((Tri(x) ∧ Big(x)) ↔ Loc(x, b))",
+  fof"∀x (x != e ∧ x != d → (Bel(x, e) ∨ Rgt(e, x)))",
+  fof"∀x ((Tri(x) ∧ Big(x)) ↔ x = b)",
   fof"∀x ((Lft(x, a) ∧ ¬Sqr(x)) → (Tri(x) ∧ Sml(x)))",
-  fof"∀x ∀y ((Mid(x) ∧ Mid(y)) → Loc(x, y))",
-  fof"∀x ∀y ((Tri(x) ∧ Tri(y) ∧ ¬Loc(x, y)) → (Loc(x, a) ∨ Loc(y, a)))",
+  fof"∀x ∀y ((Mid(x) ∧ Mid(y)) → x = y)",
+  fof"∀x ∀y ((Tri(x) ∧ Tri(y) ∧ x != y) → (x = a ∨ y = a))",
   fof"∀x (Btw(x, c, d) → (Tri(x) ∧ Mid(x)))"
 )
 

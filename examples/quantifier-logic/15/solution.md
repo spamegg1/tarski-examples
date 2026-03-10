@@ -47,7 +47,7 @@ In `PeanoSentences2`, the false sentences are:
 - ∀x ∀y ((Sqr(x) ∧ Sqr(y)) → ¬Row(x, y)) (no. 13)
   - can be made true with:
   - ∀x ∀y ((Sqr(x) ∧ Sqr(y) ∧ ¬Eq(x, y)) → ¬Row(x, y))
-  - ¬Loc(x, y) also works instead of ¬Eq(x, y)
+  - x != y also works instead of ¬Eq(x, y)
 - ∀x ∀y ((Tri(x) ∧ Tri(y)) → ¬Siz(x, y)) (no. 15)
   - can be made true with:
   - ∀x ∀y ((Tri(x) ∧ Tri(y) ∧ ¬Eq(x, y)) → ¬Siz(x, y))

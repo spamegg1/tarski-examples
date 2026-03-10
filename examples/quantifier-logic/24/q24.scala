@@ -23,8 +23,8 @@ val HilbertSentences = Seq(
   fof"∃z ∀x (Tri(x) → ∃y Btw(x, y, z))", // How can this be true,
   fof"∃y ∃z ∀x (Tri(x) → Btw(x, y, z))", // and this one false?
   fof"∃y ∀x (Sml(x) → Row(x, y))",
-  fof"∀x (Sml(x) → ∃y (¬Loc(x, y) ∧ Row(x, y)))",
-  fof"∀x (Sml(x) → ∃y (¬Loc(x, y) ∧ Col(x, y)))"
+  fof"∀x (Sml(x) → ∃y (x != y ∧ Row(x, y)))",
+  fof"∀x (Sml(x) → ∃y (x != y ∧ Col(x, y)))"
 )
 
 @main
