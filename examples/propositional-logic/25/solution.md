@@ -6,8 +6,8 @@ and we eliminate any double negations we come across:
 
 ```scala
 val GentzenSentences2 = Seq(
-  fof"¬(More(a,b) ∧ Les(a,b)) ∨ Btw(a,b,c)",
-  fof"(¬More(a,b) ∨ ¬Les(a,b)) ∨ Btw(a,b,c)",
+  fof"¬(Mor(a,b) ∧ Les(a,b)) ∨ Btw(a,b,c)",
+  fof"(¬Mor(a,b) ∨ ¬Les(a,b)) ∨ Btw(a,b,c)",
   fof"¬(Shp(a,c) ∨ Abv(b,c)) ∧ Adj(b,c)",
   fof"¬((Shp(a,c) ∨ Abv(b,c)) ∨ ¬Adj(b,c))",
   fof"(Tri(a) ∨ Sqr(b) ∨ Lim(c)) ∧ ¬(Blu(b) ∧ Big(f))",

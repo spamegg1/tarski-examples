@@ -14,7 +14,7 @@ fof"Tri(a) → Tri(b)",
   fof"Siz(d, e)",
   fof"Shp(d, e)",
   fof"Big(f) → (Sqr(f) ∨ Cir(f))",
-  fof"More(c,e) → More(b,c)",
+  fof"Mor(c,e) → Mor(b,c)",
   fof"Ton(c,f) ∧ ¬Ton(a,b)",
   fof"Lim(d) -> Red(e)",
   fof"Ton(a,e) ↔ Ton(d,b)"

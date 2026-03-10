@@ -6,7 +6,7 @@ Here are the sentences:
 val sentences07 = Seq(
   fof"Sml(a) ∨ (Big(c) ∧ Big(d))",
   fof"Abv(d, b) ∧ Abv(e, b)",
-  fof"Abv(d, b) ∧ Abv(e, b) ∧ More(d, b) ∧ More(e, b)",
+  fof"Abv(d, b) ∧ Abv(e, b) ∧ Mor(d, b) ∧ Mor(e, b)",
   fof"Sqr(d) ∧ Sqr(c) ∧ ¬Sml(d) ∧ ¬Sml(c)",
   fof"¬(Rgt(e, c) ∧ Rgt(a, c)) ∧ ¬(Left(e, b)  ∧ Left(a, b))",
   fof"¬Big(e) ∨ Abv(e, a)",

@@ -2,22 +2,22 @@
 
 In `PeanoSentences1`, the false sentences are:
 
-- ∃x ∃y (Cir(x) ∧ Tri(y) ∧ More(x, y)) (no. 7)
+- ∃x ∃y (Cir(x) ∧ Tri(y) ∧ Mor(x, y)) (no. 7)
   - can be made true with:
-  - ∃x ∃y (Tri(x) ∧ Tri(y) ∧ More(x, y))
-- ∃x (Cir(x) ∧ ∃y (Tri(y) ∧ More(x, y))) (no. 8)
+  - ∃x ∃y (Tri(x) ∧ Tri(y) ∧ Mor(x, y))
+- ∃x (Cir(x) ∧ ∃y (Tri(y) ∧ Mor(x, y))) (no. 8)
   - can be made true with:
-  - ∃x (Tri(x) ∧ ∃y (Tri(y) ∧ More(x, y)))
+  - ∃x (Tri(x) ∧ ∃y (Tri(y) ∧ Mor(x, y)))
 - ∃x (Sqr(x) ∧ ∃y ∃z Btw(x, y, z)) (no. 10)
   - can be made true with:
   - ∃x (Cir(x) ∧ ∃y ∃z Btw(x, y, z))
   - also with Tri(x) (like no. 11)
-- ∀x ∀y (Sqr(x) → More(x, y)) (no. 13)
+- ∀x ∀y (Sqr(x) → Mor(x, y)) (no. 13)
   - can be made true with:
-  - ∀x ∀y ((Sqr(x) ∧ Lim(y)) → More(x, y))
-- ∀x (Sqr(x) → ∀y More(x, y)) (no. 14)
+  - ∀x ∀y ((Sqr(x) ∧ Lim(y)) → Mor(x, y))
+- ∀x (Sqr(x) → ∀y Mor(x, y)) (no. 14)
   - can be made true with:
-  - ∀x (Sqr(x) → ∀y (Lim(y) → More(x, y)))
+  - ∀x (Sqr(x) → ∀y (Lim(y) → Mor(x, y)))
 
 Initial evaluation (7, 8, 10, 13, 14 false):
 

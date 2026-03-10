@@ -19,7 +19,7 @@ normal form sentences in the odd numbered positions, but you will see
 that the even numbered positions are blank.
 
 1. (Left(a, b) ∨ Abv(a, b)) ∧ Sqr(a)
-2. More(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ a = b)
+2. Mor(a, b) ∧ (Sqr(a) ∨ Tri(a) ∨ a = b)
 3. (Btw(a, b, c) ∨ Tri(a) ∨ ¬Tri(b)) ∧ Cir(c)
 4. Sqr(a) ∧ Sqr(b) ∧ (¬Sml(a) ∨ ¬Sml(b))
 

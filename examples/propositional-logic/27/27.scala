@@ -1,7 +1,7 @@
 import tarski.main.*
 
 val AustinSentences = Seq(
-  fof"More(a, b)",
+  fof"Mor(a, b)",
   fof"Btw(c, d, b)",
   fof"Left(c, b)",
   fof"Bel(c, b)",

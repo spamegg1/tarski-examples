@@ -14,9 +14,9 @@ Look at `TuringSentences`.
 You will find the following five sentences,
 each followed by an empty sentence position.
 
-1. ¬(Sqr(a) ∧ More(a, b))
-2. ¬(Sqr(a) ∨ ¬More(b, a))
-3. ¬(¬Sqr(a) ∨ ¬More(a, b) ∨ a != b)
+1. ¬(Sqr(a) ∧ Mor(a, b))
+2. ¬(Sqr(a) ∨ ¬Mor(b, a))
+3. ¬(¬Sqr(a) ∨ ¬Mor(a, b) ∨ a != b)
 4. ¬(Tri(b) ∨ (Big(c) ∧ ¬Les(d, e)))
 5. Cir(f) ∨ ¬(Tri(b) ∨ ¬Tri(f) ∨ ¬Cir(f))
 

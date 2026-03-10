@@ -10,8 +10,8 @@ val SchönfinkelSentences = Seq(
   fof"(Tri(w) → Big(w))", // Same here.
   fof"Tri(a) → Big(w)",   // You can't add parens, so put a quantifier in the right place.
   fof"Tri(w) → Big(w)",   // You can't add parens. How many quantifiers needed?
-  fof"Big(x) → ¬More(y, x)",
-  fof"∀x y ((Sqr(x) ∧ Sqr(y)) → ¬More(x, y))",
+  fof"Big(x) → ¬Mor(y, x)",
+  fof"∀x y ((Sqr(x) ∧ Sqr(y)) → ¬Mor(x, y))",
   // Only add quantifiers and/or variables. No changing the "a".
   // The resulting sentence is weird, but we'll explain later.
   fof"∀ Sqr(a)",

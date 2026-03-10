@@ -5,11 +5,11 @@ val grid21: Grid = Map(
 )
 
 val TuringSentences = Seq(
-  fof"¬(Sqr(a) ∧ More(a, b))",
+  fof"¬(Sqr(a) ∧ Mor(a, b))",
   // add negation normal form here!
-  fof"¬(Sqr(a) ∨ ¬More(b, a))",
+  fof"¬(Sqr(a) ∨ ¬Mor(b, a))",
   // add negation normal form here!
-  fof"¬(¬Sqr(a) ∨ ¬More(a, b) ∨ a != b)",
+  fof"¬(¬Sqr(a) ∨ ¬Mor(a, b) ∨ a != b)",
   // The NNF of this one will have no negation signs in it!
   fof"¬(Tri(b) ∨ (Big(c) ∧ ¬Les(d, e)))",
   // add negation normal form here!

@@ -6,7 +6,7 @@ val MontagueSentences = Seq(
   fof"∀x ((Sqr(x) ∧ Sml(x)) → ∃y (Big(y) ∧ Sqr(y) ∧ Abv(x, y)))",
   fof"∃x (Sqr(x) ∧ ∀y (Tri(y) → Bel(x, y)))",
   fof"∃x (Sqr(x) ∧ Big(x) ∧ ∃y (Sml(y) ∧ Sqr(y) ∧ Bel(x, y)))",
-  fof"∀x (¬ ∀y More(x, y))",
+  fof"∀x (¬ ∀y Mor(x, y))",
   fof"∀x ((Sqr(x) ∧ ∀y (Tri(y) → Bel(x, y))) → Big(x))",
   fof"∀x (∃y (Big(y) ∧ Sqr(y) ∧ Rgt(x, y)) → Sml(x))",
   fof"∀x ((∃y (Sqr(y) ∧ Abv(x, y)) ∧ ∃z (Sqr(z) ∧ Bel(x, z))) → ¬Big(x))",

@@ -8,8 +8,8 @@
 4. `~(Sqr(d) | Tri(f))` is `false`:
     - can be made `true` by deleting parentheses: `~Sqr(d) | Tri(f)`
     - so it becomes the same as the previous sentence.
-5. `~Big(c) & More(c, a)` is `true`
-6. `~(Big(c) & More(c, a))` is `true`
+5. `~Big(c) & Mor(c, a)` is `true`
+6. `~(Big(c) & Mor(c, a))` is `true`
 7. `~(Sqr(d) & Sqr(f))` is `true`
 8. `~Sqr(d) & ~Sqr(f)` is `false`:
     - cannot be made `true` with parentheses!

@@ -4,12 +4,12 @@ Here are the sentences and their negation normal forms:
 
 ```scala
 val TuringSentences = Seq(
-  fof"¬(Sqr(a) ∧ More(a, b))",
-  fof"¬Sqr(a) ∨ ¬More(a, b)",
-  fof"¬(Sqr(a) ∨ ¬More(b, a))",
-  fof"¬Sqr(a) ∧ More(b, a)",
-  fof"¬(¬Sqr(a) ∨ ¬More(a, b) ∨ a != b)",
-  fof"Sqr(a) ∧ More(a, b) ∧ a = b",
+  fof"¬(Sqr(a) ∧ Mor(a, b))",
+  fof"¬Sqr(a) ∨ ¬Mor(a, b)",
+  fof"¬(Sqr(a) ∨ ¬Mor(b, a))",
+  fof"¬Sqr(a) ∧ Mor(b, a)",
+  fof"¬(¬Sqr(a) ∨ ¬Mor(a, b) ∨ a != b)",
+  fof"Sqr(a) ∧ Mor(a, b) ∧ a = b",
   fof"¬(Tri(b) ∨ (Big(c) ∧ ¬Les(d, e)))",
   fof"¬Tri(b) ∧ (¬Big(c) ∨ Les(d, e))",
   fof"Cir(f) ∨ ¬(Tri(b) ∨ ¬Tri(f) ∨ ¬Cir(f))",

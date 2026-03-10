@@ -8,9 +8,9 @@ val QuinnSentences = Seq(
   fof"Btw(d, b, c) ∧ ¬Btw(d, c, a)",
   fof"¬Sqr(b) ∨ (Sqr(d) ∧ Abv(d, b))",
   fof"(Sml(c) ∧ Bel(c, b)) ∨ Sqr(d)",
-  fof"More(f, a) ∧ More(a, b) ∧ Ton(a, f)",
+  fof"Mor(f, a) ∧ Mor(a, b) ∧ Ton(a, f)",
   fof"¬(Les(c, a) ∨ Les(a, c)) ∧ ¬Ton(a, c)",
-  fof"More(d, b) ∧ More(f, d) ∧ ¬(More(e, d) ∨ More(d, e))"
+  fof"Mor(d, b) ∧ Mor(f, d) ∧ ¬(Mor(e, d) ∨ Mor(d, e))"
 )
 
 @main
