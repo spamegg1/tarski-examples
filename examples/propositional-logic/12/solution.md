@@ -17,7 +17,7 @@ val sentences12 = Seq(
   fof"Tri(a) → Bel(a, b)",
   fof"More(b,a) ∧ More(b,e)",
   fof"More(a,c) ∧ More(e,c) ∧ ¬Big(a) ∧ ¬Big(e)",
-  fof"Shap(d,b) → Size(d,b)",
+  fof"Shp(d,b) → Size(d,b)",
   fof"Big(a) ↔ Sqr(a)",
   fof"¬Tri(c) → Sqr(b)",
   fof"¬Sqr(e) → (Big(b) ∨ Big(d))",

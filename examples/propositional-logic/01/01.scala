@@ -36,9 +36,9 @@ val WittgenSteinSentencesA = Seq(
 )
 
 val WittgenSteinSentencesB = Seq(
-  fof"Shap(b, c)",
-  fof"Shap(a, b)",
-  fof"Shap(d, d)",
+  fof"Shp(b, c)",
+  fof"Shp(a, b)",
+  fof"Shp(d, d)",
   fof"Row(a, d)",
   fof"Row(d, e)",
   fof"Row(a, a)",

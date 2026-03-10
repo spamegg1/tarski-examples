@@ -13,7 +13,7 @@ val BernaysSentences = Seq(
   fof"Size(a,b)",
   fof"¬More(a,b) ∧ ¬Less(a,b)", // also ¬More(a,b) ∧ ¬More(b,a), ¬Less(b,a) ∧ ¬Less(a,b)
   // also (Sml(a) ↔ Sml(b)) ∧ (Mid(a) ↔ Mid(b)) ∧ (Big(a) ↔ Big(b))
-  fof"Shap(a,b)",
+  fof"Shp(a,b)",
   fof"(Tri(a) ↔ Tri(b)) ∧ (Sqr(a) ↔ Sqr(b)) ∧ (Cir(a) ↔ Cir(b))",
   fof"Tone(a, b)",
   fof"(Lim(a) ↔ Lim(b)) ∧ (Red(a) ↔ Red(b)) ∧ (Blu(a) ↔ Blu(b))",

@@ -3,7 +3,7 @@ import tarski.main.*
 val GentzenSentences2 = Seq(
   fof"¬(More(a,b) ∧ Less(a,b)) ∨ Btw(a,b,c)",
   // add here! ¬∧∨
-  fof"¬(Shap(a,c) ∨ Abv(b,c)) ∧ Adj(b,c)",
+  fof"¬(Shp(a,c) ∨ Abv(b,c)) ∧ Adj(b,c)",
   // add here! ¬∧∨
   fof"(Tri(a) ∨ Sqr(b) ∨ Lim(c)) ∧ ¬(Blu(b) ∧ Big(f))",
   // add here! ¬∧∨
