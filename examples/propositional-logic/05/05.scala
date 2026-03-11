@@ -1,5 +1,8 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
+val world05: Grid = Map(
+)
+
 val QuinnSentences = Seq(
   fof"Cir(a) ∧ Sqr(b) ∧ Blu(a)",
   fof"Bel(b, a) ∧ Lft(d, b) ∧ Abv(f, d) ∧ Rgt(a, f)",
@@ -14,4 +17,4 @@ val QuinnSentences = Seq(
 )
 
 @main
-def run05 = runWorld(Map(), QuinnSentences)
+def run05 = runWorld(world05, QuinnSentences)

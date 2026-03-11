@@ -37,12 +37,12 @@ the last 51 are for Quantifier Logic, getting more difficult as you progress.
 
 There are two kinds of equality used in the examples.
 
-Reference equality a.k.a "identity" (or "identical" when used as adjective) means that
+Reference equality a.k.a "identity" (or "identical" when used as an adjective) means that
 two names `a, b` are referring to the same block, and is implemented using `a = b`.
-("Loc" means location, so `a` and `b` have the same location on the board.)
+So in this case `a` and `b` have the same location (row and column) on the board.
 
-Value equality a.k.a "equality" (or "equal" when used as adjective) means that
-two blocks `a, b` are equal in size, shape and tone, and is implemented using `Eq(a, b)`.
+Value equality a.k.a "equality" (or "equal" when used as an adjective) means that two
+blocks `a, b` are equal in size, shape and tone, and is implemented using `Eq(a, b)`.
 
 ## Work in progress
 

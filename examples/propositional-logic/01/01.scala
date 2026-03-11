@@ -12,7 +12,7 @@ val WittgensteinWorld: Grid = Map(
   (6, 7) -> Block(Sml, Cir, Blu)
 )
 
-val WittgenSteinSentencesA = Seq(
+val WittgensteinSentencesA = Seq(
   fof"Big(d)",
   fof"Big(c)",
   fof"Big(f)",
@@ -35,7 +35,7 @@ val WittgenSteinSentencesA = Seq(
   fof"Siz(b, c)"
 )
 
-val WittgenSteinSentencesB = Seq(
+val WittgensteinSentencesB = Seq(
   fof"Shp(b, c)",
   fof"Shp(a, b)",
   fof"Shp(d, d)",
@@ -59,7 +59,7 @@ val WittgenSteinSentencesB = Seq(
 )
 
 @main
-def run01a = runWorld(WittgensteinWorld, WittgenSteinSentencesA)
+def run01a = runWorld(WittgensteinWorld, WittgensteinSentencesA)
 
 @main
-def run01b = runWorld(WittgensteinWorld, WittgenSteinSentencesB)
+def run01b = runWorld(WittgensteinWorld, WittgensteinSentencesB)
