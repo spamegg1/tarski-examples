@@ -14,3 +14,11 @@
   It looks like `Btw(c, d, b)` should be true.
   But we require them to be on a precise (45 degrees) diagonal, for it to be true.
 11. When you are finished, close the window and terminate the program.
+
+## Historical: who was Wittgenstein?
+
+Austrian logician and philosopher (1889 - 1951)
+
+<https://en.wikipedia.org/wiki/Ludwig_Wittgenstein>
+
+Met Alan Turing at Cambridge in 1939 and debated foundations of mathematics!

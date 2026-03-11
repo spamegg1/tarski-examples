@@ -2,20 +2,20 @@
 
 Initial evaluation in `WittgensteinWorld`:
 
-![08-1](08-1.png)
+![08a](08a.png)
 
 After modifying `WittgensteinWorld`:
 
-![08-2](08-2.png)
+![08b](08b.png)
 
 After rotating `WittgensteinWorld` 90◦ clockwise:
 
-![08-3](08-3.png)
+![08c](08c.png)
 
 Initial evaluation in `BooleWorld`, only 6 and 11 are true:
 
-![08-4](08-4.png)
+![08d](08d.png)
 
 After modifying `BooleWorld`, 2, 5, 6, 7, 11 are true:
 
-![08-5](08-5.png)
+![08e](08e.png)

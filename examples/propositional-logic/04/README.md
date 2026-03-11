@@ -12,3 +12,9 @@
 9. After you understand all of the sentences, go back and see which of
   the false sentences you can make true by adding, deleting or moving
   parentheses but without making any other changes.
+
+## Historical: who was Boole?
+
+English mathematician, logician, philosopher (1815 - 1864)
+
+<https://en.wikipedia.org/wiki/George_Boole>
