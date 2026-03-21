@@ -1,5 +1,7 @@
 # 18 - solution
 
+Here are all the sentences:
+
 ```scala
 val GentzenSentences = Seq(
   fof"Tri(a) → Sqr(b)",
