@@ -21,7 +21,7 @@ each followed by an empty sentence position.
 5. Cir(f) ∨ ¬(Tri(b) ∨ ¬Tri(f) ∨ ¬Cir(f))
 
 - In the empty positions, write the negation normal form of the sentence above it.
-- Then build any world in `grid21` where all of the names are in use.
+- Then build any world in `world21` where all of the names are in use.
   - You do not have to make all the sentences true. Any world is OK.
 - Then run `run21` to check them.
 - If you have gotten the negation normal forms correct,
@@ -30,8 +30,8 @@ each followed by an empty sentence position.
 - Verify that this is so in your world.
 - Save the modified sentences in `TuringSentences`.
 
-(Recall that equality `=` means "value equality", a.k.a. equality:
-`Eq(a, b)` if the blocks labeled `a` and `b` are equal in size, shape and tone.
-This is in contrast to "reference equality" `Loc`, a.k.a. identity:
-`Loc(x,y)` means that `x` and `y` have the same row and column on the board,
+(Recall that `Eq` means "value equality", a.k.a. equality:
+`Eq(a, b)` means the blocks labeled `a` and `b` are equal in size, shape and tone.
+This is in contrast to "reference equality" `=`, a.k.a. identity:
+`x = y` means that `x` and `y` have the same row and column on the board,
 in other words they refer to the same one block.)

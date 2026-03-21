@@ -1,6 +1,6 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val grid21: Grid = Map(
+val world21: Grid = Map(
   // add your blocks here!
 )
 
@@ -18,4 +18,4 @@ val TuringSentences = Seq(
 )
 
 @main
-def run21 = runWorld(grid21, TuringSentences)
+def run21 = runWorld(world21, TuringSentences)

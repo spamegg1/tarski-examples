@@ -21,10 +21,10 @@ Notice that we do have to eliminate double negations.
 Because ¬¬A has a non-atomic formula (¬A) that has negation applied to it.
 
 For the world, there is no wrong answer, you can build any world
-where all 6 names a,b,c,d,e,f are in use.
+where all 6 names `a,b,c,d,e,f` are in use.
 
 ```scala
-val grid21: Grid = Map(
+val world21: Grid = Map(
   (3, 1) -> Block(Sml, Tri, Red, "e"),
   (1, 3) -> Block(Big, Cir, Lim, "f"),
   (2, 6) -> Block(Mid, Sqr, Red, "b"),
