@@ -1,6 +1,6 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val grid15: Grid = Map(
+val world15: Grid = Map(
   // add your blocks here!
 )
 
@@ -9,4 +9,4 @@ val sentences15 = Seq(
 )
 
 @main
-def run15 = runWorld(grid15, sentences15)
+def run15 = runWorld(world15, sentences15)
