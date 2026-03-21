@@ -1,10 +1,10 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val grid19a: Grid = Map(
+val world19a: Grid = Map(
   // add your blocks here!
 )
 
-val grid19b: Grid = Map(
+val world19b: Grid = Map(
   // add your blocks here!
 )
 
@@ -20,7 +20,7 @@ val DeMorganSentences = Seq(
 )
 
 @main
-def run19a = runWorld(grid19a, DeMorganSentences)
+def run19a = runWorld(world19a, DeMorganSentences)
 
 @main
-def run19b = runWorld(grid19b, DeMorganSentences)
+def run19b = runWorld(world19b, DeMorganSentences)
