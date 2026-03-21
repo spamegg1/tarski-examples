@@ -28,40 +28,54 @@ equivalent to the sentence above it. Check your work by opening
 several worlds and checking to see that each of your sentences has the
 same truth value as the one above it.
 
-(Recall that equality `=` means "value equality", a.k.a. equality:
+(Recall that `Eq` means "value equality", a.k.a. equality:
 `Eq(a, b)` if the blocks labeled `a` and `b` are equal in size, shape and tone.
-This is in contrast to "reference equality" `Loc`, a.k.a. identity:
-`Loc(x,y)` means that `x` and `y` have the same row and column on the board,
+This is in contrast to "reference equality" `=`, a.k.a. identity:
+`x = y` means that `x` and `y` have the same row and column on the board,
 in other words they refer to one and the same block.)
 
 ## Longer example (optional)
 
 Consider this sentence in CNF:
 
+```scala
 (Sml(a) ∨ Mid(a)) ∧ (Sqr(a) ∨ ¬Cir(a))
+```
 
-Let's put it in DNF. First let's simplify a bit with A = (Sml(a) ∨ Mid(a)):
+Let's put it in DNF. First let's simplify a bit with `A = (Sml(a) ∨ Mid(a))`:
 
+```scala
 A ∧ (Sqr(a) ∨ ¬Cir(a))
+```
 
 If we use the distributive property we get:
 
+```scala
 (A ∧ Sqr(a)) ∨ (A ∧ ¬Cir(a))
+```
 
 Now let's work on each part separately:
 
+```scala
 (A ∧ Sqr(a)) is ((Sml(a) ∨ Mid(a)) ∧ Sqr(a))
+```
 
 If we use the distributive property here we get:
 
+```scala
 (Sml(a) ∧ Sqr(a)) ∨ (Mid(a) ∧ Sqr(a))
+```
 
 Similarly distributing on the other half, we get:
 
+```scala
 (Sml(a) ∧ ¬Cir(a)) ∨ (Mid(a) ∧ ¬Cir(a))
+```
 
 Putting them back together into (A ∧ Sqr(a)) ∨ (A ∧ ¬Cir(a)) we get:
 
+```scala
 (Sml(a) ∧ Sqr(a)) ∨ (Mid(a) ∧ Sqr(a)) ∨ (Sml(a) ∧ ¬Cir(a)) ∨ (Mid(a) ∧ ¬Cir(a))
+```
 
 which is in disjunctive normal form.
