@@ -3,6 +3,7 @@
 1. Open `BolzanoWorld` by running `run14a`.
 2. Notice that all the English sentences from example 12 are true in this world.
   Thus, if your translations are accurate, they will also be true in this world.
+  (You need `sentences12` in `12.scala` correctly filled for this example!)
 3. Check to see that they are.
 4. If you made any mistakes, go back and fix them.
   Remember that even if one of your sentences comes out true in
