@@ -16,7 +16,7 @@ val RamseySentences2 = Seq(
   fof"∀x ¬Abv(x, d)",
   fof"∀x ((Sqr(x) ∧ Big(x)) → x = e)",
   fof"∀x ¬Lft(x, d)",
-  fof"∀x (x != e ∧ x != d → (Bel(x, e) ∨ Rgt(e, x)))",
+  fof"∀x (x != `e` ∧ x != `d` → (Bel(x, e) ∨ Rgt(e, x)))",
   fof"∀x ((Tri(x) ∧ Big(x)) ↔ x = b)",
   fof"∀x ((Lft(x, a) ∧ ¬Sqr(x)) → (Tri(x) ∧ Sml(x)))",
   fof"∀x ∀y ((Mid(x) ∧ Mid(y)) → x = y)",

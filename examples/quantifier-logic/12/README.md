@@ -13,9 +13,9 @@ This time each translation will contain exactly one ∀ and no ∃.
 2. Each small square is to the right of a.
 3. a is to the left of every blue block and every lime block.
 4. Every medium triangle is below b.
-5. Each square is either below b or above a.
+5. Each square is either below `b` or above a.
 6. Every square is to the right of a and to the left of b.
-7. Everything between a and b is a square.
+7. Everything between a and `b` is a square.
 8. Everything smaller than a is blue.
 9. No circle is small.
     (Note: it would be more natural to express it as: "¬∃x ..."

@@ -10,7 +10,7 @@ val BooleWorld: Grid = Map(
 )
 
 val sentences06 = Seq(
-  // add your sentences here! ¬∨∧
+  // add your sentences here! ~|& or ¬∨∧
 )
 
 @main

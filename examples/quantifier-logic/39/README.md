@@ -17,5 +17,5 @@
 8. All objects with nothing below them are triangles.
 9. Nothing is between two objects which are the same shape.
 10. Nothing but a square is between two other objects.
-11. b has something behind it which has at least two objects behind it.
+11. `b` has something behind it which has at least two objects behind it.
 12. More than one thing is smaller than something bigger than b.

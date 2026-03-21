@@ -20,7 +20,7 @@ val BozoSentences2 = Seq(
   fof"∃x ¬Lim(x)",
   fof"∀x (Tri(x) → (Big(x) → ¬ ∃y Abv(y,x)))",
   fof"Sqr(a) ↔ (Tri(d) ↔ Sqr(c))",
-  fof"∀x (Tri(x) ∧ x != b → Bel(b, x))"
+  fof"∀x (Tri(x) ∧ x != `b` → Bel(b, x))"
 )
 ```
 

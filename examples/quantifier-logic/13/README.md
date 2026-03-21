@@ -15,7 +15,7 @@
     or "not both mid-sized and square" or "either not square or not mid-sized".
     Pick the one that you find the simplest and the most straightforward.
     Similarly for the rest of the sentences.)
-2. Nothing is below b or lime.
+2. Nothing is below `b` or lime.
 3. Every square is either below or above e.
 4. No square is between a and c.
 5. Everything is in the same column as a, b, or c.

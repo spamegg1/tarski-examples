@@ -1,12 +1,13 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val grid13: Grid = Map(
-  // add your world here!
+val world13: Grid = Map(
+  // add your world here! syntax is like:
+  // (1, 2) -> Block(Sml, Tri, Red)
 )
 
 @main
-def run13 = runWorld(grid13, sentences12)
+def run13 = runWorld(world13, sentences12)
 
 // In case you need to play the game to figure out a formula
 @main
-def play13 = playGame(grid13, ???) // add formula here
+def play13 = playGame(world13, ???) // add formula here

@@ -9,10 +9,10 @@ this predicate using bigger than or same size as.]
 2. If a square is to the right of a circle but not above it, then
 it is as big as the circle.
 3. No square with nothing to its left is between two squares.
-4. The only big squares are b and c.
-5. At most b and c are big squares. [Note: There is a significant differ-
+4. The only big squares are `b` and c.
+5. At most `b` and `c` are big squares. [Note: There is a significant differ-
 ence between this sentence and the previous one. This one does not
-imply that b and c are big squares, while the previous sentence does.]
+imply that `b` and `c` are big squares, while the previous sentence does.]
 
 - Open Ron's World.
 - Each of the above English sentences is true in this world,

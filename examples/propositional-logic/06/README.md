@@ -1,6 +1,6 @@
-# 06 - Describe `a` world
+# 06 - Describe a world
 
-- Here is `a` picture of `BooleWorld`:
+- Here is a picture of `BooleWorld`:
 
    ![Boole](06.png)
 
@@ -32,7 +32,7 @@
 15. First move `f` to the bottom right corner of the grid.
 16. Then move `e` to the top left corner of the grid and make it big.
 17. Change either the tone or the shape of `a` to something else.
-18. Change at least one of `d`, `e`, or f to `a` shape that is not a circle.
+18. Change at least one of `d`, `e`, or `f` to `a` shape that is not a circle.
 19. Now none of the facts hold; if your answers to 4-15 are correct,
   all of the sentences should now be false.
 20. Verify that they are. If any are still true, can you figure out where you went wrong?

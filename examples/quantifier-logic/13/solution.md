@@ -3,7 +3,7 @@
 ```scala
 val sentencesQ13 = Seq(
   fof"∀x (Mid(x) → ¬Sqr(x))",                       // There are no medium-sized squares.
-  fof"∀x ¬(Bel(x, b) ∨ Lim(x))",                    // Nothing is below b or lime.
+  fof"∀x ¬(Bel(x, b) ∨ Lim(x))",                    // Nothing is below `b` or lime.
   fof"∀x (Sqr(x) → (Bel(x, e) ∨ Abv(x, e)))",       // Every square is either below or above e.
   fof"∀x (Sqr(x) → ¬Btw(x, a, c))",                 // No square is between a and c.
   fof"∀x (Col(x, a) ∨ Col(x, b) ∨ Col(x, c))",      // Everything is in the same column as a, b, or c.

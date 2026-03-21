@@ -25,7 +25,7 @@ Translate the following sentences by first giving a suitable English paraphrase.
     owns the donkey, then he beats it. This sentence clearly needs two
     universal quantifiers in its translation. Several of the sentences
     that follow in this and the next example are donkey sentences.]
-4. If e is between two objects, then they are both small.
+4. If `e` is between two objects, then they are both small.
 5. If a triangle is between two objects, then they are both small.
 
 - Save your list of sentences as Sentences 3.32.

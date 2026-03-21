@@ -20,14 +20,14 @@ val BozoSentences2 = Seq(
   fof"∃x, y (Cir(x) ∧ Cir(y) ∧ Les(x, y))",
   // Bozo wants to say that all mid-size squares are red triangles.
   fof"∀x (Mid(x) ∨ Sqr(x) → Tri(x) ∨ Red(x))",
-  // Help Bozo say that there are two squares that have only b between them.
+  // Help Bozo say that there are two squares that have only `b` between them.
   fof"∃x ∃y Sqr(x) ∧ Sqr(y) ∧ ∀z Btw(z,x,y) ↔ z = b",
   fof"∀x ∃ ¬Adj(x, y)",
   fof"∃x ¬(Lim x)",
   // There is only one way to add parentheses to this to make it true.
   fof"∀x (Tri(x) → Big(x) → ¬ ∃y Abv(y,x))",
-  fof"Sqr a ↔ Tri d ↔ Sqr c",
-  // Bozo is trying to say that b is below all OTHER triangles.
+  fof"Sqr a ↔ Tri `d` ↔ Sqr c",
+  // Bozo is trying to say that `b` is below all OTHER triangles.
   fof"∀x (Tri(x) → Bel(b, x))"
 )
 

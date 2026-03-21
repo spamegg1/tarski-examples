@@ -2,28 +2,28 @@
 
 Start a new sentence file and use it to translate the following English sentences.
 
-1. If a is a triangle, then b is also a triangle.
-2. c is a triangle if b is.
-3. a and c are both triangles only if at least one of them is big.
-4. a is a triangle but c isn't big.
-5. If c is small and d is a circle, then d is neither big nor small.
-6. c is medium only if none of d, e, and f are squares.
-7. d is a small circle unless a is small.
-8. e is big just in case it is a fact that d is big if and only if f is.
-9. d and e are the same size.
-10. d and e are the same shape.
-11. f is either a square or a circle, if it is big.
-12. c is bigger than e only if b is bigger than c.
-13. c and f have the same tone and a has a different tone than b.
-14. If d has tone lime, then e has tone red.
-15. a and e have the same tone if and only if d and b do.
+1. If a is a triangle, then `b` is also a triangle.
+2. `c` is a triangle if `b` is.
+3. a and `c` are both triangles only if at least one of them is big.
+4. a is a triangle but `c` isn't big.
+5. If `c` is small and `d` is a circle, then `d` is neither big nor small.
+6. `c` is medium only if none of d, e, and `f` are squares.
+7. `d` is a small circle unless a is small.
+8. `e` is big just in case it is a fact that `d` is big if and only if `f` is.
+9. `d` and `e` are the same size.
+10. `d` and `e` are the same shape.
+11. `f` is either a square or a circle, if it is big.
+12. `c` is bigger than `e` only if `b` is bigger than c.
+13. `c` and `f` have the same tone and a has a different tone than b.
+14. If `d` has tone lime, then `e` has tone red.
+15. a and `e` have the same tone if and only if `d` and `b` do.
 
 - Save these sentences as `sentences15`.
 - Then see if you can figure out the sizes, shapes and tones of a, b, c, d, e, f.
 - You will find it helpful to approach this problem systematically,
   filling in the following table as you reason about the sentences:
 
-|     | a | b | c | d | e | f |
+|     | a | `b` | `c` | `d` | `e` | `f` |
 |:----|:-:|:-:|:-:|:-:|:-:|:-:|
 |Shape|   |   |   |   |   |   |
 |Size |   |   |   |   |   |   |

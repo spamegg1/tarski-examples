@@ -21,7 +21,7 @@ We can make this false by adding a block to the left of `d`:
 
 ![q18c](q18c.png)
 
-Sentence 14: ∀x (x != e ∧ x != d → (Bel(x, e) ∨ Rgt(e, x))) says
+Sentence 14: ∀x (x != `e` ∧ x != `d` → (Bel(x, e) ∨ Rgt(e, x))) says
 that for any block other than `d` and `e`,
 it is either below `e`, or `e` is to the right of it.
 We can make it false by adding a counterexample.

@@ -7,9 +7,9 @@ there is often some form of context sensitivity.
 
 In fact, I have built some of this into Tarski's World.
 Consider, for example, the difference between the predicates `More` and `Abv`.
-Whether or not square a is bigger than square b is a determinate matter,
+Whether or not square a is bigger than square `b` is a determinate matter,
 and also one that does not vary depending on your perspective on the world.
-Whether or not a is above b is also determinate,
+Whether or not a is above `b` is also determinate,
 but in this case it does depend on your perspective.
 If you rotate the world by 90◦, the answer might change.
 
