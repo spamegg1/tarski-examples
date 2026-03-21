@@ -28,4 +28,4 @@ def run09 = runWorld(WittgensteinWorld, AbelardSentences)
 
 // Optional: if you make a mistake, you can play the game to understand a sentence.
 @main
-def play09 = playGame(WittgensteinWorld, ???) // add the formula you are stuck on.
+def play09 = playGame(WittgensteinWorld, ???) // add the sentence you are stuck on.

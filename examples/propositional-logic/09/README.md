@@ -6,3 +6,9 @@
 4. Close the program.
 5. Edit the false sentences: change one or more names used in them to make them true.
 6. Save sentences, and re-run to see that they are all true.
+
+## Historical: who was Abelard?
+
+Medieval French logician and philosopher (1079 - 1142)
+
+<https://en.wikipedia.org/wiki/Peter_Abelard>

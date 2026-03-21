@@ -2,7 +2,7 @@
 
 Initially:
 
-![09-1](09-1.png)
+![09a](09a.png)
 
 Changing names in the false sentences:
 
@@ -33,4 +33,4 @@ val AbelardSentences = Seq(
 
 After the changes:
 
-![09-2](09-2.png)
+![09b](09b.png)
