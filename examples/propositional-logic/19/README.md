@@ -9,3 +9,11 @@
 - Notice that no matter how you do it,
   the sentences 2,4,6,8 also come out false.
 - Write down this world in `world19b`.
+
+## Historical: who was De Morgan?
+
+British mathematician and logician (1806 - 1871)
+
+A teacher of Ada Lovelace.
+
+<https://en.wikipedia.org/wiki/Augustus_De_Morgan>

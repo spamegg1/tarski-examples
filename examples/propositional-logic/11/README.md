@@ -41,3 +41,11 @@ and sometimes a true consequent.
 What it never has is a true antecedent and a false consequent.
 In each of these three cases, play the game `play11` committed to true.
 Make sure you understand why the game proceeds as it does.
+
+## Historical: who was Montague?
+
+Richard Montague, American mathematician and philosopher (1930 - 1971)
+
+<https://en.wikipedia.org/wiki/Richard_Montague>
+
+Was a student of Alfred Tarski!

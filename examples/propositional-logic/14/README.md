@@ -25,3 +25,23 @@
 16. Finally, open `VennWorld` by running `run14d`.
 17. In this world, all of the English sentences are false.
 18. Check to see that the same holds of your translations and correct them if necessary.
+
+## Historical: who were Bolzano, Leibniz and Venn?
+
+Bolzano, Bohemian polymath (1781 - 1848)
+
+Big contributions to analysis, such as the ε–δ definition of limits.
+
+<https://en.wikipedia.org/wiki/Bernard_Bolzano>
+
+Gottfried Leibniz, German mathematician (1646 - 1716)
+
+Inventor of calculus along with Isaac Newton.
+
+<https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz>
+
+John Venn, English mathematician and logician (1834 - 1923)
+
+Known for Venn diagrams of sets, big contribution to probability.
+
+<https://en.wikipedia.org/wiki/John_Venn>

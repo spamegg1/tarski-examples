@@ -3,10 +3,10 @@
 In the blocks language used in Tarski's World there are a
 number of equivalent ways of expressing some of the predicates.
 
-(Recall that equality `=` means "value equality", a.k.a. equality:
-`Eq(a, b)` if the blocks labeled `a` and `b` are equal in size, shape and tone.
-This is in contrast to "reference equality" `Loc`, a.k.a. identity:
-`Loc(x,y)` means that `x` and `y` have the same row and column on the board,
+(Recall that `Eq` means "value equality", a.k.a. equality:
+`Eq(a, b)` means the blocks labeled `a` and `b` are equal in size, shape and tone.
+This is in contrast to "reference equality" `=`, a.k.a. identity:
+`x = y` means that `x` and `y` have the same row and column on the board,
 in other words they refer to the same one block.)
 
 - Look at `BernaysSentences`.
@@ -24,3 +24,11 @@ in other words they refer to the same one block.)
   - `BooleWorld`, and
   - `LeibnizWorld`.
 - Save the modified `BernaysSentences`.
+
+## Historical: who was Bernays?
+
+Swiss logician (1888 - 1977)
+
+<https://en.wikipedia.org/wiki/Paul_Bernays>
+
+Closely worked with David Hilbert.
