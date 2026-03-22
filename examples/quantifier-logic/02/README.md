@@ -16,3 +16,11 @@
   then typing them into `worldQ02` by looking at the screenshot.
   - Remember that rows and columns are 0-indexed!
 - Then run the world one more time, with your blocks, to make sure they are correct.
+
+## Historical: who was Aristotle?
+
+Ancient Greek philosopher and polymath (384 BC - 322 BC)
+
+Student of Plato's Academy, set the groundwork for modern logic and science.
+
+<https://en.wikipedia.org/wiki/Aristotle>
