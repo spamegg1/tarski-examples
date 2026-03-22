@@ -11,7 +11,7 @@ val AustinSentences = Seq(
   fof"Abv(e, b)",
   fof"Rgt(a, b)",
   fof"Row(d, e)", // added
-  fof"Abv(d, e)", // added
+  fof"Abv(d, e)"  // added
   // not possible!
 )
 ```
