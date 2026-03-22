@@ -8,3 +8,11 @@
   go back and make the false ones true by adding or deleting a negation sign.
 - Save when the sentences all come out true in `PeirceWorld`.
 - Repeat for `PeirceSentences2` by running `runq01b`.
+
+## Historical: who was Peirce?
+
+American scientist, mathematician, logician (1839 - 1914)
+
+He invented quantifiers!
+
+<https://en.wikipedia.org/wiki/Charles_Sanders_Peirce>
