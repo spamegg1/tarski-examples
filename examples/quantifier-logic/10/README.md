@@ -27,10 +27,10 @@ Typically, these will be noun phrases starting with one of the determiners
 5. `b` is to the right of a red square.
     (This translation should be similar to the last,
     but it should contain the predicate symbol `Rgt`.)
-6. Something to the left of `b` is above c.
-7. A red square to the left of `b` is above c.
+6. Something to the left of `b` is above `c`.
+7. A red square to the left of `b` is above `c`.
     Another way of saying the same thing:
-    - Some red square is to the left of `b` and above c.
+    - Some red square is to the left of `b` and above `c`.
 8. Some circle is not big or red.
 9. Something is not a big circle.
     Other ways of saying the same thing:
