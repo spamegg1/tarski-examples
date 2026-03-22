@@ -13,13 +13,22 @@ This is in fact an extremely unnatural sentence of first-order logic.
 It is meaningful, but it doesn't mean what you might think.
 This example is designed to show you exactly what a sentence of this form means.
 
-- Evaluate `EdgarSentences` in `EdgarWorld` by running `runQ06`.
+- Evaluate `ChurchSentences` in `ChurchWorld` by running `runQ06`.
 - Make sure you understand why each of them has the truth value it does.
 - Play the game `playQ06` if any of the evaluations surprise you.
 - Which of these sentences would be a good translation of:
   "There is a triangle that is big"?
-  (Clearly this English sentence is false in `EdgarWorld`,
+  (Clearly this English sentence is false in `ChurchWorld`,
   since there are no triangles at all.)
-- Which sentence would be a good translation of: "There is a square between a and b"?
+- Which sentence would be a good translation of:
+  "There is a square between `a` and `b`"?
 - Which would be a good translation of "There is a big circle"?
 - Express in clear English the claim made by each sentence.
+
+## Historical: who was Church?
+
+American mathematician, computer scientist, logician (1903 - 1995)
+
+Inventor of lambda calculus.
+
+<https://en.wikipedia.org/wiki/Alonzo_Church>

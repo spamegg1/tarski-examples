@@ -1,6 +1,6 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val EdgarWorld: Grid = Map(
+val ChurchWorld: Grid = Map(
   (0, 1) -> Block(Big, Sqr, Blu),
   (0, 6) -> Block(Big, Sqr, Lim),
   (5, 2) -> Block(Sml, Cir, Red, "a"),
@@ -8,7 +8,7 @@ val EdgarWorld: Grid = Map(
   (5, 6) -> Block(Sml, Cir, Blu, "b")
 )
 
-val EdgarSentences = Seq(
+val ChurchSentences = Seq(
   fof"∃x Tri(x)",
   fof"∃x (Tri(x) ∧ Big(x))",
   fof"∃x (Tri(x) ∨ Big(x))",
@@ -24,8 +24,8 @@ val EdgarSentences = Seq(
 )
 
 @main
-def runQ06 = runWorld(EdgarWorld, EdgarSentences)
+def runQ06 = runWorld(ChurchWorld, ChurchSentences)
 
 // Play the game if you are confused about any sentence.
 @main
-def playQ06 = playGame(EdgarWorld, ???) // add sentence here
+def playQ06 = playGame(ChurchWorld, ???) // add sentence here
