@@ -11,7 +11,7 @@ val ReichenbachWorld1: Grid = Map(
 )
 
 val sentencesQ09 = Seq(
-  // add sentences here! ¬∧∨→↔∀∃
+  // add sentences here! ~&|-><->!? or ¬∧∨→↔∀∃
 )
 
 @main

@@ -30,3 +30,11 @@
 - If not, then you have made an error in describing the original world.
 - Can you figure out what it is?
 - Try making other changes and see if your sentences have the expected truth values.
+
+## Historical: who was Reichenbach?
+
+Philosopher of science (1891 - 1953)
+
+Founded "Berlin Circle", of which Hilbert was also a member.
+
+<https://en.wikipedia.org/wiki/Hans_Reichenbach>
