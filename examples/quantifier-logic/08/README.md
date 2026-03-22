@@ -2,7 +2,7 @@
 
 - Try running `runQ08`, it will crash.
 - Look at `BozoSentences2`.
-- Most of the expressions in this file are not sentences.
+- Most of the expressions in this list are not sentences.
 - Some are not wffs, while others are wffs but not sentences.
 - Read and assess each one.
 - If it is not a wff, fix it.
@@ -17,8 +17,9 @@
 - See if you can capture the intent of the original expression.
 - Save your modified sentences.
 
-(Recall that equality `=` means "value equality", a.k.a. equality:
+(Recall that `Eq` means "value equality", a.k.a. equality:
 `Eq(a, b)` if the blocks labeled `a` and `b` are equal in size, shape and tone.
-This is in contrast to "reference equality" `Loc`, a.k.a. identity:
-`Loc(x,y)` means that `x` and `y` have the same row and column on the board,
-in other words they refer to the same block, i.e. they are identical.)
+This is in contrast to "reference equality" `=`, a.k.a. identity:
+`x = y` means that `x` and `y` have the same row and column on the board,
+in other words they refer to the same block, i.e. they are identical.
+The negated form can be written as `x != y`.)

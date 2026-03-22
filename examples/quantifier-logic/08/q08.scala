@@ -9,12 +9,12 @@ val BozoSentences2 = Seq(
   // Bozo wants to say that all small squares have a square above them.
   fof"∀x (Sqr(x) ∧ Sml(x) → ∃y Sqr(y) ∧ Abv(y, x))",
   // Bozo is trying to say there are at least two non-identical blocks in the world.
-  fof"∃x ∃y ¬Loc x y",
+  fof"∃x ∃y x ¬= y",
   fof"Sqr(x) → ¬ Mid(x)", // Bozo wants to say that no squares are medium.
   fof"Tri(x) → Red(x)",   // Bozo wants to say all triangles are red.
-  // Help Bozo say that unequal squares have a triangle between them.
+  // Help Bozo say that non-identical squares have a triangle between them.
   fof"∀x ∀y (Sqr(x) ∧ Sqr(v) ∧ ¬Eq(x, y) → ∃z Tri(z) ∧ Btw(z x y))",
-  // Help Bozo say that unequal blue blocks have a red block between them.
+  // Help Bozo say that non-identical blue blocks have a red block between them.
   fof"∀x ∀y (Blue(x) ∧ Blue(y) ∧ ¬Eq(x, y) → ∃z Red(z) ∧ Btw(z,x,y))",
   fof"∀x ((Red(x) ∧ Big(x) ∧ Sml(y)) → Bel(y, x))",
   fof"∃x, y (Cir(x) ∧ Cir(y) ∧ Les(x, y))",
@@ -30,6 +30,7 @@ val BozoSentences2 = Seq(
   // Bozo is trying to say that `b` is below all OTHER triangles.
   fof"∀x (Tri(x) → Bel(b, x))"
 )
+
 
 @main
 def runQ08 = runWorld(LeibnizWorld, BozoSentences2)

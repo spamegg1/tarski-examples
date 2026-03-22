@@ -29,6 +29,6 @@ This example is designed to show you exactly what a sentence of this form means.
 
 American mathematician, computer scientist, logician (1903 - 1995)
 
-Inventor of lambda calculus.
+Inventor of lambda calculus, Turing's teacher and one of the fathers of computer science.
 
 <https://en.wikipedia.org/wiki/Alonzo_Church>
