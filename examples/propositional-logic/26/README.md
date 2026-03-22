@@ -7,7 +7,7 @@ number of equivalent ways of expressing some of the predicates.
 `Eq(a, b)` means the blocks labeled `a` and `b` are equal in size, shape and tone.
 This is in contrast to "reference equality" `=`, a.k.a. identity:
 `x = y` means that `x` and `y` have the same row and column on the board,
-in other words they refer to the same one block.)
+in other words they refer to the same block.)
 
 - Look at `BernaysSentences`.
 - You will find a list of atomic sentences,
@@ -25,10 +25,16 @@ in other words they refer to the same one block.)
   - `LeibnizWorld`.
 - Save the modified `BernaysSentences`.
 
-## Historical: who was Bernays?
+## Historical: who were Bernays and Ackermann?
 
-Swiss logician (1888 - 1977)
+Paul Bernays, Swiss logician (1888 - 1977)
+
+Closely worked with Hilbert and taught Gentzen.
 
 <https://en.wikipedia.org/wiki/Paul_Bernays>
 
-Closely worked with David Hilbert.
+Wilhelm Ackermann, German logician (1896 - 1962)
+
+Student of Hilbert.
+
+<https://en.wikipedia.org/wiki/Wilhelm_Ackermann>

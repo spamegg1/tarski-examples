@@ -21,4 +21,4 @@
 `Eq(a, b)` if the blocks labeled `a` and `b` are equal in size, shape and tone.
 This is in contrast to "reference equality" `Loc`, a.k.a. identity:
 `Loc(x,y)` means that `x` and `y` have the same row and column on the board,
-in other words they refer to the same one block, i.e. they are identical.)
+in other words they refer to the same block, i.e. they are identical.)

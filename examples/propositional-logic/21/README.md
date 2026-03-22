@@ -34,4 +34,12 @@ each followed by an empty sentence position.
 `Eq(a, b)` means the blocks labeled `a` and `b` are equal in size, shape and tone.
 This is in contrast to "reference equality" `=`, a.k.a. identity:
 `x = y` means that `x` and `y` have the same row and column on the board,
-in other words they refer to the same one block.)
+in other words they refer to the same block.)
+
+## Historical: who was Turing?
+
+British mathematician, logician, computer scientist, cryptanalist
+
+Arguably the father of modern computer science, so many big contributions.
+
+<https://en.wikipedia.org/wiki/Alan_Turing>
