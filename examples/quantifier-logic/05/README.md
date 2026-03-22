@@ -5,3 +5,9 @@
 - You should be able to figure this out from the sentences, all of which are true.
 - Once you have come to your conclusion, assign the six names to objects in
   the world in such a way that all the sentences do indeed evaluate as true.
+
+## Optional: who is Maigret?
+
+A fictional detective character (remember, we had Sherlock earlier!)
+
+<https://en.wikipedia.org/wiki/Jules_Maigret>
