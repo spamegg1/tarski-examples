@@ -16,7 +16,7 @@ val AustinSentences = Seq(
 )
 ```
 
-The ninth case (exactly three true values) is not possible with any atomic sentence.
+The 9th case (exactly three true values) is not possible with any atomic sentence.
 But it is possible with the negation of an atomic sentence, e.g. `¬Abv(d, e)`.
 
 ## Table

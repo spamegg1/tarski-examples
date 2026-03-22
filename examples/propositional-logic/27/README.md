@@ -6,10 +6,10 @@ like English. Indeed, even when things seem quite determinate,
 there is often some form of context sensitivity.
 
 In fact, I have built some of this into Tarski's World.
-Consider, for example, the difference between the predicates `More` and `Abv`.
-Whether or not square a is bigger than square `b` is a determinate matter,
+Consider, for example, the difference between the predicates `Mor` and `Abv`.
+Whether or not square `a` is bigger than square `b` is a determinate matter,
 and also one that does not vary depending on your perspective on the world.
-Whether or not a is above `b` is also determinate,
+Whether or not `a` is above `b` is also determinate,
 but in this case it does depend on your perspective.
 If you rotate the world by 90◦, the answer might change.
 
@@ -52,3 +52,9 @@ language that would produce a row across the table with the following pattern:
 - If not, leave sentence nine blank.
 
 Save the modified `AustinSentences`.
+
+## Historical: who was Austin?
+
+English philosopher (1911 - 1960)
+
+<https://en.wikipedia.org/wiki/J._L._Austin>
