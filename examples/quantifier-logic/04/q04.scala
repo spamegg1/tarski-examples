@@ -1,8 +1,4 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
-
-val worldQ04: Grid = Map(
-  (3, 4) -> Block(Mid, Tri, Blu, "a")
-)
+import tarski.main.*
 
 val SchönfinkelSentences = Seq(
   // you can copy these: ¬∧∨→↔∀∃
@@ -12,15 +8,15 @@ val SchönfinkelSentences = Seq(
   fof"Tri(w) → Big(w)",   // You can't add parens. How many quantifiers needed?
   fof"Big(x) → ¬Mor(y, x)",
   fof"∀x y ((Sqr(x) ∧ Sqr(y)) → ¬Mor(x, y))",
-  // Only add quantifiers and/or variables. No changing the "a".
+  // Only add quantifiers and/or variables. No changing the `a`.
   // The resulting sentence is weird, but we'll explain later.
   fof"∀ Sqr(a)",
-  // The quantifier here does nothing. Does not bind "y" (wrong variable)
-  // and does not bind "x" (out of scope).
+  // The quantifier here does nothing. Does not bind `y` (wrong variable)
+  // and does not bind `x` (out of scope).
   fof"∀x Tri(y) → Sml(x)",
-  fof"((Tri(x) ∧ Tri(y)) → Btw(z,x,y))",
-  fof"(Tri(x) ∧ Big(x)) → Lft(x,y)"
+  fof"((Tri(x) ∧ Tri(y)) → Btw(z, x, y))",
+  fof"(Tri(x) ∧ Big(x)) → Lft(x, y)"
 )
 
 @main
-def run = runWorld(worldQ04, SchönfinkelSentences)
+def run = runWorld(BooleWorld, SchönfinkelSentences)
