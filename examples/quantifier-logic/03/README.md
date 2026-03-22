@@ -11,5 +11,13 @@
 - Turn them into sentences *without adding or deleting any quantifier symbols*.
 - With some of them, there is more than one way to make them a sentence.
 - Run `runQ03` and evaluate to make sure your results are sentences.
-  - The truth values are not important.
+  - The truth values are not important. Some are true, some are false.
 - Save the corrected sentences.
+
+## Historical: who was Bernstein?
+
+German mathematician (1878 - 1956)
+
+Student of Hilbert, contributions to set theory.
+
+<https://en.wikipedia.org/wiki/Felix_Bernstein_(mathematician)>

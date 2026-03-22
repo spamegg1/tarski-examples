@@ -19,3 +19,5 @@ val BernsteinSentences = Seq(
   fof"∀x (Sqr(x) → ∃y Btw(x, x, y))"      // change ∃ variable to y
 )
 ```
+
+![q03](q03.png)
