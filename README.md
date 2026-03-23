@@ -18,7 +18,7 @@ In some examples, you might have to write some formulas first, before executing.
 
 To interact, execute the `@main` methods with names like `run02a` etc.
 
-![runWorld](runWorld.png)
+<https://github.com/user-attachments/assets/c1afff52-5d38-419d-9d9f-f03720259b89>
 
 If the window is too small or too big, you can pass an optional parameter to resize it:
 

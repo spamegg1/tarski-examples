@@ -1,6 +1,6 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
-val AllanSentences = Seq(
+val PresburgerSentences = Seq(
   fof"∃x (Cir(x) ∧ Big(x))",
   fof"∃x (Cir(x) → Big(x))",
   fof"∀x (Tri(x) ∧ Sml(x))",
@@ -13,4 +13,4 @@ val worldQ11: Grid = Map(
 )
 
 @main
-def runQ11 = runWorld(worldQ11, AllanSentences)
+def runQ11 = runWorld(worldQ11, PresburgerSentences)

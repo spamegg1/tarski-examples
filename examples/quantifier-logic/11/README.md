@@ -2,7 +2,7 @@
 
 - In this example we return to the point made in example q06.
 - Glance back at that example to recall the basic point.
-- Now see `AllanSentences`.
+- Now see `PresburgerSentences`.
 - In these sentences, 1 and 4 are the correct translations of
   - Some circle is big
   - All triangles are small.
@@ -22,3 +22,11 @@
   - sentence 2 is false?
   - If so, do so and evaluate to verify it.
   - If not, explain why not.
+
+## Historical: who was Presburger?
+
+Polish mathematician and logician (1904 - 1943)
+
+Student of Tarski, invented Presburger arithmetic.
+
+<https://en.wikipedia.org/wiki/Moj%C5%BCesz_Presburger>
