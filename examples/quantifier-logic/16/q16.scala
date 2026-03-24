@@ -9,11 +9,11 @@ val RamseySentences1 = Seq(
   fof"Sqr(c) → Tri(a)", // name one of your earlier blocks "a".
   fof"Sqr(d) ∧ Sqr(e) ∧ ¬Mor(d, e)",
   fof"Red(e) ∧ Ton(d, b) ∧ ¬Ton(c, a)", // name one of your earlier blocks "b".
-  fof"∃x (Sqr(x) ∧ x != `d` ∧ x != e)",
+  fof"∃x (Sqr(x) ∧ x != d ∧ x != e)",
   // Re-position things to make this true without adding new blocks.
   fof"∃x (Tri(x) ∧ Btw(x, c, d))",
   fof"∃x ∃y (Btw(a, x, y) ∧ Mor(a, x) ∧ Les(a, y))",
-  fof"∃x (Sqr(x) ∧ (Big(x) ∨ (x != `c` ∧ x != d)))",
+  fof"∃x (Sqr(x) ∧ (Big(x) ∨ (x != c ∧ x != d)))",
   fof"∃x ∃y ∃z (Sqr(x) ∧ Cir(y) ∧ Cir(z) ∧ Btw(y, x, z) ∧ Lft(x, z))"
 )
 
