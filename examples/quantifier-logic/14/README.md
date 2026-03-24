@@ -44,3 +44,17 @@ she misled us. Her claim suggests that there were freshman in the class, and if
 there were no freshman, then that's what she would have said if she were
 being forthright. This is why inherently vacuous claims like sentence 5 strike us
 as counterintuitive: we can see that they cannot be true without being misleading.
+
+## Historical: who were Peano and Dodgson?
+
+Italian mathematician (1858 - 1932)
+
+<https://en.wikipedia.org/wiki/Giuseppe_Peano>
+
+Charles Lutwidge Dodgson, English author and mathematician (1832 - 1898)
+
+Better known as Lewis Carroll, his pen name.
+
+Author of Alice in Wonderland, which contains many mathematical logic puzzles.
+
+<https://en.wikipedia.org/wiki/Lewis_Carroll>
