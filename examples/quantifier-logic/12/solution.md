@@ -20,7 +20,7 @@ val sentencesQ12 = Seq(
 )
 ```
 
-Initially in `ClaireWorld`:
+Initially in `VonNeumannWorld`:
 
 ![q12a1](q12a1.png)
 

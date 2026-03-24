@@ -24,7 +24,7 @@ Start a new sentence file and translate the following English sentences.
 - The English sentences 4, 5, 8, 9, and 10 are true,
 - but the rest are false.
 - Verify that the same holds of your translations.
-- Open Claire's World.
+- Open VonNeumann's World.
 - Here you will find that the English sentences 1, 3, 5, 7, 9, and 10 are true,
 - the rest false.
 - Again, check to see that your translations have the appropriate truth value.
