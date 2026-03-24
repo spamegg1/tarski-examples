@@ -53,7 +53,7 @@ Italian mathematician (1858 - 1932)
 
 Charles Lutwidge Dodgson, English author and mathematician (1832 - 1898)
 
-Better known as Lewis Carroll, his pen name.
+Better known by the pen name Lewis Carroll.
 
 Author of Alice in Wonderland, which contains many mathematical logic puzzles.
 

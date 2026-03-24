@@ -31,7 +31,8 @@ In `PeanoSentences2`, the false sentences are:
 
 - ∀x ((Sqr(x) ∧ Mid(x)) → ∀y Lft(y, x)) (no. 1)
   - can be made true with:
-  - ∀x ((Sqr(x) ∧ Mid(x)) → ∀y (Lft(y, x) → ¬Eq(x, y)))
+  - ∀x ((Sqr(x) ∧ Mid(x)) → ∀y (x != y → Lft(y, x)))
+  - ¬Eq(x, y) also works.
 - ∀x ((Tri(x) ∧ Sml(x)) → ∀y Bel(x, y)) (no. 3)
   - can be made true with:
   - ∀x ((Tri(x) ∧ Sml(x)) → ∀y (¬Row(x, y) → Bel(x, y)))
@@ -51,6 +52,7 @@ In `PeanoSentences2`, the false sentences are:
 - ∀x ∀y ((Tri(x) ∧ Tri(y)) → ¬Siz(x, y)) (no. 15)
   - can be made true with:
   - ∀x ∀y ((Tri(x) ∧ Tri(y) ∧ ¬Eq(x, y)) → ¬Siz(x, y))
+  - x != y also works instead of ¬Eq(x, y)
 
 Initial evaluation (1, 3, 4, 9, 11, 13, 15 false):
 
