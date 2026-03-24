@@ -16,9 +16,9 @@
     Pick the one that you find the simplest and the most straightforward.
     Similarly for the rest of the sentences.)
 2. Nothing is below `b` or lime.
-3. Every square is either below or above e.
-4. No square is between a and c.
-5. Everything is in the same column as a, b, or c.
+3. Every square is either below or above `e`.
+4. No square is between `a` and `c`.
+5. Everything is in the same column as `a`, `b`, or `c`.
 6. There are no red squares or blue triangles.
 
 - Now let's change the world so that none of the English sentences is true.

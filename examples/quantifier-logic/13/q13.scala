@@ -1,4 +1,4 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
+import tarski.main.*
 
 val sentencesQ13 = Seq(
   // add your sentences here! ¬∧∨→↔∀∃
