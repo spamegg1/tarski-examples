@@ -28,4 +28,3 @@ This example will help you get a feeling for the difficulty.
   exactly the same; they have just been rearranged!
 - The moral of this example is that the correct translation of a sentence
 - into first-order logic (or any other language) can be very dependent on context.
-- Submit your sentence file.

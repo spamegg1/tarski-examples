@@ -17,7 +17,7 @@
 
 ## Historical: who was Ramsey?
 
-British philosopher, mathematician, economist
+British philosopher, mathematician, economist (1903 - 1939)
 
 Friend of Wittgenstein, major contributions to many fields.
 

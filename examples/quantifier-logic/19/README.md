@@ -1,6 +1,6 @@
 # 19 - Simple multiple quantifier sentences
 
-- The file `FregeSentences` contains 14 sentences.
+- `FregeSentences` contains 14 sentences.
 - The first seven begin with a pair of existential quantifiers.
 - The second seven with a pair of universal quantifiers.
 - Go through the sentences one by one, evaluating them in `PeirceWorld`.
@@ -13,3 +13,9 @@
 
 Now that you have plenty of experience with quantifiers, next we will present
 examples in which both universal and existential quantifiers get mixed together.
+
+## Historical: who was Frege?
+
+German philosopher, mathematician, logician (1848 - 1925)
+
+<https://en.wikipedia.org/wiki/Gottlob_Frege>

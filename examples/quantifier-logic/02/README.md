@@ -6,7 +6,7 @@
   - No A's are B's
   - Some A's are B's
   - Some A's are not B's
-- Build a single world where all the sentences in the file are true.
+- Build a single world where all the sentences are true.
 - As you work through the sentences, you will find yourself successively
   modifying the world.
 - Whenever you make a change in the world, you had better go back

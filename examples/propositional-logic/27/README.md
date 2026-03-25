@@ -14,7 +14,7 @@ but in this case it does depend on your perspective.
 If you rotate the world by 90◦, the answer might change.
 
 - Open `AustinSentences` and `WittgensteinWorld`.
-- Evaluate the sentences in this file and tabulate the
+- Evaluate the sentences and tabulate the
   resulting truth values in the table below.
 
 |No |Original|Rotate 90◦|Rotate 180◦|Rotate 270◦|

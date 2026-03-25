@@ -1,7 +1,7 @@
 # 36 - Saying more complicated things
 
-- Open Skolem's World.
-- Create a new sentence file and describe the following features of Skolem's World.
+- Open `SkolemWorld`.
+- Describe the following features of `SkolemWorld` in `sentencesQ36`.
 
 1. Use your first sentence to say that there are only squares and triangles.
 2. Next say that there are exactly three squares.
@@ -13,18 +13,17 @@
 7. Observe that the small triangle is below but to neither side
   of all the other triangles. State this.
 
-- Save your list of sentences as Sentences 3.36.
 - If you have expressed yourself correctly,
-- there is very little you can do to Skolem's World
-- without making at least one of your sentences false.
+  there is very little you can do to `SkolemWorld`
+  without making at least one of your sentences false.
 - Basically, all you can do is "stretch" things out, that is,
-- move things apart while keeping them aligned.
+  move things apart while keeping them aligned.
 - To see this, try making the following changes.
 
-1. Add a new triangle to the world. Find one of your sentences
-  that comes out false. Move the new triangle so that a different
-  sentence comes out false.
-2. Change the size of one of the objects. What sentence now comes out false?
-3. Change the shape of one of the objects. What sentence comes out false?
-4. Slide one of the squares to the left. What sentence comes out false?
-5. Rearrange the three squares. What goes wrong now?
+1. Add a new triangle to the world.
+2. Find one of your sentences that comes out false.
+3. Move the new triangle so that a different sentence comes out false.
+4. Change the size of one of the objects. What sentence now comes out false?
+5. Change the shape of one of the objects. What sentence comes out false?
+6. Slide one of the squares to the left. What sentence comes out false?
+7. Rearrange the three squares. What goes wrong now?

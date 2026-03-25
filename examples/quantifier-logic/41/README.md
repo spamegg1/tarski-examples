@@ -1,7 +1,6 @@
 # 41 - Ambiguity
 
-- Use Tarski's World to create a new sentence file and
-- use it to translate the following sentences into fol.
+- Translate the following sentences into fol.
 - Each of these sentences is ambiguous,
 - so you should have two different translations of each.
 - Put the two translations of sentence 1 in slots 1 and 2,

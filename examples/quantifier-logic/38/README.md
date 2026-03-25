@@ -32,4 +32,3 @@ Translate the following sentences.
 - Now make the circle medium.
 - The English sentence is again true.
 - How about your translation?
-- Submit your sentence file.

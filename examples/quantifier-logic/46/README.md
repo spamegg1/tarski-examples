@@ -1,7 +1,7 @@
 # 46 - Describing a world
 
 - Let's try our hand describing a world using multiple quantifiers.
-- Open Finsler's World and start a new sentence file.
+- Open Finsler's World.
 
 1. Notice that all the small blocks are below all the big blocks.
   Use your first sentence to say this.
@@ -22,4 +22,3 @@ this fact.
   always have the same truth values as the claims you meant to express.
 - Check them out in König's World, where all of the original claims are false.
 - Are your sentences all false? When you think you've got them right,
-- submit your sentence file.

@@ -15,7 +15,7 @@
     - type the ASCII equivalents `~` (or `-`), `&`, `->`.
 - Check each after you write it to see that it is a sentence.
 - If you make a mistake, edit it before going on.
-- Save your changes to the file, and run.
+- Save your changes, and run.
 - Notice we are using the same world from Example 01.
 - Before you "Eval", think about their truth values.
 - When you "Eval", if there is a mistake, the console will throw an exception.

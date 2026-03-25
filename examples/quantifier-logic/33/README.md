@@ -24,4 +24,3 @@ imply that `b` and `c` are big squares, while the previous sentence does.]
 - Next open Wittgenstein's World.
 - In this world, only the English sentences 2 and 3 are true.
 - Verify that your translations have the same truth values.
-- Submit your sentence file.

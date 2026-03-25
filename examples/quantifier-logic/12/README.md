@@ -57,7 +57,7 @@ Now let's check the translations in some worlds.
 - If not, try to fix them.
 - Finally, open `VennWorld`.
 - English sentences 2, 4, 7, and 10-14 are true. What about your translations?
-- When you are satisfied that your translations are correct, save your sentence file.
+- When you are satisfied that your translations are correct, save your sentences.
 
 ## Historical: who was von Neumann?
 
