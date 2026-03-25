@@ -14,3 +14,11 @@
 - After you're done with the world, you can take a screenshot of the world,
   and add the blocks to `worldQ16`.
 - Save `worldQ16` and `runQ16` again to make sure you transcribed the blocks correctly.
+
+## Historical: who was Ramsey?
+
+British philosopher, mathematician, economist
+
+Friend of Wittgenstein, major contributions to many fields.
+
+<https://en.wikipedia.org/wiki/Frank_P._Ramsey>

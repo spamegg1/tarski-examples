@@ -1,5 +1,6 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
+// similar to the solution of the previous example
 val worldQ18: Grid = Map(
   (1, 1) -> Block(Sml, Sqr, Blu, "d"),
   (1, 4) -> Block(Sml, Cir, Lim),
