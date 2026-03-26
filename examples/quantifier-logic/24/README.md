@@ -13,3 +13,17 @@
   and why your modified sentence is true.
 - If it did not work, then close the world and try again.
 - When you're done, save your sentence list with the changes.
+
+## Historical: who was Hilbert?
+
+German mathematician (1862 - 1943)
+
+Highly influential, big contributions to many areas.
+
+Teacher of Von Neumann and Lasker (world chess champion).
+
+His 23 problems from 1900 shaped a big part of 20th century mathematics research.
+
+One of the problems led to "Hilbert's Program" to provide foundations of mathematics.
+
+<https://en.wikipedia.org/wiki/David_Hilbert>

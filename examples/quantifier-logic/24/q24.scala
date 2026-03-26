@@ -1,4 +1,4 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
+import tarski.main.*
 
 val HilbertSentences = Seq(
   fof"∃x ∀y Les(x, y)", // Could this ever be true?
