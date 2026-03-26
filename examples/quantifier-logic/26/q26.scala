@@ -4,7 +4,7 @@ val worldQ26: Grid = Map(
   // add your blocks here!
 )
 
-val ArnaultSentences = Seq(
+val ArnauldSentences = Seq(
   fof"∃x ∃y ∃z (Sqr(x) ∧ Cir(y) ∧ Tri(z) ∧ Blu(x) ∧ Lim(y) ∧ Red(z))",
   fof"¬ ∃x Big(x)",
   fof"∀x (Tri(x) → ∃y (Sqr(y) ∧ Abv(x, y)))",
@@ -17,4 +17,4 @@ val ArnaultSentences = Seq(
 )
 
 @main
-def runQ26 = runWorld(worldQ26, ArnaultSentences)
+def runQ26 = runWorld(worldQ26, ArnauldSentences)
