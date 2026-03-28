@@ -30,7 +30,7 @@ when you come across them in our first-order language.
 - As we increase the number of objects, numerical claims get longer and more complicated.
   - Let's consider one, but we won't be typing or evaluating it.
   - We could say that there are exactly three objects as follows:
-    ∃x ∃y ∃z (¬Loc(x,y) ∧ ¬Loc(x,z) ∧ ¬Loc(y,z) ∧ ∀u (Loc(u,x) ∨ Loc(u,y) ∨ Loc(u,z)))
+    ∃x ∃y ∃z (x !=y ∧ x != z ∧ y != z ∧ ∀u (u = x ∨ u = y ∨ u = z))
   - This says there are exactly three non-identical blocks (placed at different positions).
   - A similar but different statement is:
     ∃x ∃y ∃z (¬Eq(x, y) ∧ ¬Eq(x, z) ∧ ¬Eq(y, z) ∧ ∀u (Eq(u, x) ∨ Eq(u, y) ∨ Eq(u, z))).
@@ -61,3 +61,11 @@ when you come across them in our first-order language.
 - Sentence 13 says that there are exactly two triangles.
   - Check that it is true in such worlds,
   - but false if there are fewer or more than two.
+
+## Historical: who was Whitehead?
+
+English mathematician and philosopher (1861 - 1947)
+
+Teacher of Russell and Quine, co-authored Principia Mathematica.
+
+<https://en.wikipedia.org/wiki/Alfred_North_Whitehead>

@@ -1,23 +1,26 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
 val WhiteheadSentences = Seq(
-  fof"∃x ∃y x != y",                                                  // at least 2
-  fof"∀x ∀y ∀z (x = y ∨ y = z ∨ x = z)",                              // at most 2
-  fof"(∃x ∃y ¬Loc(x,y)) ∧ ∀x ∀y ∀z (Loc(x,y) ∨ Loc(y,z) ∨ Loc(x,z))", // exactly 2
-  fof"∃x ∃y (x != y ∧ ∀z (y = z ∨ x = z))",                           // exactly 2
-  fof"∃x ∃y ∃z (x != y ∧ y != z)",                                    // at least 3?
-  fof"∃x ∃y ∃z (x != y ∧ y != z ∧ x != z)",                           // at least 3
-  fof"∀x (Big(x) ↔ x = a)",                                           // unique big
-  fof"∃y ∀x (Big(x) ↔ x = y)",                                        // unique big
-  fof"∃y ∀x (Cir(x) ↔ x = y)",                                        // unique circle
-  fof"∃y ∀x ((Cir(x) ∧ Red(x)) ↔ x = y)",                             // unique red cir
-  fof"∃x ∃y (x != y ∧ Cir(x) ∧ Cir(y))",                              // at least 2 cir
-  fof"∃x (Cir(x) ∧ ∀y (Cir(y) → x = y))",                             // unique circle
-  fof"∃x ∃y (¬Loc(x,y) ∧ ∀z (Tri(z) ↔ (Loc(z,x) ∨ Loc(z,y))))"        // exactly 2 tri
+  fof"∃x ∃y x != y",                                      // at least 2
+  fof"∀x ∀y ∀z (x = y ∨ y = z ∨ x = z)",                  // at most 2
+  fof"(∃x ∃y x != y) ∧ ∀x ∀y ∀z (x = y ∨ y = z ∨ x = z)", // exactly 2
+  fof"∃x ∃y (x != y ∧ ∀z (y = z ∨ x = z))",               // exactly 2
+  fof"∃x ∃y ∃z (x != y ∧ y != z)",                        // at least 3?
+  fof"∃x ∃y ∃z (x != y ∧ y != z ∧ x != z)",               // at least 3
+  fof"∀x (Big(x) ↔ x = a)",                               // unique big
+  fof"∃y ∀x (Big(x) ↔ x = y)",                            // unique big
+  fof"∃y ∀x (Cir(x) ↔ x = y)",                            // unique circle
+  fof"∃y ∀x ((Cir(x) ∧ Red(x)) ↔ x = y)",                 // unique red cir
+  fof"∃x ∃y (x != y ∧ Cir(x) ∧ Cir(y))",                  // at least 2 cir
+  fof"∃x (Cir(x) ∧ ∀y (Cir(y) → x = y))",                 // unique circle
+  fof"∃x ∃y (x != y ∧ ∀z (Tri(z) ↔ (z = x ∨ z = y)))"     // exactly 2 tri
 )
 
 val worldQ27: Grid = Map(
   // add your blocks here!
+  (2, 2) -> Block(Sml, Tri, Blu),
+  (2, 4) -> Block(Sml, Cir, Red),
+  (3, 3) -> Block(Sml, Sqr, Lim, "a")
 )
 
 @main
