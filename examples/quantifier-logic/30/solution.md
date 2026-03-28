@@ -23,6 +23,6 @@ All true in `PeirceWorld`:
 
 ![q30b](q30b.png)
 
-2, 3, 4, 5, 8 true, the rest false in `RonWorld`:
+2, 3, 4, 5, 8 true, the rest false in `PittsWorld`:
 
 ![q30c](q30c.png)

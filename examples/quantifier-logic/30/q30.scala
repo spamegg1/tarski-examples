@@ -1,7 +1,7 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
 val MontagueSentences = Seq(
-  // edit the sentences here! ¬∧∨→↔∀∃
+  // edit the sentences here! ~&|-><->!? or ¬∧∨→↔∀∃
   fof"∀x (Sqr(x) → x-is-to-the-left-of-every-triangle)",
   fof"∀x ((Sqr(x) ∧ Sml(x)) → x-is-above-a-big-square)",
   fof"∃x (Sqr(x) ∧ x-is-below-every-triangle)",
@@ -14,7 +14,7 @@ val MontagueSentences = Seq(
   fof"∀x (Cir(x) → x-is-less-than-some-triangle)"
 )
 
-val RonWorld: Grid = Map(
+val PittsWorld: Grid = Map(
   (3, 0) -> Block(Sml, Sqr, Blu),
   (3, 2) -> Block(Sml, Sqr, Blu),
   (3, 4) -> Block(Sml, Tri, Red, "e"),
@@ -36,4 +36,4 @@ def runQ30a = runWorld(PeirceWorld, MontagueSentences)
 def runQ30b = runWorld(LeibnizWorld, MontagueSentences)
 
 @main
-def runQ30c = runWorld(RonWorld, MontagueSentences)
+def runQ30c = runWorld(PittsWorld, MontagueSentences)

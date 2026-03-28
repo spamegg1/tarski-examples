@@ -49,11 +49,10 @@ The following explains how to do it for the first example:
 "Every square is to the left of every triangle."
 Repeat for the rest of the sentences.
 
-- In `MontagueSentences`, you see the halfway completed translation,
-- together with some blanks that need to be replaced by wffs.
-- Commented out below this, you will find an intermediate "sentence."
+- In `MontagueSentences`, you see the halfway completed translation.
 - Make sure you understand how we got to this intermediate stage of the translation.
-- Then complete the translation by replacing the blank with ∀y (Tri(y) → Lft(x, y)).
+- Then complete the translation by replacing the hyphenated
+  part with ∀y (Tri(y) → Lft(x, y)).
 - Once this is done, check to see if you have a well-formed sentence.
 - Does it look like a proper translation of the original English? It should.
 
@@ -75,8 +74,16 @@ Repeat for the rest of the sentences.
 - If they are not, see if you can figure out where you went wrong.
 - Open `LeibnizWorld` by running `runQ30b`.
 - Note that the English sentences 5, 6, 8, and 10 are true in this world,
-  - while the rest are false.
+  while the rest are false.
 - Verify that your translations have the same truth values. If not, fix them.
-- Open `RonWorld` by running `runQ30c`.
+- Open `PittsWorld` by running `runQ30c`.
 - Here, the true sentences are 2, 3, 4, 5, and 8.
 - Check that your translations have the right values, and correct them if they don't.
+
+## Historical: who was Pitts?
+
+American logician (1923 - 1969)
+
+Pioneered computational neuroscience, created first mathematical model of neural networks.
+
+<https://en.wikipedia.org/wiki/Walter_Pitts>
