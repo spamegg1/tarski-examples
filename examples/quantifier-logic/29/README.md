@@ -13,5 +13,5 @@
   to see that it is indeed a sentence and is true.
 - Now let's change the world so that none of the above facts hold.
 - We can do this by first changing the medium square into a circle,
-- and then moving the leftmost circle to the bottom row.
+  and then moving the leftmost circle to the bottom row.
 - If your answers to 1-5 are correct, all of the sentences should now be false.

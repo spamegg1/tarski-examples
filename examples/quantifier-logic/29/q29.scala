@@ -1,7 +1,7 @@
 import tarski.main.*
 
 val sentencesQ29 = Seq(
-  // add your sentences here! ¬∧∨→↔∀∃
+  // add your sentences here! ~&|-><->!? or ¬∧∨→↔∀∃
 )
 
 @main
