@@ -14,8 +14,10 @@ or if there is more than one, or if there is exactly one, but it's not red.
 If this analysis is correct (and many do not think it is),
 then such sentences can easily be expressed in first-order logic.
 
-In Example Q27 we saw two ways for saying that there is a single circle
-(sentences 10 and 13).
+In Example Q27 we saw two ways (sentences 10 and 12)
+for saying that there is a single circle.
+One uses: ∃y ∀x (Cir(x) ↔ x = y)
+The other uses: ∃x (Cir(x) ∧ ∀y (Cir(y) → x = y))
 
 - Open `RussellSentences` in an empty world.
 - The first sentence uses the second method to assert that there is a single square.
@@ -33,9 +35,19 @@ then expressed it with an atomic formula.
 If we fully wrote it out long hand, without resorting to named objects, it would be:
 
 ∃x (
-  (Cir(x) ∧ Red(x)) ∧ ∀y ((Cir(y) ∧ Red(y)) → x = y) "x is the (unique) red circle"
+  (Cir(x) ∧ Red(x)) ∧ ∀y ((Cir(y) ∧ Red(y)) → x = y)   "x is the (unique) red circle"
   ∧ ∃z (
     (Cir(z) ∧ Mid(z)) ∧ ∀u ((Cir(u) ∧ Mid(u)) → z = u) "z is the (unique) mid circle"
-    ∧ Lft(x, z)  "the red circle is to the left of the mid circle"
+    ∧ Lft(x, z)                      "the red circle is to the left of the mid circle"
   )
 )
+
+## Historical: who was Bertrand Russell?
+
+English mathematician, logician, philosopher (1872 - 1970)
+
+Major contributions to many fields, co-authored Principia Mathematica.
+
+Won Nobel prize in literature. Teacher of Wittgenstein.
+
+<https://en.wikipedia.org/wiki/Bertrand_Russell>
