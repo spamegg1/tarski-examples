@@ -18,9 +18,6 @@ val WhiteheadSentences = Seq(
 
 val worldQ27: Grid = Map(
   // add your blocks here!
-  (2, 2) -> Block(Sml, Tri, Blu),
-  (2, 4) -> Block(Sml, Cir, Red),
-  (3, 3) -> Block(Sml, Sqr, Lim, "a")
 )
 
 @main

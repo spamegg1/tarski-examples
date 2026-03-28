@@ -30,7 +30,7 @@ when you come across them in our first-order language.
 - As we increase the number of objects, numerical claims get longer and more complicated.
   - Let's consider one, but we won't be typing or evaluating it.
   - We could say that there are exactly three objects as follows:
-    ∃x ∃y ∃z (x !=y ∧ x != z ∧ y != z ∧ ∀u (u = x ∨ u = y ∨ u = z))
+    ∃x ∃y ∃z (x != y ∧ x != z ∧ y != z ∧ ∀u (u = x ∨ u = y ∨ u = z))
   - This says there are exactly three non-identical blocks (placed at different positions).
   - A similar but different statement is:
     ∃x ∃y ∃z (¬Eq(x, y) ∧ ¬Eq(x, z) ∧ ¬Eq(y, z) ∧ ∀u (Eq(u, x) ∨ Eq(u, y) ∨ Eq(u, z))).
