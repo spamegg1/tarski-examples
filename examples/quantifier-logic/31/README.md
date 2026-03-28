@@ -1,7 +1,7 @@
 # 31 - More multiple quantifier sentences
 
-Now, we will try translating some multiple quantifier sentences completely from
-scratch. You should try to use the step-by-step procedure.
+Now, we will try translating some multiple quantifier sentences completely
+from scratch. You should try to use the step-by-step procedure.
 Translate the following English sentences.
 
 1. Every triangle is below every circle.
@@ -19,13 +19,13 @@ Translate the following English sentences.
 - Open `BolzanoWorld`.
 - All of the above English sentences are true in this world.
 - Verify that all your translations are true as well.
-- Now open `RonWorld`.
+- Now open `PittsWorld`.
 - The English sentences 4, 5, 8, 9, and 10 are true,
 - but the rest are false.
 - Verify that the same holds of your translations.
 - Open `VonNeumannWorld`.
-- Here you will find that the English sentences 1, 3, 5, 7, 9, and 10 are true,
-- the rest false.
+- Here you will find that the English sentences
+  1, 3, 5, 7, 9, and 10 are true, the rest false.
 - Again, check to see that your translations have the appropriate truth value.
 - Finally, open `PeanoWorld`.
 - Notice that only sentences 8 and 9 are true.
