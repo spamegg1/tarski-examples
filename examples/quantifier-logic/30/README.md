@@ -31,7 +31,7 @@ translation of the original English sentence:
 
 ∀x (Sqr(x) → ∃y (Tri(y) ∧ Lft(x, y)))
 
-This multi-step process usually makes translation of multiple quantifier
+This multi-step procedure usually makes translation of multiple quantifier
 sentences much easier than if we tried it in a single blow.
 Eventually, though, you will be able to go through the intermediate steps in your head.
 This example is designed to give you a feel for

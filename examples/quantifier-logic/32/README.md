@@ -3,10 +3,16 @@
 Some English sentences do not easily lend themselves to direct
 translation using the step-by-step procedure discussed above. With
 such sentences, however, it is often quite easy to come up with an
-English paraphrase that is amenable to the procedure. Consider, for ex-
-ample, If a freshman takes a logic class, then he or she must be smart.
-The step-by-step procedure does not work here. But we can paraphrase
-the sentences as Every freshman who takes a logic class must be smart,
+English paraphrase that is amenable to the procedure.
+Consider, for example,
+
+>If a freshman takes a logic class, then he or she must be smart.
+
+The step-by-step procedure does not work here.
+But we can paraphrase the sentence as
+
+>Every freshman who takes a logic class must be smart.
+
 and this is easily treated by the procedure.
 
 Translate the following sentences by first giving a suitable English paraphrase.
@@ -15,11 +21,11 @@ Translate the following sentences by first giving a suitable English paraphrase.
 2. If a square has something below it, then it's small.
 3. Every square above a circle is also smaller than it.
     [Warning: This is an example of what is known as a "donkey"
-    sentence, following a notorious example Every farmer who owns
-    a donkey beats it. What makes such a sentence a bit tricky is the
+    sentence, following a notorious example *Every farmer who owns
+    a donkey beats it.* What makes such a sentence a bit tricky is the
     existential noun phrase in the relative clause which serves as the
-    antecedent of the pronoun "it" in the verb phrase. This combi-
-    nation in effect forces us to translate the existential noun phrase
+    antecedent of the pronoun "it" in the verb phrase. This combination
+    in effect forces us to translate the existential noun phrase
     with a universal quantifier. First, the donkey sentence would be
     paraphrased as For every farmer and every donkey, if the farmer
     owns the donkey, then he beats it. This sentence clearly needs two
@@ -28,15 +34,15 @@ Translate the following sentences by first giving a suitable English paraphrase.
 4. If `e` is between two objects, then they are both small.
 5. If a triangle is between two objects, then they are both small.
 
-- Save your list of sentences as Sentences 3.32.
-- Open Ron's World.
+- Save your list of sentences in `sentencesQ32`.
+- Open `PittsWorld` by running `runQ32a`.
 - Recall that there are lots of hidden things in this world.
 - Each of the above English sentences is true in this world,
-- so the same should hold of your translations.
+  so the same should hold of your translations.
 - Check to see that it does.
-- Now open Bolzano's World.
+- Now open `BolzanoWorld` by running `runQ32b`.
 - In this world, only sentence 3 is true.
 - Check that the same holds of your translations.
-- Next open Wittgenstein's World.
+- Next open `WittgensteinWorld` by running `runQ32c`.
 - In this world, only the English sentence 5 is true.
 - Verify that your translations have the same truth values.
