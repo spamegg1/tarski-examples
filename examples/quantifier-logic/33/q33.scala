@@ -1,11 +1,14 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
-
-val worldQ33: Grid = Map(
-)
+import tarski.main.*
 
 val sentencesQ33 = Seq(
-  fof"" // ¬∧∨→↔∀∃
+  // add your sentences here! ~&|-><->!? or ¬∧∨→↔∀∃
 )
 
 @main
-def runQ33 = runWorld(worldQ33, sentencesQ33)
+def runQ33a = runWorld(PittsWorld, sentencesQ33)
+
+@main
+def runQ33b = runWorld(BolzanoWorld, sentencesQ33)
+
+@main
+def runQ33c = runWorld(WittgensteinWorld, sentencesQ33)
