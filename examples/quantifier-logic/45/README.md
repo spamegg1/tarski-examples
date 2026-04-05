@@ -1,9 +1,9 @@
 # 45 - Challenging quotations
 
 - Translate the following into fol, introducing names, predicates,
-- and function symbols as needed.
+  and function symbols as needed.
 - As usual, explain your predicates and function symbols,
-- and any shortcomings in your translations.
+  and any shortcomings in your translations.
 - If you assume a particular domain of discourse, mention that as well.
 
 1. Only the brave know how to forgive.
