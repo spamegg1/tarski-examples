@@ -1,11 +1,8 @@
-import tarski.main.*, Sizes.*, Shape.*, Tone.*
-
-val worldQ41: Grid = Map(
-)
+import tarski.main.*
 
 val sentencesQ41 = Seq(
-  fof"" // ¬∧∨→↔∀∃
+  // add your sentence pairs here! ~&|-><->!? or¬∧∨→↔∀∃
 )
 
 @main
-def runQ41 = runWorld(worldQ41, sentencesQ41)
+def runQ41 = runWorld(CarrollWorld, sentencesQ41)
