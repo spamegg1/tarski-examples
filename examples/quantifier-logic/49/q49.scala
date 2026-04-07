@@ -1,11 +1,8 @@
 import tarski.main.*, Sizes.*, Shape.*, Tone.*
 
 val worldQ49: Grid = Map(
-)
-
-val sentencesQ49 = Seq(
-  fof"" // ¬∧∨→↔∀∃
+  // add your blocks here!
 )
 
 @main
-def runQ49 = runWorld(worldQ49, sentencesQ49)
+def runQ49 = runWorld(worldQ49, ArnauldSentences)

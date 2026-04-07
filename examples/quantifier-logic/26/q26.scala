@@ -7,7 +7,7 @@ val worldQ26: Grid = Map(
 val ArnauldSentences = Seq(
   fof"∃x ∃y ∃z (Sqr(x) ∧ Cir(y) ∧ Tri(z) ∧ Blu(x) ∧ Lim(y) ∧ Red(z))",
   fof"¬ ∃x Big(x)",
-  fof"∀x (Tri(x) → ∃y (Sqr(y) ∧ Abv(x, y)))",
+  fof"∀x (Cir(x) → ∃y (Sqr(y) ∧ Abv(x, y)))",
   fof"∀x ∀y ∀z (Btw(x, y, z) → Mor(x, y))",
   fof"∃x ∃y (x != y ∧ ∀w ((Eq(w, x) ∨ Eq(w, y)) → ∀z ¬Abv(z, w)))",
   fof"∀x (Sqr(x) ↔ ∃y (Tri(y) ∧ Abv(y, x)))",
