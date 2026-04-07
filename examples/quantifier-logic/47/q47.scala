@@ -5,7 +5,7 @@ val MarpleWorld: Grid = Map(
   (0, 3) -> Block(Mid, Cir, Blu),
   (0, 7) -> Block(Big, Cir, Lim),
   (3, 5) -> Block(Sml, Sqr, Blu),
-  (4, 3) -> Block(Sml, Sqr, Lim),
+  (4, 3) -> Block(Sml, Sqr, Blu),
   (6, 0) -> Block(Sml, Tri, Red),
   (6, 7) -> Block(Sml, Tri, Red)
 )
