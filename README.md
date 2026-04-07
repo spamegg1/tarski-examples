@@ -43,7 +43,3 @@ So in this case `a` and `b` have the same location (row and column) on the board
 
 Value equality a.k.a "equality" (or "equal" when used as an adjective) means that two
 blocks `a, b` are equal in size, shape and tone, and is implemented using `Eq(a, b)`.
-
-## Work in progress
-
-Stay tuned!
