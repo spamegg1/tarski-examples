@@ -4,6 +4,9 @@ This is a companion repository to [Tarski](https://github.com/spamegg1/tarski).
 
 ## Usage
 
+You will need a JVM, and Scala 3. [This](https://www.scala-lang.org/download/)
+should give you everything you need.
+
 To work through the examples, clone this repository with
 
 ```bash
