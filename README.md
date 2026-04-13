@@ -2,12 +2,17 @@
 
 This is a companion repository to [Tarski](https://github.com/spamegg1/tarski).
 
+Latest is 1.0.1 (Apr 09, 2026) staying in sync with the main repository.
+
 ## Usage
 
 You will need a JVM, and Scala 3. [This](https://www.scala-lang.org/download/)
 should give you everything you need.
 
-To work through the examples, clone this repository with
+An easier way is to install [Scala-cli](https://scala-cli.virtuslab.org/install)
+which can automatically install a JVM for you.
+
+To work through the examples, install `git`, clone this repository with
 
 ```bash
 git clone https://github.com/spamegg1/tarski-examples
@@ -28,7 +33,7 @@ If the window is too small or too big, you can pass an optional parameter to res
 ```scala
 // Make the window smaller, shrink it to 80% size
 @main
-def run01a = runWorld(WittgensteinWorld, WittgensteinSentencesA, 0.8)
+def run01a = runWorld(LeibnizWorld, RebusSentences, 0.8)
 ```
 
 ## Examples
