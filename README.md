@@ -2,7 +2,7 @@
 
 This is a companion repository to [Tarski](https://github.com/spamegg1/tarski).
 
-Latest is 1.0.1 (Apr 09, 2026) staying in sync with the main repository.
+Latest is 1.0.3 (Oct 14, 2026) staying in sync with the main repository.
 
 ## Usage
 
